@@ -3,7 +3,7 @@ layout: post
 title: New Homes
 ---
 
-I'm writing this on the first day back after the school holidays. My consulting business, Outside Context and I have new homes on and offline. 
+I'm writing this on the first day back after the school holidays. My consulting business, Outside Context, and I have new homes on and offline. 
 
 I'm coming up on four years of working as an independent consultant, and I've hit the limit on working from home: there are too many distractions, from parcel deliveries to barking dogs. Just before the Easter holidays I started looking at working space, and I'm delighted to have found my own office a short walk from home in Salisbury. There are fewer distractions, and it's good to have a dedicated space for online training and webinars, and somewhere that I can meet colleagues and clients without cluttering up the kitchen table or going out to a noisy coffee shop. 
 
