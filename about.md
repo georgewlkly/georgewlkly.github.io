@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am an [independent strategy consultant](/consulting), an [expert in publishing and AI](/training), an [experienced keynote speaker and panellist](/speaking), and a [doctoral candidate at Bristol Business School](/research). 
+I am an [independent strategy consultant](/consulting.md), an [expert in publishing and AI](/training.md), an [experienced keynote speaker and panellist](/speaking.md), and a [doctoral candidate at Bristol Business School](/research.md). 
 
 Since setting up my consulting practice in 2020, I have worked with more than thirty-five clients in ten countries. Typical engagements include strategy reviews, go-to-market advice for startups, away days and corporate events. This builds on extensive senior executive experience in the publishing and media space, including fifteen years at Hachette UK. 
 
