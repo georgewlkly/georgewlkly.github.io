@@ -12,8 +12,8 @@ In 2023, working with the Independent Publishers Guild, I developed the first in
 
 I'm a regular speaker, panellist and chair at conferences, book fairs and corporate events.
 
-Alongside my consulting and training work, I am a part-time doctoral candidate (DBA) at Bristol Business School. My research is on the use of games and scenarios as strategy tools. 
+Alongside my consulting and training work, I am a part-time doctoral candidate (DBA) at Bristol Business School. My research is on the use of games and scenarios as strategy tools. I attended the Yale Publishing Course and hold an MBA from Bayes Business School (formerly known as Cass).
 
-I live in Wiltshire with my wife and daughters.
+I live in Wiltshire with my wife and daughters. I am a Fellow of the RSA and a Liveryman in the Stationers' Company. 
 
 
