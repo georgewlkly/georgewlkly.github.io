@@ -17,23 +17,11 @@ description: Independent Consultant, Publishing and AI Expert, Academic Research
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
   calendly: outsidecontext
   email: hello@outsidecontext.co.uk
-  facebook:
-  flickr:
-  github: 
-  instagram:
   linkedin: georgewalkley
-  pinterest:
-  rss: feed
   threads: georgewlkly
-  twitter: 
-  stackoverflow: 
-  youtube: 
-  googleplus: 
-
-
+  
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
@@ -43,7 +31,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://www.georgewalkley.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
