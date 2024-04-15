@@ -4,7 +4,7 @@ title: Consulting
 permalink: /consulting/
 ---
 
-I started my independent consulting business, Outside Context Ltd, in 2020, off the back of nearly twenty-five years of digital disruption and transformation in the media and publishing sector. The name was a nod to a favourite author, Iain M. Banks (with whom I had been lucky enough to work earlier in my career): [in his concept of an outside context problem, I saw parallels with some of the incumbents and challengers I had worked with](https://en.wikipedia.org/wiki/Excession).
+I started my independent consulting business, Outside Context Ltd, in 2020, off the back of nearly twenty-five years of digital disruption and transformation in the media and publishing sector. The name was a nod to a favourite author, Iain M. Banks (with whom I had been lucky enough to work earlier in my career): [in his concept of an outside context problem](https://en.wikipedia.org/wiki/Excession), I saw parallels with some of the incumbents and challengers I had worked with.
 
 Since then, I have worked with more than thirty five clients in ten countries, mainly in media and publishing, educational, non-profits and professional services. This builds on extensive senior executive experience, including fifteen years at Hachette UK, and [more recent domain expertise in AI](/training.md). Typical services include:
 
