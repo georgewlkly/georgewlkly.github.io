@@ -9,4 +9,4 @@ Having had a few weeks here, I've also come to appreciate the routine of leaving
 
 In parallel, I decided to clean up this website. After several hours of struggling with Wordpress and my hosting company, I vented my frustration at it on a Slack channel and one of my friends asked why I'd moved off Jekyll onto Wordpress anyway. The original decision was based on a slightly better range of themes, but my friend was right. My relatively simple requirements and infrequent updates didn't really justify the increasing complexity of working with Wordpress. So over a couple of hours I last night, I moved everything over to Jekyll on Github Pages and made some tweaks to the base templates: there are a few things left to sort out, but other than waiting for DNS updates, it's been a pretty smooth process. 
 
-Between the new office and the new site, it definitely feels like changing up a gear after the Easter break. 
+Between the new office and the new site, it definitely feels like changing up a gear after the Easter break. Now to make the most of it.  
