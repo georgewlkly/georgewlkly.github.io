@@ -291,7 +291,10 @@ footer {
 }
 
 .newsletter {
- background-color: $blue;
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightBlue;
 }
 	
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
