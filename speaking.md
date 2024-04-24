@@ -4,4 +4,4 @@ title: Speaking
 permalink: /speaking/
 ---
 
-Text
+I am a regular keynote speaker, panellist and event chair at corporate events, conferences, book fairs and universities. Key themes include publishing and media, digital transformation and the impact of artificial intelligence. [Please get in touch if you'd like to know more](mailto:hello@outsidecontext.co.uk).
