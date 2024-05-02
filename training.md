@@ -21,12 +21,12 @@ All course options offer:
 
 ### Client Testimonials
 
-* "One of the best training days I have ever attended."
-* "The training was exceptional, and everyone reported that they loved the experience and the opportunity to try out new tools with the right support – it was just the right introduction for the range of experience we have. I learned so much in such a short time.”
-* "A brilliant day, both inspiring and practical."
-* "A very enjoyable and incredibly interesting training session."
-* "A really good balance of theory and hands-on tasks."
-* "Brilliant coverage and background, excellent delivery."
-* "The collaborative element of this course was outstanding."
-* "The whole course was very open, inclusive and participatory."
-* "George was extremely knowledgeable, responsive to the audience, and absolutely had the interests and needs of his audience in mind at all times"
+* *"One of the best training days I have ever attended."*
+* *"The training was exceptional, and everyone reported that they loved the experience and the opportunity to try out new tools with the right support – it was just the right introduction for the range of experience we have. I learned so much in such a short time."*
+* *"A brilliant day, both inspiring and practical."*
+* *"A very enjoyable and incredibly interesting training session."*
+* *"A really good balance of theory and hands-on tasks."*
+* *"Brilliant coverage and background, excellent delivery."*
+* *"The collaborative element of this course was outstanding."*
+* *"The whole course was very open, inclusive and participatory."*
+* *"George was extremely knowledgeable, responsive to the audience, and absolutely had the interests and needs of his audience in mind at all times."*
