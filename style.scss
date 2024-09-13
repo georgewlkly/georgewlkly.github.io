@@ -18,13 +18,12 @@ html {
 }
 
 body {
-	background: $lightGray;
+	background: $white;
   font: 16px/1.5 $helvetica;
   color: $darkGray;
 }
 
-.container {
-  background: $white;	
+.container {	
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 20px;
@@ -194,6 +193,7 @@ img {
   cursor: pointer;
   font-family: $playfair;
   font-size: 48px;
+  text-decoration: none;
   }
 
 .site-description {
