@@ -18,12 +18,13 @@ html {
 }
 
 body {
-	background: $white;
+	background: $lightGray;
   font: 16px/1.5 $helvetica;
   color: $darkGray;
 }
 
 .container {
+  background: $white;	
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 20px;
@@ -67,7 +68,7 @@ p {
 
 a {
   color: $darkGray;
-  text-decoration: none;
+  text-decoration: underline;
 	cursor: pointer;
   &:hover, &:active {
     color: $darkGray;
@@ -208,7 +209,7 @@ img {
 }
 
 nav {
-  float: right;
+  float: left;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
@@ -271,7 +272,6 @@ nav {
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
   background-color: $lightGray;
   color: $black;
 }
@@ -282,7 +282,7 @@ footer {
 }
 
 .footer p {
-	  font-size: 14px;
+	  font-size: 16px;
 }
 
 .footer a {
