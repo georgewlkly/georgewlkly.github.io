@@ -16,9 +16,9 @@ $white: #fff;
 
 // Font stacks
 $playfair: "Playfair Display", serif;
+$lato: Lato, sans-serif;
 $helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serift: "Times New Roman", Georgia, serif;
+$helveticaNeue: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
