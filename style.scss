@@ -30,6 +30,13 @@ body {
   width: 100%;
 }
 
+.container2 {
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 0 20px;
+  width: 70%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $playfair;
   color: $darkGray;
