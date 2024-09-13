@@ -18,28 +18,21 @@ html {
 }
 
 body {
-	background: $white;
-  font: 14px/1.4 $helvetica;
-  color: $darkGray;
+	background: $black;
+  font: 16px/1.5 $helvetica;
+  color: $white;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1920px;
+  max-width: 1520px;
   padding: 0 20px;
   width: 100%;
 }
 
-.container2 {
-  margin: 0 auto;
-  max-width: 1920px;
-  padding: 0 20px;
-  width: 70%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $playfair;
-  color: $darkGray;
+  color: $white;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -66,7 +59,6 @@ h3 {
 
 h4 {
   font-size: 20px;
-  color: $gray;
 }
 
 p {
@@ -74,11 +66,11 @@ p {
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
+  color: $white;
+  text-decoration: underline;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $white;
   }
 }
 
@@ -197,10 +189,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
   font-family: $playfair;
-  font-weight: 300;
   font-size: 48px;
   }
 
@@ -232,6 +223,7 @@ nav {
   a {
     margin-left: 20px;
     color: $darkGray;
+    text-decoration: nonee;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -263,8 +255,8 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
-    font-style: italic;
+    font-family: $playfair;
+    font-size: 24px;
   }
 
   .comments {
@@ -281,6 +273,7 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  color: $black;
 }
 
 footer {
