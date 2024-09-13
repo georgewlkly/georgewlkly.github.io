@@ -6,4 +6,4 @@ Thanks very much to the team at [BookNet Canada](https://www.booknetcanada.ca) f
 
 There is a tension between concerns over these issues and the productivity benefits that publishers can get from AI: on the latter point, I also gave examples of successful use cases from the last year. That tension came through in the questions from a large and engaged audience. The challenge is that there is no one-size-fits-all approach: publishing is a highly diverse sector in terms of size, age and type of organisation. Every publisher needs to consider its context, content, culture and capabilities in thinking through the impact and benefits of AI. If the presentation did not—in fact, *could not*—give definitive answers, I hope it posed some useful questions for attendees to take back to their organisations and consider. 
 
-<a href="/downloads/BNC_10_September_2024.pdf"><i class="fa-solid fa-file-pdf"></i> Download slides</a>
+&#8212; <a href="/downloads/BNC_10_September_2024.pdf"><i class="fa-solid fa-file-pdf"></i> Download slides</a>
