@@ -1,4 +1,4 @@
----
+i---
 ---
 
 //
@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 16px/1.5 $lato;
+  font: 16px/1.5 $helvetica;
   color: $darkGray;
 }
 
@@ -214,7 +214,7 @@ img {
 nav {
   float: left;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helvetica;
+  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
@@ -229,7 +229,7 @@ nav {
     color: $darkGray;
     text-decoration: none;
     text-align: right;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
@@ -242,6 +242,11 @@ nav {
 //
 // .main
 //
+
+.main {
+  padding-left: 5em;
+  padding-right: 5em;
+}
 
 .posts > .post {
   padding-bottom: 2em;
