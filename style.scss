@@ -193,8 +193,11 @@ img {
   cursor: pointer;
   font-family: $playfair;
   font-size: 48px;
-  text-decoration: none;
+
+	 a {
+    text-decoration: none;
   }
+}
 
 .site-description {
   margin: -5px 0 0 0;
