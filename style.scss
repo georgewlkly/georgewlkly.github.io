@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $black;
+	background: $white;
   font: 16px/1.5 $helvetica;
-  color: $white;
+  color: $darkGray;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $playfair;
-  color: $white;
+  color: $black;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -66,11 +66,11 @@ p {
 }
 
 a {
-  color: $white;
-  text-decoration: underline;
+  color: $darkGray;
+  text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $white;
+    color: $darkGray;
   }
 }
 
@@ -189,7 +189,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $white;
+  color: $black;
   cursor: pointer;
   font-family: $playfair;
   font-size: 48px;
@@ -223,14 +223,14 @@ nav {
   a {
     margin-left: 20px;
     color: $darkGray;
-    text-decoration: nonee;
+    text-decoration: none;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $darkGray;
     }
   }
 }
@@ -254,7 +254,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: $gray;
+    color: $darkGray;
     font-family: $playfair;
     font-size: 24px;
   }
