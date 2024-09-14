@@ -304,13 +304,25 @@ footer {
    padding: 20px;
 }
 
+.blog-column {
+	padding: 20px;
+}
+
 /* Set column widths */
 .footer-column-1 {
    width: 50%;
 }
 
+.blog-column-1 {
+	width: 65%;
+}
+
 .footer-column-2, .footer-column-3 {
    width: 25%;
+}
+
+.blog-column-2 {
+	width: 35%;
 }
 
 /* Responsive design: Stack columns on smaller screens */
