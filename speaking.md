@@ -10,12 +10,17 @@ I am a regular keynote speaker, panellist and event chair. My experience include
 
 ### Upcoming Speaking Engagements
 
-* 🇬🇧 25 February 2025: Chairing a panel on AI in Publishing with Ed Newton-Rex of Fairly Trained and Will Crook of Publishers Licensing Services
+* 🇬🇧 3 July 2025: Presentation at the Publishers Licensing Services conference
 
 ### Past Speaking Engagements
 
 #### 2025
 
+* 🇬🇧 5 June 2025: Panelist for Open Institutional Publishing Association webinar on AI and publishing
+* 🇬🇧 29 March 2025: Masterclass on AI and writing for the Arvon Foundation
+* 🇪🇸 20 March 2025: Presentation on AI and publishing, Parix IA, Madrid
+* 🇬🇧 14 March 2025: Presentation on AI and publishing, Oxford International Centre for Publishing event for Chinese publishers at Robinson College, Cambridge
+* 🇬🇧 25 February 2025: Chairing a panel on AI in Publishing with Ed Newton-Rex of Fairly Trained and Will Crook of Publishers Licensing Services
 * 🇨🇦 20 February 2025: Update and online Q&A on AI and publishing to Booknet Canada
 * 🇸🇪 19 February 2025: Delivering a webinar presentation on AI and publishing for the Swedish Publishers Association
 
