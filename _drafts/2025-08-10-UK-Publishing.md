@@ -17,5 +17,4 @@ Finally, I wanted to be able to plot the initial results on a map. A third Pytho
 
 All told, this took less than three hours, including experimentation and testing; an experienced Python developer would have got through it significantly faster. But it’s a good illustration of what can be done with a clear idea of the end product, an AI model and some experimentation. 
 
-
-<div style="min-height:422px" id="datawrapper-vis-TcZ06"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/TcZ06/embed.js" charset="utf-8" data-target="#datawrapper-vis-TcZ06"></script><noscript><img src="https://datawrapper.dwcdn.net/TcZ06/full.png" alt="Incorporation of Publishing Businesses by Year 2005-2024 (Line chart)" /></noscript></div>
+<div style="min-height:447px" id="datawrapper-vis-TcZ06"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/TcZ06/embed.js" charset="utf-8" data-target="#datawrapper-vis-TcZ06"></script><noscript><img src="https://datawrapper.dwcdn.net/TcZ06/full.png" alt="Incorporation of Publishing Businesses by Year 2005-2024 (Line chart)" /></noscript></div>
