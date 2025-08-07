@@ -10,7 +10,7 @@ The sector is much larger in terms of population than trade association membersh
 
 If you'd like to go beyond the basic map and conclusions, I discuss below [methodology](#methodology), [population analysis](#population-analysis), [geographic distribution of publishers](#geographic-distribution) and [company formations](#company-formations). 
 
-Thanks to my friend [Alex Boden of data intelligence firm Asymmetrix](https://www.asymmetrixintelligence.com) for reading this post in draft and making valuable comments. 
+Thanks to my friend [Alex Boden, founder of data intelligence firm Asymmetrix](https://www.asymmetrixintelligence.com) for reading this post in draft and making valuable comments. 
 
 <br>
 <div style="min-height:738px" id="datawrapper-vis-GmYLw"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/GmYLw/embed.js" charset="utf-8" data-target="#datawrapper-vis-GmYLw"></script><noscript><img src="https://datawrapper.dwcdn.net/GmYLw/full.png" alt="Visualisation of UK publishing companies registered with SIC codes 58110, 58141" /></noscript></div>
@@ -30,7 +30,7 @@ All told, this took less than three hours, including experimentation and testing
 
 ## Population Analysis
 
-Of the 12,150 companies identified, 11,446 are listed as active&#8212;that is, not in Administration, Liquidation or Voluntary Agreement. The data is based on UK limited companies only, so it could possibly understate the total population: theoretically a publisher could set up as a sole trader. On the other hand, the data may also include businesses that have been categorised incorrectly, or authors setting up a limited company for their publishing income. 
+Of the 12,150 companies identified, 11,446 are listed as active&#8212;that is, not in Administration, Liquidation or Voluntary Agreement. The data is based on UK limited companies only, so it could possibly understate the total population: theoretically a publisher could set up as a sole trader. On the other hand, the data may also include businesses that have been categorised incorrectly, or authors setting up a limited company for their publishing income. With time and additional data, there is considerable scope to improve the raw data.
 
 The Companies House data extract doesn’t include financial metrics such as turnover. But we can arrive at a preliminary, directional segmentation of the industry based on the type of accounts filed and the published criteria for them. 
 
@@ -41,7 +41,7 @@ The Companies House data extract doesn’t include financial metrics such as tur
 *	Dormant businesses account for a further 1,790.
 *	Finally, 2,692 publishers have not filed accounts yet. Some may be delinquent, but most of this segment is startup businesses that haven’t hit their first filing deadline. The size of this segment introduces an interesting point about company formations which I come back to below. 
 
-Overall, the distribution of companies is about as I would have expected: a small number of very large businesses, a significant long tail of smaller enterprises, and not much in between. Though it’s even starker than I would have thought. Earlier in my career, a senior colleague articulated the now minuscule medium-sized segment as the ideal target for acquisition. One theory is that now there's nothing much left to acquire at that scale, major publishing groups' M&A activity is focused on smaller companies, which thus don't get the opportunity to scale to medium or larger scale. Another is that it's got harder for smaller businesses to scale. This would be an interesting topic for follow-up research.
+Overall, the distribution of companies is about as I would have expected: a small number of very large businesses, a significant long tail of smaller enterprises, and not much in between. Though it’s even starker than I would have thought. It wasn't always this way: earlier in my career, a senior colleague articulated the now minuscule medium-sized segment as the ideal target for acquisition. One theory is that now there's nothing much left to acquire at that scale, major publishing groups' M&A activity is focused on smaller companies, which thus don't get the opportunity to scale to medium or larger scale. Another is that it's got harder for smaller businesses to scale. This would be an interesting topic for follow-up research.
 
 ## Geographic Distribution
 
@@ -66,6 +66,8 @@ It’s striking how far back the data set goes: eleven companies on the register
 In 2005, 100 new publishing businesses were incorporated. Thereafter the rate of incorporation grows by an average 16% annually. There are leaner years in 2007 and 2008, possibly reflecting the worldwide financial crisis. In contrast, 2011 sees a bumper 48% growth in startups versus 2010. The global launch of the Kindle in late 2009 and subsequent boom in ebook sales may have had something to do with that. In 2024, more than 1,500 publishing businesses were incorporated, and on the current trend, 2025 should be another year of growth, with over 1,100 publishing businesses formed already this year. Speculatively there are various factors which could be driving this growth: declining capital barriers to entry; print-on-demand and digital distribution channels; more authors self-publishing; mergers and acquisitions, consolidation and job losses in major corporates. Again, drivers of entrepreneurship in publishing would be an interesting topic for follow-up research.
 
 From a different perspective, there are approximately 1,200 publishing businesses in the data registered as of the turn of the millennium, rising to around 12,000 today, an order of magnitude increase. Over a similar period, [the total UK population of UK businesses grew by just under 60%](https://researchbriefings.files.parliament.uk/documents/SN06152/SN06152.pdf). 
+
+Of course, it's important to put this in context: over the same period, UK publishing revenue has not gone up by an order of magnitude. [In 1999, publishing industry revenue was about £4.4 billion](https://assets.publishing.service.gov.uk/media/5a7af639ed915d71db8b3c0d/2001Publishing2001.pdf). The [2024 figure of £7.2 billion](https://www.publishers.org.uk/publishing-industry-insight-the-story-in-the-numbers/) is up 63% in nominal terms, but in real terms (that is, [adjusted for the effect of inflation](https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23)) the industry actually contracted by 11%. So the industry has got larger in population terms and smaller in terms of revenue.  
 
 ## Next Steps
 
