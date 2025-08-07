@@ -2,6 +2,11 @@
 layout: post
 title: The UK Publishing Industry in 2025
 ---
+Recently I've been doing some research on the size and scope of the UK publishing industry, based on data from [Companies House](https://find-and-update.company-information.service.gov.uk), which in terms of open data is one of the wonders of the world. This research is highly relevant for my work as an independent consultant and as policy advisor for the [Independent Publishers Guild](https://www.independentpublishersguild.com), which represents over 600 book and journal publishers of all sizes. The other trade body, the [Publishers Association](https://www.publishers.org.uk/members/) lists 168 members at the time of writing, particularly larger, corporate publishers&#8212;though there is some overlap between the two organisations. The UK publishing sector is world class, representing over £7 billion of revenue. So it's worth understanding. 
+
+## Executive Summary 
+
+The sector is much larger than trade association members would suggest (albeit that book sales are concentrated in a relatively small number of publishers). I found data on over 11,000 active UK publishing businesses and plotted them geopgraphically. This figure includes both traditional publishers and individual, self-published authors. The data skews overwhelmingly to small and medium size enterprises, with fewer than 150 publishers in the largest size bracket. The number of publishing businesses has grown by an order of magnitude since the turn of the millennium. For 2023, 2024 and 2025YTD there have been more than 1,000 new company formations each year. And while publishing is particularly concentrated in London, the South East and major cities, companies are spread across the UK&#8212;in fact, when I cross-referenced publishing companies with parliamentary data, I found that there is not a single MP in the UK without at least one publishing business registered in their constituency. 
 
 If you'd like to go beyond the basic map and conclusions, I discuss below [methodology](#methodology), [population analysis](#population-analysis), [geographic distribution of publishers](#geographic-distribution) and [company formations](#company-formations). 
 
