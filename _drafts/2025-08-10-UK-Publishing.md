@@ -3,7 +3,9 @@ layout: post
 title: The UK Publishing Industry in 2025
 ---
 
-<div style="min-height:745px" id="datawrapper-vis-GmYLw"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/GmYLw/embed.js" charset="utf-8" data-target="#datawrapper-vis-GmYLw"></script><noscript><img src="https://datawrapper.dwcdn.net/GmYLw/full.png" alt="Visualisation of UK publishing companies registered with SIC codes 58110, 58141" /></noscript></div>
+If you'd like to go beyond the basic map and conclusions, I discuss below [methodology](#methodology), [population analysis](#population-analysis), [geographic distribution of publishers](#geographic-distribution) and [company formations](#company-formations). 
+
+<div style="min-height:738px" id="datawrapper-vis-GmYLw"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/GmYLw/embed.js" charset="utf-8" data-target="#datawrapper-vis-GmYLw"></script><noscript><img src="https://datawrapper.dwcdn.net/GmYLw/full.png" alt="Visualisation of UK publishing companies registered with SIC codes 58110, 58141" /></noscript></div>
 
 ## Methodology
 
@@ -42,7 +44,7 @@ Secondly, there is considerable variance in the area covered by a single postcod
 
 Keeping this in mind, while the industry is certainly skewed to major metro areas, publishing touches the entire country. In fact, when I cross-referenced the postcode data with constituency data from the [Office for National Statistics](https://geoportal.statistics.gov.uk/datasets/) and [They Work for You](https://www.theyworkforyou.com), I found that *there is not a single UK Member of Parliament without at least one publishing business registered in their constituency*. 
 
-## Company Formation Trends
+## Company Formations
 
 It’s striking how far back the data set goes: eleven companies on the register were incorporated in the nineteenth century, ten of which are still active. Of course, there is a significant element of survivorship bias in the data: looking at earlier years we cannot form any reliable view of how many businesses might have been founded, only those that have survived and are still listed at Companies House. But for more recent publishers, founded within the twenty years that inactive companies remain on the register after dissolution (so they would be in the data, win or lose), we have a complete dataset, and the numbers point to vibrant startup activity. 
 
@@ -54,11 +56,9 @@ From a different perspective, there are approximately 1,200 publishing businesse
 
 ## Next Steps
 
-With an initial dataset and a workflow for future monthly deltas, my next steps are to explore what ancillary data is available from Companies House and other open information sources. It would be interested to enable different views across the data, such as type of publishing (trade, children’s, academic, STM etc). And I think there is potential for aggregation of news and updates. 
+With an initial dataset and a workflow for future monthly deltas, my next steps are to explore what ancillary data is available from Companies House and other open information sources. For example, it would be interesting to segment the data by type of publisher (trade, children's, academic, STM) as well as by size. 
 
-As the dataset develops, it may be of interest to commercial entities—for strategy and corporate development, sales and marketing, competitor benchmarking and other research. If you want to start from scratch, this article shows that’s a viable option: good luck. But if you’d like to benefit from regular updates, data curation and augmentation, please do get in touch to discuss licensing and access options for the core data, or custom research and analysis.
-
-I don’t have comment functionality on this website, but if you’d like to discuss the data or the issues discussed here, please email me, or comment on my LinkedIn or BlueSky posts referencing this work. 
+As the dataset develops, it may be of interest to commercial entities&#8212;for strategy and corporate development, sales and marketing, competitor benchmarking and other research. If you want to start from scratch, this article shows that’s a viable option: good luck. But if you’d like to benefit from regular updates, data curation and augmentation, [please do get in touch to discuss access options for the core data, or custom research and analysis](mailto:hello@outsidecontext.co.uk).
 
 
 
