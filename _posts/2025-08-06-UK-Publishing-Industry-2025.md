@@ -10,7 +10,9 @@ The sector is much larger in terms of population than trade association membersh
 
 If you'd like to go beyond the basic map and conclusions, I discuss below [methodology](#methodology), [population analysis](#population-analysis), [geographic distribution of publishers](#geographic-distribution) and [company formations](#company-formations). 
 
+
 <div style="min-height:738px" id="datawrapper-vis-GmYLw"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/GmYLw/embed.js" charset="utf-8" data-target="#datawrapper-vis-GmYLw"></script><noscript><img src="https://datawrapper.dwcdn.net/GmYLw/full.png" alt="Visualisation of UK publishing companies registered with SIC codes 58110, 58141" /></noscript></div>
+
 
 ## Methodology
 
@@ -55,7 +57,9 @@ Keeping this in mind, while the industry is certainly skewed to London and other
 
 It’s striking how far back the data set goes: eleven companies on the register were incorporated in the nineteenth century, ten of which are still active. Of course, there is a significant element of survivorship bias in the data: looking at earlier years we cannot form any reliable view of how many businesses might have been founded, only those that have survived and are still listed at Companies House. But for more recent publishers, founded within the twenty years that inactive companies remain on the register after dissolution (so they would be in the data, win or lose), we have a complete dataset, and the numbers point to vibrant startup activity. 
 
+
 <div style="min-height:447px" id="datawrapper-vis-TcZ06"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/TcZ06/embed.js" charset="utf-8" data-target="#datawrapper-vis-TcZ06"></script><noscript><img src="https://datawrapper.dwcdn.net/TcZ06/full.png" alt="Incorporation of Publishing Businesses by Year 2005-2024 (Line chart)" /></noscript></div>
+
 
 In 2005, 100 new publishing businesses were incorporated. Thereafter the rate of incorporation grows by an average 16% annually. There are leaner years in 2007 and 2008, possibly reflecting the worldwide financial crisis. In contrast, 2011 sees a bumper 48% growth in startups versus 2010. The global launch of the Kindle in late 2009 and subsequent boom in ebook sales may have had something to do with that. In 2024, more than 1,500 publishing businesses were incorporated, and on the current trend, 2025 should be another year of growth, with over 1,100 publishing businesses formed already this year. Speculatively there are various factors which could be driving this growth: declining capital barriers to entry; print-on-demand and digital distribution channels; more authors self-publishing; mergers and acquisitions, consolidation and job losses in major corporates. 
 
