@@ -10,8 +10,8 @@ I am a regular keynote speaker, panellist and event chair. My experience include
 
 ### Upcoming Speaking Engagements
 
-* 🇮🇪 14 November 2025: Keynote address on AI and publishing, Irish Publishera Conference, Dublin
-* 🇺🇸 30 September 2025: Panellist for BISG Webinar on 
+* 🇮🇪 14 November 2025: Keynote address on AI and publishing, [Irish Publishera Conference, Dublin](https://www.publishingireland.com/annual-irish-publishers-conference/)
+* 🇺🇸 30 September 2025: Panellist for [BISG Webinar on AI and ethics in the publishing industry](https://www.bisg.org/events/ai-and-ethics-in-the-book-industry-2025)
 
 ### Past Speaking Engagements
 
