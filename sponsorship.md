@@ -1,11 +1,9 @@
 ---
 layout: page
-title: AI Newsletter Sponsorship
+title: Reach Decision-Makers in Publishing AI
 permalink: /sponsorship/
 ---
-## Sponsor the Newsletter: Reach the Decision-Makers in Publishing AI
-
-George Walkley's email newsletter Context Window is the essential, weekly intelligence brief on how AI is transforming the publishing industry. We deliver exclusive insights directly to the inboxes of global publishing executives and decision-makers.
+[George Walkley's email newsletter Context Window](https://www.georgewalkley.com/newsletter) is the essential, weekly intelligence brief on how AI is transforming the publishing industry. We deliver exclusive insights directly to the inboxes of global publishing executives and decision-makers.
 
 If your company helps publishers navigate the future, this is your chance to secure exclusive, high-visibility access to a uniquely engaged and influential audience.
 
@@ -27,7 +25,7 @@ To launch newsletter sponsorship, we're offering **a single, prime placement** a
 
 Your sponsor message will be a simple, unobtrusive text message or banner (subject to creative approval) positioned directly beneath the welcome text and before the main body of the newsletter.
 
-This placement ensures **100% visibility** to the most engaged segment of our C-level readership.
+This placement ensures **100% visibility** to readers.
 
 | Package | Investment | Weekly Price | Your Saving |
 | :--- | :--- | :--- | :--- |
@@ -36,10 +34,10 @@ This placement ensures **100% visibility** to the most engaged segment of our C-
 
 ### Sponsorship Details
 
-* **Exclusivity:** You are the **only commercial sponsor** in that week's edition. We never run multiple ads.
-* **Audience:** B2B, senior publishing executives engaged with AI innovation.
-* **Scheduling:** Weekly, sent every Fridat.
+1️⃣ **Exclusivity:** You are the **only commercial sponsor** in that week's edition. We never run multiple ads.
+👩🏻‍💻 **Audience:** B2B, senior publishing executives engaged with AI innovation.
+📆 **Scheduling:** Weekly, sent every Fridat.
 
 ### Lock In Your Spot
 
-This introductory pricing is available for a limited time. Don't miss this chance to gain exclusive access to the fastest-moving segment of the publishing industry.
+This introductory pricing is available for a limited time. Don't miss this chance to gain exclusive access to the fastest-moving segment of the publishing industry. [Get in touch today to secure your spot](mailto:hello@outsidecontext.co.uk)
