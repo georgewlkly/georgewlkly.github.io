@@ -14,8 +14,8 @@ Your message won't be lost in an advertising crowd. Our sponsors receive **unriv
 | Metric | Performance/Benchmark | The Value Proposition |
 | :--- | :--- | :--- |
 | *Weekly Active Readers* | 1,400+ | A highly curated, zero-waste audience in a specific, high-growth niche |
-| *Open Rate* | **65%** (vs. 18–31% industry average) | Your ad is guaranteed to be seen: newsletter engagement is **2x to 3x industry average**, meaning your message cuts through the noise |
-| *Click Rate* | **26%** (vs. 2–4% industry average) | **Exceptionally high-intent audience** |
+| *Open Rate* | **65%** (vs. 18–31% industry average) | Your ad is guaranteed to be seen: newsletter engagement is **2-3x industry average**, meaning your message cuts through the noise |
+| *Click Rate* | **26%** (vs. 2–4% industry average) | Exceptionally high-intent audience, **5-10x industry average** |
 | *Audience Quality* | **40%+ C-Level** | Deliver your pitch directly to decision makers and influencers |
 | *Global Reach* | **33 Countries, 337 Publishers** | Tap into a diverse international market |
 
