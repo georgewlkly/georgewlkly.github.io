@@ -9,7 +9,7 @@ If your company helps publishers navigate the future, this is your chance to sec
 
 ### Why Sponsor Context Window?
 
-Your message won't be lost in an advertising crowd. Our sponsors receive **unrivalled visibility** and an audience quality that is virtually impossible to find elsewhere.
+Our sponsors receive **unrivalled visibility** and an audience quality that is virtually impossible to find elsewhere.
 
 | Metric | Performance/Benchmark | The Value Proposition |
 | :--- | :--- | :--- |
@@ -34,9 +34,9 @@ This placement ensures **100% visibility** to readers.
 
 ### Sponsorship Details
 
-1️⃣ **Exclusivity:** You are the **only commercial sponsor** in that week's edition. We never run multiple ads.
-👩🏻‍💻 **Audience:** B2B, senior publishing executives engaged with AI innovation.
-📆 **Scheduling:** Weekly, sent every Fridat.
+1️⃣ **Exclusivity:** You are the **only commercial sponsor** in that week's edition. We never run multiple ads.<br />
+👩🏻‍💻 **Audience:** B2B, senior publishing executives engaged with AI innovation.<br />
+📆 **Scheduling:** Weekly, sent every Friday.
 
 ### Lock In Your Spot
 
