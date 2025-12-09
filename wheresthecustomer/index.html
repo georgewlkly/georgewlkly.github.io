@@ -108,7 +108,7 @@
       flex-wrap:wrap;
     }
     .prompt{ font-size:18px; font-weight:900; letter-spacing:.6px; }
-    .sub{ color:var(--muted); font-size:13px; margin-top:2px; }
+    .sub{ color:var(--muted); font-size:13px; margin-top:2px; max-width:min(72ch, 92vw); }
     button{
       border:0;
       border-radius:12px;
@@ -216,19 +216,12 @@
 
   <script>
     // =============================
-    // 1) CONFIG: put your CSV here
+    // CONFIG: put your CSV here
     // =============================
-
-    // Best option for GitHub Pages: keep the CSV in the SAME repo as index.html
-    // and reference it relatively (no CORS headaches):
-    // const CSV_URL = "./countries.csv";
-    //
-    // If the CSV lives in a subfolder:
-    // const CSV_URL = "./data/countries.csv";
-    //
-    // If you really want a Raw GitHub URL, use the raw.githubusercontent.com form:
-    // const CSV_URL = "https://raw.githubusercontent.com/YOUR-USER/YOUR-REPO/main/countries.csv";
+    // For a Jekyll subdirectory, keeping CSV alongside index.html:
     const CSV_URL = "./countries.csv";
+    // Or use raw GitHub:
+    // const CSV_URL = "https://raw.githubusercontent.com/YOUR-USER/YOUR-REPO/main/path/to/countries.csv";
 
     // =============================
     // Game settings
@@ -239,12 +232,13 @@
     // Forgiveness tuning (in screen pixels)
     const FORGIVENESS_MIN = 10;
     const FORGIVENESS_MAX = 26;
+    const FORGIVENESS_MULTIPLIER = 1.10; // +10% tolerance
 
     const TOPO_URL = "https://cdn.jsdelivr.net/npm/visionscarto-world-atlas@1/world/110m.json";
 
-    // We only need alpha2 -> alpha3 (no names)
+    // alpha2 -> alpha3 + name (we display code only, but show answer text with name)
     const RESTCOUNTRIES = (codes) =>
-      `https://restcountries.com/v3.1/alpha?codes=${encodeURIComponent(codes.join(","))}&fields=cca2,cca3`;
+      `https://restcountries.com/v3.1/alpha?codes=${encodeURIComponent(codes.join(","))}&fields=cca2,cca3,name`;
 
     // -----------------------------
     // State
@@ -253,13 +247,14 @@
       svg: null,
       features: [],
       byA3: new Map(),        // a3 -> { el, centroid:[x,y], radius:number }
-      pool: [],               // [{a2,a3}]
+      pool: [],               // [{a2,a3,name}]
       deck: [],               // 20 unique picks
       round: 0,
       score: 0,
       locked: true,
       current: null,
       readyToStart: false,
+      feedback: "",
     };
 
     // -----------------------------
@@ -321,7 +316,9 @@
       } else {
         // show ONLY the code to make it harder
         el.prompt.textContent = state.current.a2;
-        el.subprompt.textContent = "Click where you think that country is.";
+        el.subprompt.textContent = state.locked
+          ? state.feedback
+          : "Click where you think that country is.";
       }
 
       el.nextBtn.disabled = !state.locked || !state.current;
@@ -381,7 +378,7 @@
           .attr("class", "country")
           .attr("d", geoPath)
           .attr("data-a3", d => (d?.properties?.a3 || d?.properties?.A3 || "").toUpperCase())
-          .on("click", (event, d) => onCountryPathClick(event, d, geoPath));
+          .on("click", (event) => onCountryPathClick(event, geoPath));
 
       svg.selectAll("path.country").each(function(d){
         const a3 = (this.getAttribute("data-a3") || "").toUpperCase();
@@ -391,7 +388,7 @@
         const area = geoPath.area(d);
 
         const raw = 900 / Math.sqrt(area + 25);
-        const radius = clamp(FORGIVENESS_MIN, raw, FORGIVENESS_MAX);
+        const radius = clamp(FORGIVENESS_MIN, raw, FORGIVENESS_MAX) * FORGIVENESS_MULTIPLIER;
 
         state.byA3.set(a3, { el: this, centroid, radius });
       });
@@ -403,7 +400,7 @@
     }
 
     // -----------------------------
-    // CSV -> alpha2/alpha3 pool
+    // CSV -> alpha2/alpha3/name pool
     // -----------------------------
     async function loadPoolFromCSVUrl(){
       el.setupText.textContent = "Loading your CSV from GitHub…";
@@ -445,10 +442,11 @@
       for (const c of data){
         const a2 = (c?.cca2 || "").toUpperCase();
         const a3 = (c?.cca3 || "").toUpperCase();
-        if (!a2 || !a3) continue;
+        const name = c?.name?.common || "";
+        if (!a2 || !a3 || !name) continue;
         if (EXCLUDE.has(a2)) continue;
         if (!state.byA3.has(a3)) continue; // only keep things on the map
-        mapped.push({ a2, a3 });
+        mapped.push({ a2, a3, name });
       }
 
       // De-dupe by a3
@@ -486,6 +484,7 @@
       state.round = 0;
       state.score = 0;
       state.current = state.deck[0];
+      state.feedback = "";
       state.locked = false;
 
       clearFlashes();
@@ -501,6 +500,7 @@
         return;
       }
       state.current = state.deck[state.round];
+      state.feedback = "";
       state.locked = false;
       clearFlashes();
       setUI();
@@ -515,8 +515,10 @@
 
       if (isCorrect){
         state.score += 1;
+        state.feedback = `Correct — the answer was ${state.current.a2} (${state.current.name}).`;
         (clicked?.el || correct?.el)?.classList.add("flash-good");
       } else {
+        state.feedback = `Sorry — the correct answer was ${state.current.a2} (${state.current.name}).`;
         (clicked?.el || correct?.el)?.classList.add("flash-bad");
       }
 
