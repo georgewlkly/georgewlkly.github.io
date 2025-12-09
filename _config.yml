@@ -67,3 +67,6 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+include:
+  - wheresthecustomer
