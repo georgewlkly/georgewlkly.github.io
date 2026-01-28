@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Four Ages of Strategy
+tags: [Strategy]
 ---
 It’s the start of a new academic year, and I’ve been thinking a lot about volatility and uncertainty. Developing strategy in an uncertain context is the challenge underlying my current research on games and scenario planning. But even without that focus, just looking at the world around me this summer brought the subject home. Many of my clients experienced disruption to supply chains and operations during the Covid-19 pandemic; most are now contending with serious inflationary impacts. My current projects involve business partners on five continents, and talking to them, some level of political instability is a consistent theme. Even going on a family holiday, our first time out of the UK in two and a half years, raised uncomfortable questions about the state of world and sustainability, as we travelled against the backdrop of heatwaves and wildfires at home and devastating floods overseas.
 
