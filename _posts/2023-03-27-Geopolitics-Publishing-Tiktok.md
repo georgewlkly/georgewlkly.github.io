@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Geopolitics, Publishing and TikTok
+tags: ["Artificial Intelligence", Publishing, Strategy]
 ---
 I don’t use TikTok, but it has been hard to escape its impact on the publishing industry, where I spent the first part of my career. Nielsen research suggests that [one in four UK book buyers used TikTok in 2022, accounting for 90 million purchases](https://www.thebookseller.com/news/tiktoks-influence-on-direct-book-sales-relatively-small-but-growing-rapidly-says-nielsen). As a collective phenomenon, [BookTok was awarded the person of the year award at last year’s Futurebook conference](https://www.thebookseller.com/features/booktok-wins-futurebook-person-of-the-year-award). In the meantime, there’s little doubt that the platform has a huge impact on commissioning, marketing and selling books, and that publishers are investing time and money to make the most of that. As a proxy for the level of interest, a search on the Bookseller magazine's website this morning showed eighty nine search results for ‘TikTok’ for stories published in the first quarter of the year, versus four results for 'GPT'. (Long term, I know which one I would bet on being most significant and transformative, but that’s another story.)
 
