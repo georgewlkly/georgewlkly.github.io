@@ -67,3 +67,9 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+plugins:
+  - jekyll-paginate
+
+paginate: 8
+paginate_path: "/posts/page:num/"
