@@ -272,6 +272,10 @@ nav {
   @include mobile {
     flex: 1 1 100%;
   }
+
+  p {
+    margin: 0;
+  }
 }
 
 .posts > .post {
