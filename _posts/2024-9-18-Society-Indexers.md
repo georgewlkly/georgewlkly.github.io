@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Society of Indexers Conference and Content Quality
+tags: ["Artificial Intelligence", Presentations]
 ---
 I gave a short presentation on how publishers are using AI at the [Society of Indexers Conference](https://www.indexers.org.uk/training-development/conferences/conference-2024/) today. It was great to give the publisher perspective ahead of a fascinating presentation from [Tanya Izzard](https://tanyaizzard.co.uk) on experimenting with LLMs for indexing: the mix of general and specific themes led into a lively discussion. 
 
