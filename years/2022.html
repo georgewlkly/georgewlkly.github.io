@@ -9,7 +9,7 @@ title: "2022"
 
     <div class="posts">
 
-  {% assign year_posts = site.posts | where_exp: "post", "post.date | date: '%Y' == '2022'" %}
+  {% assign year_posts = site.posts | where_exp: "item", "item.date | date: '%Y' == '2022'" %}
   {% for post in year_posts %}
          <article class="post">
 
