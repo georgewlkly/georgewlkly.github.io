@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AI and Marginal Gains
+tags: ["Artificial Intelligence"]
 ---
 There's an uncomfortable paradox at the heart of Generative AI adoption: the promise from AI vendors and consultants like me is that the technology will boost productivity. And for the most part, this holds true with my clients. But the gains are unevenly distributed. [Dan Hon wrote in his newsletter recently that his friends who use LLMs brilliantly in their coding work do so because they bring very particular skills and experience that don't translate to the average user](https://newsletter.danhon.com/archive/s21e03-the-problem-is-defining-the-problem-the/)&#8212;a challenge amplified by what Ethan Mollick calls AI's 'jagged frontier' of uneven capabilities. Scale this up to enterprise level and you hit a bigger problem: AI can create efficiencies for individual, power users, but it doesn't necessarily deliver the company-wide transformation the C-suite was sold on. You've probably seen headlines claiming that most AI pilots fail to deliver measurable P&L impact. Are the promised gains genuinely elusive, or do we need to reframe what we're looking for?
 
