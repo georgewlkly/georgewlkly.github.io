@@ -13,7 +13,13 @@
   <h4>By Year</h4>
   {% assign defined_years = "2026,2025,2024,2023,2022,2021" | split: "," %}
   {% for year in defined_years %}
-    {% assign year_posts = site.posts | where_exp: "post", "post.date | date: '%Y' == year" %}
-    <p><a href="{{ site.baseurl }}/years/{{ year }}">{{ year }} ({{ year_posts.size }})</a></p>
+    {% assign year_count = 0 %}
+    {% for post in site.posts %}
+      {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% if post_year == year %}
+        {% assign year_count = year_count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    <p><a href="{{ site.baseurl }}/years/{{ year }}">{{ year }} ({{ year_count }})</a></p>
   {% endfor %}
 </aside>
