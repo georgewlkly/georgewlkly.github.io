@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Defining Strategy
+tags: [Strategy]
 ---
 This week was largely spent designing a strategy workshop for an ongoing client. The latter would have been much more straightforward if it were being delivered in person: as it is, I’ve been having to think how to adjust the format for online delivery. Part of that is designing the workshop around short, focused sessions with ample screen breaks. I’m also allowing for regular check-ins with the audience. In person, it’s generally possible to have a sense of the level of interest and focus in the room through watching body language and reactions, but that’s much harder on Zoom. So I’m building in prompts to explicitly ask participants if they’re happy with the material before proceeding, more so than I might if I could gauge a positive mood in the room.
 
