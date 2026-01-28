@@ -4,9 +4,9 @@
   {% for tag_name in defined_tags %}
     {% assign tag_posts = site.tags[tag_name] %}
     {% if tag_posts %}
-      <p><a href="{{ site.baseurl }}/tags/{{ tag_name | slugify }}">{{ tag_name }} ({{ tag_posts.size }})</a></p>
+      <a href="{{ site.baseurl }}/tags/{{ tag_name | slugify }}">{{ tag_name }} ({{ tag_posts.size }})</a><br/>
     {% else %}
-      <p><a href="{{ site.baseurl }}/tags/{{ tag_name | slugify }}">{{ tag_name }} (0)</a></p>
+      <a href="{{ site.baseurl }}/tags/{{ tag_name | slugify }}">{{ tag_name }} (0)</a><br/>
     {% endif %}
   {% endfor %}
 
@@ -20,6 +20,6 @@
         {% assign year_count = year_count | plus: 1 %}
       {% endif %}
     {% endfor %}
-    <p><a href="{{ site.baseurl }}/years/{{ year }}">{{ year }} ({{ year_count }})</a></p>
+    <a href="{{ site.baseurl }}/years/{{ year }}">{{ year }} ({{ year_count }})</a><br/>
   {% endfor %}
 </aside>
