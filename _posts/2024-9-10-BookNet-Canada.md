@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AI Presentation for BookNet Canada
+tags: ["Artificial Intelligence", Presentations]
 ---
 Thanks very much to the team at [BookNet Canada](https://www.booknetcanada.ca) for inviting me to speak at their Tech Forum webinar this evening on the elements of a balanced and ethical AI strategy for publishers. It's hard to do justice to such an expansive topic in a forty minute presentation, but I discussed a number of key aspects including the pace of change and capability overhang in AI, copyright and Fair Use, accuracy, provenance, the environmental impact of AI and its increasing integration with all elements of the publishing application stack. 
 
