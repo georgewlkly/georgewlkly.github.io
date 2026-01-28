@@ -1,6 +1,7 @@
 ---
 layout: post
 title: BookNet Canada Update
+tags: ["Artificial Intelligence", Presentations]
 ---
 Last September, [BookNet Canada invited me to speak at their Tech Forum webinar on the use of AI in publishing](https://www.georgewalkley.com/BookNet-Canada/). Looking back at my slides, it's remarkable how much the world has moved on since then, though the eight principles I set out have held up pretty well. 
 
