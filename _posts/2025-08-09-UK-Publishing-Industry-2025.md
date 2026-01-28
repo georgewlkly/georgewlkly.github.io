@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The UK Publishing Industry in 2025
+tags: [Research, Publishing]
 ---
 Recently I've been doing some research on the size and scope of the UK book and journal publishing industry, based on data from [Companies House](https://find-and-update.company-information.service.gov.uk). This research is a preparatory step towards building a database of companies, highly relevant for my work as an independent consultant and as policy advisor for the [Independent Publishers Guild](https://www.independentpublishersguild.com), which represents over 600 book and journal publishers of all sizes. The other trade body, the [Publishers Association](https://www.publishers.org.uk/members/) lists 168 members at the time of writing, particularly larger, corporate publishers&#8212;though there is some overlap between the two organisations' memberships. The UK publishing sector is world leading, [representing over £7 billion of revenue](https://www.publishers.org.uk/publishing-industry-insight-the-story-in-the-numbers/), and it represents the bulk of my client base. So it's worth understanding. 
 
