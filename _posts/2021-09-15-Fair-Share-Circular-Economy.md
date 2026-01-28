@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Fair Share in the Circular Economy
+tags: [Journalism, Publishing, Research]
 ---
 *This piece was commissioned by James McConnachie and first published in the Autumn 2021 issue of The Author, the journal of the Society of Authors. It is reprinted with their permission.* 
 
