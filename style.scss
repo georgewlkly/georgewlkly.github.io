@@ -243,6 +243,37 @@ nav {
 // .main
 //
 
+//
+// Homepage two-column layout
+//
+
+.homepage-layout {
+  display: flex;
+  gap: 40px;
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+.homepage-main {
+  flex: 0 0 70%;
+  min-width: 0;
+
+  @include mobile {
+    flex: 1 1 100%;
+  }
+}
+
+.homepage-sidebar {
+  flex: 0 0 calc(30% - 40px);
+  min-width: 0;
+
+  @include mobile {
+    flex: 1 1 100%;
+  }
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
