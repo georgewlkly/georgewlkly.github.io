@@ -1,15 +1,16 @@
 ---
 layout: default
-title: Artificial Intelligence
+title: "2026"
 ---
 
 <div class="homepage-layout">
   <div class="homepage-main">
-    <h1>Artificial Intelligence</h1>
+    <h1>2026</h1>
 
     <div class="posts">
 
-  {% for post in site.tags["Artificial Intelligence"] %}
+  {% assign year_posts = site.posts | where_exp: "post", "post.date | date: '%Y' == '2026'" %}
+  {% for post in year_posts %}
          <article class="post">
 
           <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>

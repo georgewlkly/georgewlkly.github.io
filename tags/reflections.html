@@ -26,7 +26,7 @@ title: Reflections
   </div>
 
   <aside class="homepage-sidebar">
-    <h4>Tags</h4>
+    <h4>Topics</h4>
     {% assign defined_tags = "Artificial Intelligence,Journalism,Presentations,Publishing,Reflections,Research,Strategy" | split: "," %}
     {% for tag_name in defined_tags %}
       {% assign tag_posts = site.tags[tag_name] %}
@@ -35,6 +35,13 @@ title: Reflections
       {% else %}
         <p><a href="{{ site.baseurl }}/tags/{{ tag_name | slugify }}">{{ tag_name }} (0)</a></p>
       {% endif %}
+    {% endfor %}
+
+    <h4>By Year</h4>
+    {% assign defined_years = "2026,2025,2024,2023,2022,2021" | split: "," %}
+    {% for year in defined_years %}
+      {% assign year_posts = site.posts | where_exp: "post", "post.date | date: '%Y' == year" %}
+      <p><a href="{{ site.baseurl }}/years/{{ year }}">{{ year }} ({{ year_posts.size }})</a></p>
     {% endfor %}
   </aside>
 </div>
