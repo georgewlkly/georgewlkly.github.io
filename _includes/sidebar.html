@@ -1,5 +1,5 @@
 <aside class="homepage-sidebar">
-  <h4>Topics</h4>
+  <h4>Content by Topic</h4>
   {% assign defined_tags = "Artificial Intelligence,Journalism,Presentations,Publishing,Reflections,Research,Strategy" | split: "," %}
   {% for tag_name in defined_tags %}
     {% assign tag_posts = site.tags[tag_name] %}
@@ -10,7 +10,7 @@
     {% endif %}
   {% endfor %}
 
-  <h4>By Year</h4>
+  <h4>Content by Year</h4>
   {% assign defined_years = "2026,2025,2024,2023,2022,2021" | split: "," %}
   {% for year in defined_years %}
     {% assign year_count = 0 %}
