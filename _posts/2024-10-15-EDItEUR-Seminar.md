@@ -1,6 +1,7 @@
 ---
 layout: post
 title: EDItEUR International Supply Chain Seminar
+tags: ["Artificial Intelligence", Presentations]
 ---
 Thanks to Graham Bell from EDItEUR for inviting me to speak at [the 45th International Supply Chain Seminar](https://www.editeur.org/3/Events/Event-Details/691) in Frankfurt this afternoon, to update the AI presentation I gave last year. Giving an update meant less time on first principles, and it was a really interesting prompt to step back, compare this year's slides with the 2023 deck and see what had changed. Of course, massive development on the technology side, more legal uncertainty, and greater awareness of the environmental impact of AI. But some points, like the importance of keeping human decision makers in the loop, are perennial. 
 
