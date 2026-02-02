@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Twenty Minute Prototyping
-tags: ["Artificial Intelligence", Strategy]
+tags: ["Artificial Intelligence", Games, Strategy]
 ---
 Last week, [Ethan Mollick posted about creating a functioning game with Claude Code and a one-shot prompt](https://bsky.app/profile/emollick.bsky.social/post/3mdetfx5nws2t). As a first project with Claude Code, it seemed ambitious but appealing. I started with a single paragraph prompt to develop a short, simple adventure game in the style of the [Sierra On-Line](https://en.wikipedia.org/wiki/Sierra_Entertainment) games I remember from the late eighties, with an AD&D 2nd Edition vibe. Getting a first, testable version was almost indecently fast. It then took several rounds of iteration to improve it, including a separate workstream to create retro style screens (Claude doesn’t have native image generation). The total *active* investment of time was about twenty minutes, with Claude Code running in the background while I did other things.
 
