@@ -7,7 +7,7 @@ Last week, [Ethan Mollick posted about creating a functioning game with Claude C
 
 This wasn't an optimal process: I was using a simple prompt in line with Mollick’s original post, which left a lot of planning and decision-making to Claude Code&#8212;exactly the opposite approach to what I would advise clients in one of my training courses. I twice exhausted my session usage allowance on a Claude Pro plan going down wrong directions, and burned through another £10 of extra usage because I was too impatient to wait for it to reset. Quite a lot of that was diagnosing issues with my GitHub setup that a competent developer would have spotted faster.  
 
-[The result is far from perfect, but it's playable and completable](https://www.georgewalkley.com/overwinter) and several friends with a similar frame of cultural reference have said nice things about it. The code is all on [my GitHub repo](https://github.com/georgewlkly/overwinter), including a walkthrough file if you get stuck. 
+[The result is far from perfect, but it's playable and completable](https://www.georgewalkley.com/overwinter). Several friends with a similar frame of cultural reference said nice things about it. (The code is all on [my GitHub repo](https://github.com/georgewlkly/overwinter), including a walkthrough file if you get stuck). 
 
 Let’s assume you’re not a middle-aged nerd: what is the wider relevance of this? Well, my immediate impression was: if something like this can be delivered with a casual, twenty-minute commitment of time, what could be done with a more deliberate process over twenty hours or twenty days?
 
