@@ -1,6 +1,6 @@
 <aside class="homepage-sidebar">
   <h4>Content by Topic</h4>
-  {% assign defined_tags = "Artificial Intelligence,Journalism,Presentations,Publishing,Reflections,Research,Strategy" | split: "," %}
+  {% assign defined_tags = "Artificial Intelligence,Games,Journalism,Presentations,Publishing,Reflections,Research,Strategy" | split: "," %}
   {% for tag_name in defined_tags %}
     {% assign tag_posts = site.tags[tag_name] %}
     {% if tag_posts %}
