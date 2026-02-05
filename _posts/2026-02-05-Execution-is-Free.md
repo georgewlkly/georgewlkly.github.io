@@ -3,13 +3,13 @@ layout: post
 title: Execution is Free
 tags: ["Artificial Intelligence", Strategy]
 ---
-I had a couple of conversations this week that inspired a quick coda to [my previous post on using Claude Code for prototyping ideas](https://www.georgewalkley.com/Twenty-Minute-Prototyping/). The day after I posted it, I spoke with [Tom](https://people.uwe.ac.uk/Person/TomAbba), one of my most thoughtful and creative friends&#8212;someone who is about as far away from AI boosterism as it would be possible to get. A decade ago, he had spent £8,000 with a web developer building a location-aware mobile website. He asked how much information Claude Code needed to build something similar. I copied his sixty-word WhatsApp, clarified half a dozen questions that Claude asked in response, and it took under two minutes to replicate the core functionality.
+I had a couple of conversations this week that inspired a quick coda to [my previous post on using Claude Code for prototyping ideas](https://www.georgewalkley.com/Twenty-Minute-Prototyping/). The day after I posted it, I spoke with [Tom](https://people.uwe.ac.uk/Person/TomAbba), one of my most thoughtful and creative friends&#8212;someone who is about as far away from AI boosterism as it would be possible to get. A decade ago, he had spent several thousand pounds with a web developer building a location-aware mobile website. He asked how much information Claude Code needed to build something similar. I copied his sixty-word WhatsApp, clarified half a dozen questions that Claude asked in response, and it took under two minutes to replicate the core functionality.
 
 Over the next couple of hours, working asynchronously, we prompted and pushed a series of iterative developments. Tom's final WhatsApp message on Tuesday night read: "today actually blew my mind."
 
 His reaction stuck with me. The next day, on a train to Cambridge, I found myself discussing it with [Jill Jones, a fellow director at the scientific publisher where I sit on the board](https://www.bdspublishing.com/about-us/the-team/). Jill has been involved in technology publishing for decades, and we had a really interesting conversation about what this shift actually means.
 
-At face value, Claude Code is epically, existentially bad news for Tom's developer&#8212;who pays £8,000 for a website if a non-specialist can prompt one in minutes? But the conversation with Jill helped me think about this differently.
+At face value, Claude Code is epically, existentially bad news for Tom's developer&#8212;who pays thousands for a website if a non-specialist can prompt one in minutes? But the conversation with Jill helped me think about this differently.
 
 What are you paying for in this scenario? Code? If so, the AI is going to beat the human every time. But I don't think many people are paying for code alone. You're paying for code, experience, discernment and liability.
 
