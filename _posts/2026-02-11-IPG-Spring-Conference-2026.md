@@ -16,7 +16,7 @@ There was a lot of food for thought, and in a spirit of sharing, here are fiftee
 7. If your company's mission statement could apply equally to any of your major competitors, either the statement isn't specific enough or your competitive positioning isn't.  
 8. The FT used AI to rapidly develop an analysis tool, knowing the Epstein files were about to be released. As a result, they led news cycles. Execution speed and technical capability feed into product, attention, and narrative dominance. Preparedness compounds.
 9. Power and influence are shifting from media institutions/gatekeepers to individual brands/fandoms. Does the role of a publisher shift from gatekeeper to ecosystem? 
-10. Cf. point 2 above, the frustrating genericisation of 'Substack' to mean any professional email newsletter, not just the Nazi-adjacent ones. 
+10. Cf. point 2 above, the frustrating genericisation of 'Substack' to mean any professional, monetised email newsletter, not just the Nazi-adjacent ones. 
 11. Is a podcast a replacement, a complement or a funnel for a book? Be clear about what the format is doing: directly monetising, engaging an audience, or building awareness. 
 12. One major podcast producer found that video podcasts on YouTube were a totally different audience to traditional podcast channels&#8212;no cannibalisation, completely accretive. Publishers should test adjacent platforms without assuming zero-sum effects. 
 13. One major book subscription product deliberately keeps potential paying customers on a waitlist, partly because it's hard to forecast growth and demand alongside long publishing lead times, so this smooths out the bumps, and partly as scarcity marketing. Constraint is strategic, not just a reflection of internal limitations. 
