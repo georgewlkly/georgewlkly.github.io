@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Language Substrate
+title: Systems and Meaning
 tags: ["Artificial Intelligence", Publishing]
 ---
 [Andrew Savikas recently wrote that one of the best ways to see the future of knowledge work is to watch how software developers work](https://www.linkedin.com/pulse/what-developers-do-now-ai-youll-next-andrew-savikas-mwadc/). It made me smile because I got to know Andrew nearly twenty years ago through his work at O’Reilly Media and their Tools of Change for Publishing conference&#8212;[“watching the alpha geeks”](https://www.wired.com/2006/05/tim-says-watch-alpha-geeks/) was a core philosophical and strategic tenet for O’Reilly. 
