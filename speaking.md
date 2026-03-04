@@ -10,13 +10,20 @@ I am a regular keynote speaker, panellist and event chair. My experience include
 
 ### Upcoming Speaking Engagements
 
-* 🇪🇸 19 February 2026: Presentation on AI and audiobook publishing, Parix Audio Day, Madrid
+
+* 🇬🇧 18 March 2026: Keynote at [ALPSP University Press Redux Conference](https://www.alpsp.org/events/up-redux/), Liverpool 
+* 🇺🇸 28-29 April 2026: Keynote at [ECPA Leadership Summit](https://ecpaleadership.org), Chicago 
+* 🇺🇸 14-16 May 2026: Panellist at [IBPA Publishing University](https://www.publishinguniversity.org), Portland 
 
 ### Past Speaking Engagements
 
+#### 2026
+
+* 🇪🇸 19 February 2026: Presentation on AI and audiobook publishing, Parix Audio Day, Madrid
+* 🇬🇧 11 February 2026: Presentation on AI skills, and panellist for discussion on the AI and policy environment, at the Independent Publishers Guild Spring Conference
+
 #### 2025
 
-* 🇬🇧 11 February 2026: Presentation on AI skills, and panellist for discussion on the AI and policy environment, at the Independent Publishers Guild Spring Conference
 * 🇮🇪 14 November 2025: Keynote address on AI and publishing, [Irish Publishera Conference, Dublin](https://www.publishingireland.com/annual-irish-publishers-conference/)
 * 🇺🇸 30 September 2025: Panellist for [BISG Webinar on AI and ethics in the publishing industry](https://www.bisg.org/events/ai-and-ethics-in-the-book-industry-2025)
 * 🇬🇧 16 September 2025: Chairing panel on AI and GEO at the Independent Publishers Guild Autumn Conference
