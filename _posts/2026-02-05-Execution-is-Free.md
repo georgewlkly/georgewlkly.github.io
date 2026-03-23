@@ -2,6 +2,7 @@
 layout: post
 title: Execution is Free
 tags: ["Artificial Intelligence", Strategy]
+description: "As AI lowers the cost of execution toward zero, professional value shifts up the stack—from code to judgement, from delivery to deciding what is worth delivering at all."
 ---
 I had a couple of conversations this week that inspired a quick coda to [my previous post on using Claude Code for prototyping ideas](https://www.georgewalkley.com/Twenty-Minute-Prototyping/). The day after I posted it, I spoke with [Tom](https://people.uwe.ac.uk/Person/TomAbba), one of my most thoughtful and creative friends&#8212;someone who is about as far away from AI boosterism as it would be possible to get. A decade ago, he had spent several thousand pounds with a web developer building a location-aware mobile website. He asked how much information Claude Code needed to build something similar. I copied his sixty-word WhatsApp, clarified half a dozen questions that Claude asked in response, and it took under two minutes to replicate the core functionality.
 

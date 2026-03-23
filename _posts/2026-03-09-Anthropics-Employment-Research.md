@@ -2,6 +2,7 @@
 layout: post
 title: Anthropic's Employment Research
 tags: ["Artificial Intelligence"]
+description: "A close reading of Anthropic's labour market research: why high task exposure does not mean job replacement, and why the more interesting story may be how work reconfigures rather than disappears."
 ---
 
 [A new Anthropic research paper on AI and employment is getting a lot of attention](https://www.anthropic.com/research/labor-market-impacts). At face value, it suggests that the sectors most vulnerable to disruption from AI are white-collar, analytical professions: law, finance, management, media and arts, many academic disciplines. The headline finding and a radar chart of affected areas have been repeated ad nauseam in my LinkedIn feed. But a careful reading of what is a genuinely interesting paper explains why I find it less alarming than first appearance might suggest, despite it affecting the fields closest to my own work. 

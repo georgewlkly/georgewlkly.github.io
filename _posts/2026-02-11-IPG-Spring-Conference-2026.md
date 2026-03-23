@@ -2,6 +2,7 @@
 layout: post
 title: IPG Spring Conference 2026
 tags: [Publishing, Reflections, Strategy]
+description: "Sixteen observations from the IPG Spring Conference 2026: on leisure time, platform risk, AI in workflows, procedural debt, and what it means to think generationally in a structural market shift."
 ---
 I'm on my way back from the IPG Spring Conference in London, always one of the highlights of the publishing year. It was a really good mix of the inspirational, the practical, and a uniquely generous, welcoming and supportive community. I particularly enjoyed the presentations from former Shazam chairman and crime writer Ajay Chowdhury, National Literacy Trust CEO Jonathan Douglas, BBC media editor Katie Razzall, Illumicrate CEO Daphne Tonge and Bonnier UK Co-CEOs Sarah Benton and Jonathan Perdoni. I spoke in the morning about the IPG's forthcoming short training courses (data, content creation, websites/GEO and AI risk/governance) and in the afternoon to give members an update on the policy and licensing landscape for AI. 
 

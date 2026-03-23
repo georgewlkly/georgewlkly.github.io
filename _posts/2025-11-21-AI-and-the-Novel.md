@@ -2,6 +2,7 @@
 layout: post
 title: AI and the Novel
 tags: ["Artificial Intelligence", Publishing]
+description: "A critical look at the Minderoo Centre's report on AI and the novel: why the research captures important attitudes but the headlines overstate what a convenience sample can tell us."
 ---
 [There's an interesting new report out from the Minderoo Centre for Technology and Democracy at Cambridge University on the impact of AI on the novel, authored by Dr Clementine Collett](https://www.mctd.ac.uk/impact-of-generative-ai-on-the-novel/). There's much that I completely agree with and that accords with my experience of working with book trade on AI. But I have some constructive thoughts about the framing/communication.
 

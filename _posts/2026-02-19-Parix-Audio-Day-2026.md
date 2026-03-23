@@ -2,6 +2,7 @@
 layout: post
 title: Parix Audio Day 2026 Slides
 tags: ["Artificial Intelligence", Presentations, Publishing, Strategy]
+description: "Slides and a brief summary from a keynote at Parix Audio Day 2026 in Madrid on the impact of AI across the audiobook value chain: authors, publishers, narrators and the competitive landscape."
 ---
 Thanks to Luis González, Javier Celaya, Christopher Kenneally and their colleagues for inviting me to give a keynote address on the impact of AI on audiobook publishing this morning at Parix Audio Day 2026 in Madrid. It's one of the best conferences in the publishing calendar, and hands down the best venue. 
 

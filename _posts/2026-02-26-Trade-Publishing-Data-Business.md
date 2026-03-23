@@ -2,6 +2,7 @@
 layout: post
 title: Trade Publishing as a Data Business
 tags: [Publishing, Strategy]
+description: "Trade publishers generate valuable forward signals—submission patterns, acquisition trends, category momentum—that they have not yet treated as products. Could they follow the Washington Post's playbook?"
 ---
 
 Everything is now a data business, especially media companies. [My friend Alex Boden's analysis of the Washington Post’s pivot to WP Intelligence is characteristically sharp: editorial expertise converted into structured intelligence products, sold to professional audiences on enterprise contracts](https://asymmetrixintelligence.substack.com/p/leading-publisher-loses-77m-and-develops). The playbook works for a news publisher. The question for trade book publishers is what version of that pivot is available to them.

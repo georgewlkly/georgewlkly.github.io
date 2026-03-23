@@ -2,6 +2,7 @@
 layout: post
 title: Accelerating the Right Things
 tags: [“Artificial Intelligence”, Strategy]
+description: “On the risk of using AI to accelerate the wrong things: why the collapse in the cost of building makes judgement—not execution—the scarce resource.”
 ---
 [Earlier this week, John Willshire posted on LinkedIn about Claude Code and the sudden proliferation of niche tools people are building with it](https://www.linkedin.com/posts/johnvwillshire\_theres-something-about-the-rise-of-claude-activity-7434136215882358784-3xXA). He wondered whether this "personal software"&#8212;quick, bespoke tools built to solve a very specific problem for a single person or team&#8212;might eventually develop into something scalable. Someone else replied that perhaps scaling isn't the point. If the cost of building software has collapsed, tools no longer need to justify themselves as products. They can exist just because someone finds them useful, interesting, or entertaining to make.
 
