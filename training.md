@@ -23,7 +23,7 @@ The course is structured around four areas:
 
 ## Course options
 
-**Open courses.** I run periodic open courses that anyone can register for. These are ideal for individuals or small teams. [George — if you have upcoming dates, list them here. If not, add a line like "Sign up to my newsletter for advance notice of upcoming open courses."]
+**Open courses.** I run periodic open courses that anyone can register for. These are ideal for individuals or small teams, and delivered in partnership with the [Independent Publishers Guild in the UK](https://www.independentpublishersguild.com) and the [Independent Book Publishers Association in the US](https://www.ibpa-online.org).
 
 **In-company training.** I deliver training on-site or remotely for teams of up to twenty per session. This is the most popular option and can be tailored to your organisation's specific context, tools and challenges.
 
