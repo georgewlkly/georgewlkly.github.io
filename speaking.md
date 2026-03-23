@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Speaking
+title: Keynote Speaking
 permalink: /speaking/
 description: "George Walkley is a keynote speaker on AI, publishing strategy and digital transformation. Available for conferences, corporate events, book fairs and universities worldwide."
 ---
