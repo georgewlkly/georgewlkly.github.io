@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Training
+title: AI Training for Publishers and Knowledge Workers
 permalink: /training/
 description: "The publishing industry's first independent, CPD-accredited AI training course. Delivered to delegates from nearly 300 organisations worldwide. In-person and remote options available."
 ---
