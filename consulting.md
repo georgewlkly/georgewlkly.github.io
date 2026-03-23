@@ -25,5 +25,4 @@ Most of my clients are in publishing, media, education and professional services
 ## How to get in touch
 
 If you'd like to explore how I could help your organisation, please [get in touch by email](mailto:hello@outsidecontext.co.uk) or call me on +44 01722 435610. I'm always happy to have an initial conversation without obligation.
-(mailto:hello@outsidecontext.co.uk).
  
