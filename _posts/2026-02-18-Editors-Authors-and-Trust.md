@@ -2,6 +2,7 @@
 layout: post
 title: Editors, Authors and Trust
 tags: [“Artificial Intelligence”, Publishing]
+description: “How generative AI is straining the implicit contract between editors and contributors—and what book publishers can do to preserve quality, trust and diversity of voice.”
 ---
 I’ve been trying to write something here roughly once a week, largely but not exclusively about my experience working with AI in publishing. I hadn’t planned to post anything else this week, but [John Willshire](https://smithery.com/author/john-v-willshire/) linked to [a post from Rachel Andrew on managing publishing operations in the context of generative AI](https://rachelandrew.co.uk/archives/2026/02/18/generative-ai-has-broken-the-subject-matter-expert-editor-relationship/) and I wanted to respond to it with some thoughts about how the issues it raises affect book publishing.
 

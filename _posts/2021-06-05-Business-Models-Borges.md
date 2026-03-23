@@ -2,6 +2,7 @@
 layout: post
 title: Business Models and Borges
 tags: [Strategy]
+description: "On building useful business models: why a Borges short story about a 1:1 scale map is the perfect reminder that abstraction, not precision, is the goal."
 ---
 I started a new project this week, doing a piece of business modelling for a client considering a new venture. As a result it was quite a different week to normal: very few Zooms or calls, and several days of intensely focused time researching and sorting the data I could find on the subject and building the first version of the model in Excel. Then testing the logic with a known set of data, before building a set of possible scenarios (base case, downside, upside) and running the model past a couple of senior stakeholders at the client for some useful feedback. Next week I’ll be working on improvements to the basic model.
 

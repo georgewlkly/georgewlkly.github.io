@@ -2,6 +2,7 @@
 layout: post
 title: A Fair Share in the Circular Economy
 tags: [Journalism, Publishing, Research]
+description: "Original research estimating the UK secondhand book market at £360–500 million, and what it means for author earnings and the AuthorShare compensation scheme."
 ---
 *This piece was commissioned by James McConnachie and first published in the Autumn 2021 issue of The Author, the journal of the Society of Authors. It is reprinted with their permission.* 
 
