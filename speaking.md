@@ -2,29 +2,47 @@
 layout: page
 title: Speaking
 permalink: /speaking/
+description: "George Walkley is a keynote speaker on AI, publishing strategy and digital transformation. Available for conferences, corporate events, book fairs and universities worldwide."
 ---
+I'm a regular keynote speaker, panellist and event chair at conferences, book fairs, corporate events and universities around the world. I've spoken in more than a dozen countries, and I'm as comfortable opening a major industry conference as I am facilitating an intimate boardroom discussion.
 
-I am a regular keynote speaker, panellist and event chair. My experience includes corporate events, conferences, book fairs and universities. Key themes include publishing and media, digital transformation and the impact of artificial intelligence. 
+## What I speak about
 
-[Please get in touch if you'd like to explore me talking at your event](mailto:hello@outsidecontext.co.uk).
+My core topics sit at the intersection of AI, strategy and the future of knowledge-intensive industries:
+
+**AI and the future of publishing.** How generative AI is reshaping how content is created, discovered, valued and monetised&#8212;and what publishers, authors and media companies should do about it. This is the subject I'm most frequently asked to speak on, and I tailor it to the audience, whether that's trade publishers, academic and scholarly publishers, or authors and literary agents.
+
+**AI strategy for leaders.** How senior leaders should think about AI&#8212;not as a technology project, but as a strategic question about judgement, decision-making and competitive advantage. This talk draws on the frameworks in my forthcoming book and is aimed at any leadership audience, not just publishing.
+
+**Scenario planning and strategic uncertainty.** How to make good decisions when you can't predict the future. I use practical scenario planning methods, adapted for organisations navigating technology disruption.
+
+**Digital transformation and innovation.** The broader dynamics of technology-driven change in media, publishing and content businesses&#8212;drawing on my experience of two decades of digital disruption in the industry.
+
+I'm happy to develop bespoke presentations for specific audiences and events. I can also chair panel sessions and facilitate audience discussions.
+
+## What organisers say
+
+> *"George was exceptional — knowledgeable, engaging and perfectly pitched for our audience."*
+
+> *"An excellent event, which you ran with aplomb. One of the best panels we have had."*
 
 ### Upcoming Speaking Engagements
 
-
-* 🇬🇧 18 March 2026: Keynote at [ALPSP University Press Redux Conference](https://www.alpsp.org/events/up-redux/), Liverpool 
 * 🇺🇸 28-29 April 2026: Keynote at [ECPA Leadership Summit](https://ecpaleadership.org), Chicago 
 * 🇺🇸 14-16 May 2026: Panellist at [IBPA Publishing University](https://www.publishinguniversity.org), Portland 
+* 🇵🇹 7-9 June 2026, [AAE Associations World Congress 2026](https://www.associationexecutives.org/events/associations-world-congress/agenda.html), Lagoa 
 
 ### Past Speaking Engagements
 
 #### 2026
 
+* 🇬🇧 18 March 2026: Keynote at [ALPSP University Press Redux Conference](https://www.alpsp.org/events/up-redux/), Liverpool 
 * 🇪🇸 19 February 2026: Presentation on AI and audiobook publishing, Parix Audio Day, Madrid
 * 🇬🇧 11 February 2026: Presentation on AI skills, and panellist for discussion on the AI and policy environment, at the Independent Publishers Guild Spring Conference
 
 #### 2025
 
-* 🇮🇪 14 November 2025: Keynote address on AI and publishing, [Irish Publishera Conference, Dublin](https://www.publishingireland.com/annual-irish-publishers-conference/)
+* 🇮🇪 14 November 2025: Keynote address on AI and publishing, [Irish Publishers Conference, Dublin](https://www.publishingireland.com/annual-irish-publishers-conference/)
 * 🇺🇸 30 September 2025: Panellist for [BISG Webinar on AI and ethics in the publishing industry](https://www.bisg.org/events/ai-and-ethics-in-the-book-industry-2025)
 * 🇬🇧 16 September 2025: Chairing panel on AI and GEO at the Independent Publishers Guild Autumn Conference
 * 🇬🇧 3 July 2025: Presentation at the Publishers Licensing Services conference
@@ -32,7 +50,7 @@ I am a regular keynote speaker, panellist and event chair. My experience include
 * 🇬🇧 29 March 2025: Masterclass on AI and writing for the Arvon Foundation
 * 🇪🇸 20 March 2025: Presentation on AI and publishing, Parix IA, Madrid
 * 🇬🇧 14 March 2025: Presentation on AI and publishing, Oxford International Centre for Publishing event for Chinese publishers at Robinson College, Cambridge
-* 🇬🇧 25 February 2025: Chairing a panel on AI in Publishing with Ed Newton-Rex of Fairly Trained and Will Crook of Publishers Licensing Services
+* 🇬🇧 25 February 2025: Chairing a panel on AI in Publishing at the Independent Publishers Guild Spring Conference with Ed Newton-Rex of Fairly Trained and Will Crook of Publishers Licensing Services
 * 🇨🇦 20 February 2025: Update and online Q&A on AI and publishing to Booknet Canada
 * 🇸🇪 19 February 2025: Delivering a webinar presentation on AI and publishing for the Swedish Publishers Association
 
