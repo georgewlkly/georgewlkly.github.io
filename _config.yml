@@ -8,15 +8,11 @@ title: George Walkley / Outside Context
 tagline: AI and Publishing Strategy Expert
 
 # Short bio or description (displayed in the header)
-description: Independent Consultant, NED, AI and Publishing Expert
+description: AI and Publishing Strategy Expert
 
 author:
   name: George Walkley
   url: https://www.georgewalkley.com
-
-twitter:
-  username: georgewlkly
-  card: summary_large_image
 
 social:
   name: George Walkley
@@ -34,9 +30,6 @@ social:
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: hello@outsidecontext.co.uk
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-# google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
@@ -77,10 +70,6 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   - jekyll-paginate
-
-# Disqus
-layout: default
-comments: true
 
 # Exclude these files from your production _site
 exclude:

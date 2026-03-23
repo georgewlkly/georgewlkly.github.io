@@ -2,6 +2,7 @@
 layout: post
 title: Four Scenarios for Scholarly Publishing and AI
 tags: ["Artificial Intelligence", Presentations, Publishing, Scenario Planning, Strategy]
+image: /images/scholarly-publishing-scenarios.png
 ---
 I gave the opening keynote at [the ALPSP University Press Redux conference in Liverpool](https://www.alpsp.org/events/up-redux/) earlier today, discussing how generative AI is affecting scholarly publishing. My professional background is in trade rather than scholarly publishing, so instead of focusing on the university press business model or specific AI tools, I tried to step back and look at a macro question: *what happens when AI changes both how knowledge is produced and how it is discovered*.
 

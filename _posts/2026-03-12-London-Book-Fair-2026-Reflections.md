@@ -2,6 +2,7 @@
 layout: post
 title: London Book Fair 2026 Reflections
 tags: [“Artificial Intelligence”, Publishing, Strategy]
+image: /images/lbf-reflections.png
 ---
 I’ve just had three very busy days with friends, colleagues and clients at the London Book Fair. I spent time with every company in my portfolio, and had a great discussion with [my publisher](https://practicalinspiration.com) about my forthcoming book (watch this space for more). While the show is still fresh in the mind, here are a few reflections&#8212;less a comprehensive account of the Fair than a set of personal observations, raw signals and conversations that struck me over the last few days. 
 
