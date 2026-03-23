@@ -6,8 +6,6 @@ description: "Independent AI and publishing strategy consulting. George Walkley 
 ---
 I set up my independent consulting practice, [Outside Context Ltd](https://www.georgewalkley.com/about/), in 2020, after nearly twenty-five years in the media and publishing industry, including fifteen years in senior executive roles at the Big Five trade publisher Hachette UK. Since then I have worked with more than forty clients around the world.
 
-Most of my consulting work sits at the intersection of two questions: *where is your industry going?* and *what should you do about it?* Those questions have always been difficult. The arrival of generative AI has made them urgent.
-
 ## What I do
 
 My engagements typically fall into four areas:
