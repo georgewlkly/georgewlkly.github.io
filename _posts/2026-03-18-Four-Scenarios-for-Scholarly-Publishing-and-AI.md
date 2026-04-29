@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Four Scenarios for Scholarly Publishing and AI
-tags: ["Artificial Intelligence", Presentations, Publishing, Scenario Planning, Strategy]
+tags: ["Artificial Intelligence", Conferences, Presentations, Publishing, Scenario Planning, Strategy]
 image: /images/scholarly-publishing-scenarios.png
 description: "Four scenarios for scholarly publishing and AI, exploring what happens when AI changes both how knowledge is produced and how it is discovered—and what the enduring role of a publisher might be."
 ---
