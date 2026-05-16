@@ -3,6 +3,8 @@ layout: post
 title: Context Window 1
 tags: ["Artificial Intelligence", Newsletter, Publishing, Strategy]
 ---
+This was originally published in my email newsletter. [To receive weekly updates on how AI is affecting the publishing industry, sign up here](https://www.georgewalkley.com/newsletter/). 
+
 * [Bestselling author Jodi Picoult was reported to be 'dismayed' at an AI-generated image being used to market her new book](https://www.thetimes.com/uk/technology-uk/article/jodi-picoult-suing-chatgpt-ai-by-any-other-name-shzxdbhfb), which publisher PRH attributed to an external creative agency. There's a lot to unpack here around determining the provenance of AI-generated material, managing AI use by freelancers and other third parties, and aligning author and publisher expectations. But it's hard not to think this is basically a process and communications issue rather than a technology one.
 ​
 * ​[Anthropic released a feature preview in Claude which allows users to upload data from CSV files, analyse it and visualise responses](https://www.anthropic.com/news/analysis-tool). I tested it by uploading three years of redacted financial statements and got a detailed analysis in less than a minute. I was blown away by the speed and accuracy. For me, ChatGPT turned a lot of twenty-minute jobs into two minute tasks. This has the potential to turn multi-hour jobs into ten minute quality checks. As ever, be mindful of what data you share with AI platforms, especially if you're on a free account.
