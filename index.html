@@ -8,19 +8,20 @@ layout: default
 
     <div class="posts">
 
-  {% for post in paginator.posts %}
-         <article class="post">
+{% assign all_posts = site.posts | concat: site.newsletter | sort: 'date' | reverse %}
 
-          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+{% for post in all_posts %}
+  <article>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <time>{{ post.date | date: "%B %d, %Y" }}</time>
+    {% if post.collection == 'newsletter' %}
+      <span class="badge">Newsletter</span>
+    {% endif %}
+    {{ post.excerpt }}
+  </article>
+{% endfor %}
 
-          <div class="entry">
-            {{ post.excerpt }}
-          </div>
-
-          {{ post.date | date_to_long_string }} | <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </article>
-  {% endfor %}
-
+      
 <nav>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}">Newer</a>
