@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Context Window 1
-tags: ["Artificial Intelligence", Newsletter, Publishing, Strategy]
+tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This was originally published in my email newsletter. [To receive weekly updates on how AI is affecting the publishing industry, sign up here](https://www.georgewalkley.com/newsletter/). 
 
