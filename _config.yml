@@ -87,16 +87,3 @@ defaults:
       path: ""
     values:
       image: /images/og-default.png
-
-collections:
-  newsletter:
-    output: true
-    permalink: /newsletter/:name/
-
-defaults:
-  - scope:
-      path: ""
-      type: "newsletter"
-    values:
-      layout: post
-      categories: newsletter
