@@ -1,0 +1,44 @@
+---
+layout: post
+title: Context Window 47
+tags: ["Artificial Intelligence", Newsletter, Publishing]
+---
+Another week, another flood of AI product announcements from Microsoft, Amazon, OpenAI and Anthropic. But some of this week's news feels particularly consequential: if you publish books to Kindle or have a direct-to-consumer sales strategy, read on...
+​
+[The settlement website for Bartz v. Anthropic went live, with a search feature to identify what's included][1]. For publishers and authors, checking that is now essential.
+​
+In last week's newsletter, I discussed eligibility for the settlement based on US copyright registration and date: with around half a million works eligible for the settlement out of some seven million in LibGen, there will be a lot of disappointed authors and [some are already criticising the plaintiffs and Authors Guild for their approach to the litigation][2].
+​
+[OpenAI released e-commerce functionality called Instant Checkout, working with payment provider Stripe][3]. This will allow users to make purchases from inside ChatGPT outputs. More than a third of UK consumers and more than half in the US are already using AI for product discovery. Initial partners are Etsy and Shopify—the latter in particular will make this very accessible to publishers and authors using that platform for D2C sales. A gold star and a future newsletter shout-out to the first publisher to let me know they're selling this way.
+​
+[Microsoft announced Agent Mode for Word and Excel][4]. What genuinely took me aback in this announcement is the accuracy benchmark that Microsoft published: using [the SpreadsheetBench standard][5], Agent Mode in Excel achieved a first time accuracy rate of 57.2%. Admittedly, this is a tough exam where human beings only score 71.3% (and [human spreadsheet errors are pretty legendary][6]). On more day-to-day tasks, the accuracy might improve, and Microsoft's Agent is already more accurate than any other AI model. But still, an accuracy benchmark that's barely better than a coin toss is not the greatest look. For the time being, I'm going to stick with using LLMs to write macros for task automation, as once tested, they don't rely on AI for each run and are therefore more predictable.
+​
+Meanwhile, [Microsoft is also reportedly planning to launch a content marketplace for publishers, with its Copilot model as the anchor customer][7]. It's unclear when this will roll out beyond pilot content partners, or whether other AI companies will sign up. There are also practical questions: if Copilot is both market-maker and customer, publishers will need to think carefully about the pricing and terms it offers.
+​
+[Anthropic shipped Claude Sonnet 4.5, claiming that it is the strongest model in the world for agentic and coding use][8]. The hyperbole is fairly industry standard, but from a publishing perspective, what caught my eye is strong benchmark scores in specialist domains such as medicine, finance, the law and STEM subjects, which might make this of interest for specialist publishers in those areas.
+​
+Amazon announced a slew of hardware updates this week. For AI-curious publishers, the most consequential are some of the Kindle points. The main focus of the announcement was Amazon's Kindle Scribe notebooks, but down in the detail, [it mentioned AI features working with publisher content][9]: a feature called Story So Far to give spoiler-free recaps, and one called Ask This Book which fields questions on the content. The release mentions this being supported by "thousands" of books in the US store—that the proportion is so low in a store of millions of books suggests that Amazon is taking a selective approach to features which require training on publisher content. In turn, that suggests contractual and rights discussions ahead. Fun!
+​
+I took part in [BISG's webinar on AI and Ethics in the Publishing Industry][10] earlier in the week, and really enjoyed the conversation with fellow panellist [Alayna Kennedy][11], an AI Governance researcher. Alayna highlighted [DSIT's AI Assurance Framework as a great resource for anyone thinking through AI risks and ethics][12]—for simple LLM use, this is probably overkill, but any publishers thinking of using AI on a more substantial or integrated basis could get a lot of value from this.
+​
+One of the other points that Alayna and I agreed on was the importance of using AI meaningfully and measuring impact, not just adopting the technology for the sake of it. This was beautifully summed up for those of us of a certain age by [Benedict Evans][13] in his newsletter last week: "Imagine you'd given everyone in your company 'the web' in 1997 and then looked for ROI—that would not have gone well. Start with tangible use-cases and problems to solve and work out, not cool-but-unscalable demos."
+​
+Finally, dictionary publisher [Merriam Webster put out a pitch perfect social media advert for its forthcoming "large language model"][14]. No notes.
+
+This was originally published in my email newsletter. [To receive weekly updates on how AI is affecting the publishing industry, sign up here][15]. 
+
+[1]:	https://www.anthropiccopyrightsettlement.com
+[2]:	https://bsky.app/profile/jasonsanford.bsky.social/post/3m27jha2ujs2n
+[3]:	https://openai.com/index/buy-it-in-chatgpt/
+[4]:	https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/
+[5]:	https://spreadsheetbench.github.io
+[6]:	https://www.theguardian.com/technology/2024/oct/28/microsoft-excels-bloopers-reel-40-years-of-spreadsheet-errors
+[7]:	https://www.axios.com/2025/09/23/microsoft-ai-marketplace-publishers
+[8]:	https://www.anthropic.com/news/claude-sonnet-4-5
+[9]:	https://www.aboutamazon.com/news/devices/new-amazon-kindle-scribe-color
+[10]:	https://www.bisg.org/events/ai-and-ethics-in-the-book-industry-2025
+[11]:	https://alaynakennedy.github.io
+[12]:	https://assets.publishing.service.gov.uk/media/65ccf508c96cf3000c6a37a1/Introduction_to_AI_Assurance.pdf
+[13]:	https://www.ben-evans.com
+[14]:	https://bsky.app/profile/merriam-webster.com/post/3m25bdagve22f
+[15]:	https://www.georgewalkley.com/newsletter/
