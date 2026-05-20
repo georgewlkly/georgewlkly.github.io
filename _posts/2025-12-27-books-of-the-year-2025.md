@@ -2,7 +2,6 @@
 layout: post
 title: Books of the Year 2025
 tags: [Books, Publishing]
-description: "How companies began using EBITDAC—earnings adjusted for coronavirus—as a vanity metric, and why creative accounting measures should be treated with scepticism."
 ---
 ([Originally posted on LinkedIn](https://www.linkedin.com/posts/georgewalkley_booksoftheyear-activity-7401329532156297216-3_MA?)): Every December since 2020, I've posted about my books of the year: to mark the passing of the year, as suggestions for anyone looking for holiday gifts, and to start a conversation with my network about books at a time when many of us would like to read more, but struggle to (I wouldn't have got through many of them without the option to listen as audiobooks on [xigxag](https://www.xigxag.co.uk)).
 
