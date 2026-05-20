@@ -3,7 +3,8 @@ layout: post
 title: Context Window 71
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
-I don't set out with a particular theme in mind for each week's newsletter: sometimes the things I've found in my research cluster serendipitously around a particular area, and more often there's a range of themes. As it happens, this has turned out to be Use Case Week: practical ideas from Anthropic, the BMJ, consultants Fathm, and Paul Ford. If you can't find something practical to try as a result of this week's newsletter, you can have your money back.\** 
+I don't set out with a particular theme in mind for each week's newsletter: sometimes the things I've found in my research cluster serendipitously around a particular area, and more often there's a range of themes. As it happens, this has turned out to be Use Case Week: practical ideas from Anthropic, the BMJ, consultants Fathm, and Paul Ford. If you can't find something practical to try as a result of this week's newsletter, you can have your money back.\*
+
 Starting with something super practical, [Anthropic recently updated its use cases for Claude, each one a simple tutorial for using the model for a particular task][1]. For example, this week, I found this really useful for [creating branding guidelines and assets][2]. Most of the prompts given are transferable to other LLMs with a little experimentation, and I would be surprised if you didn't find at least one that is immediately useful.
 
 [Anthropic also released a new managed service for developing agents, being used by enterprise customers such as Notion and Kobo parent company Rakuten][3]. It's priced at $0.08 per hour over normal token costs. It will be most relevant to other large corporations, but that includes quite a lot of you. And with this pace of activity and enterprise-friendly features, one can understand why OpenAI is worried about Anthropic taking share of corporate customers.
