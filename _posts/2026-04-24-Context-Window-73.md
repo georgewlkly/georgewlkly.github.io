@@ -3,7 +3,8 @@ layout: post
 title: Context Window 73
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
-It's been a big couple of weeks for AI image generation and design tools: with major updates from Canva, Google and Anthropic, users are spoiled for choice. The new tools speak to a trend I'm increasingly seeing—and write about below: the baseline for AI use is shifting from competent prompting to confidently delegating to agents. The exam question for publishers is getting used to managing systems of agents rather than using individual tools.* 
+It's been a big couple of weeks for AI image generation and design tools: with major updates from Canva, Google and Anthropic, users are spoiled for choice. The new tools speak to a trend I'm increasingly seeing—and write about below: the baseline for AI use is shifting from competent prompting to confidently delegating to agents. The exam question for publishers is getting used to managing systems of agents rather than using individual tools.
+
 [Google's AI small business marketing tool Pomelli is now available to customers in the UK and Europe][1]. It reads your website, produces a brand kit grounded in your existing content, and then suggests social media campaigns and product images. I've been playing with it for a couple of days and it's an impressive tool for smaller publishers without creative agency support.
 
 It's important to stress that Pomelli is an experimental, Google Labs project, a category of product that hasn't always been known for longevity. [For a more fully-featured approach, Canva just announced a major upgrade to its AI functionality][2], including iterative, prompt-based design and layered object intelligence—effectively being able to take just one part of a flat image and edit it.
