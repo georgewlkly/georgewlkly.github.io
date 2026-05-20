@@ -3,7 +3,8 @@ layout: post
 title: Context Window 76
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
-Greetings from Portland, where I'm writing this on the Thursday of IBPA Publishing University—or, as my body clock is telling me, about 04:30 London time on Friday... It's been a long day, but lots of good conversations with publishers have helped to sharpen my thoughts on this week's news.* 
+Greetings from Portland, where I'm writing this on the Thursday of IBPA Publishing University—or, as my body clock is telling me, about 04:30 London time on Friday... It's been a long day, but lots of good conversations with publishers have helped to sharpen my thoughts on this week's news.
+
 The long-awaited Fairness Hearing on the Bartz v. Anthropic settlement was held this afternoon, and a ruling is expected imminently. [The Authors Alliance has a good instant analysis of things, particularly the various objections that were raised around particular types of book and author being excluded from the proposed settlement][1]. This may matter as much as a learning point for future litigation as for the case in hand.
 
 [The Authors Guild published an update to its guidelines on AI usage][2]: the result is a mixture of good sense, practical advice for authors and campaigning rhetoric—it's unsurprising to see LLM training described as theft, for example, though I wonder whether authors could be better served by explaining the Fair Use argument even if one might disagree with it.
