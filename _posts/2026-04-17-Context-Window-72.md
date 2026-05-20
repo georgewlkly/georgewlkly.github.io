@@ -3,7 +3,7 @@ layout: post
 title: Context Window 72
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
-A slightly shorter newsletter than last time as it's been a particularly busy week: several days of travel, and submitting the manuscript of my book to my publisher. More on that soon, but first, some perspectives on AI impact—
+A slightly shorter newsletter than last time as it's been a particularly busy week: several days of travel, and submitting the manuscript of my book to my publisher. More on that soon, but first, some perspectives on AI impact.
 
 AI provokes strong reactions: many individual publishers I speak to, and some organisations, raise serious concerns about its environmental, social and economic impact. [But research published this week goes further: nearly thirty percent of workers surveyed admitted to sabotaging their company's AI strategy—refusing to use tools, ignoring policy, even deliberately uploading company documents to insecure AI models][1].
 
