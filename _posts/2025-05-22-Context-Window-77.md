@@ -1,0 +1,32 @@
+---
+layout: post
+title: Context Window 77
+tags: ["Artificial Intelligence", Newsletter, Publishing]
+---
+It's been a week of jet lag, catch-up and presentations, with a workshop, a webinar for PW and my friends at Westchester Publishing Services, and the IPG Summer Summit. Before I shut down for the bank holiday weekend in the UK, some updates on what happened in AI and publishing this week:
+
+​Google I/O, Google’s annual developer conference, made clear that AI is moving further and faster into search, shopping, creation, productivity and the operating system layer: [the official summary lists over 100 announcements](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/).
+​
+For publishers, the concern is not just better tools, but a further shift of discovery, summarisation and customer relationships into Google-controlled interfaces. The exam question is whether your content, metadata and brand are ready to be found, cited and trusted inside AI-mediated customer journeys.
+​
+If you only follow one link this week: [Google also published updated guidelines for SEO, GEO and optimising for AI features in Google Search. This confirms a lot of existing good practice, but there's also a particularly good myth-busting section that addresses some of the snake oil on offer](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide). This is a must-read for anyone concerned about discovery, which should be all of you.
+​
+For context, [this is the single best piece I've seen on how the discovery landscape is shifting online, and its conclusion is that every brand needs to become a publisher](https://www.thestateofbrand.com/news/ai-search-brand-manifesto). The corollary for publishing brands is that they may need to become a different type of publisher.
+​
+As a case study of how one publisher is responding, [Digiday has a good analysis of The Economist's strategy for AI: placing machine-readable versions of its content outside its paywall for AI agents, and human-optimised versions behind a subscription](https://digiday.com/media/the-economist-prepares-for-a-two-track-internet-one-for-humans-and-one-for-ai-agents/). I also really liked the elevator pitch for their approach&#8212;*AI as infrastructure, not authorship*.
+​
+​[There's a great profile of Amazon CEO Andy Jassy by Brad Stone, Jeff Bezos's biographer](https://www.bloomberg.com/features/2026-andy-jassy-amazon-ai/). It is, as you might expect, lively. Amazon, for example, is described as "a corporate turducken: an advertising business and logistics company stuffed inside an e-commerce marketplace, trussed to a cloud computing powerhouse, and garnished with Alexa, Whole Foods Market and Prime Video." But vivid prose aside, it gives a really useful insight into what your (almost certainly) biggest customer is thinking about AI.
+​
+​[I wrote a short piece inspired by conversations at the IBPA convention last week and discussions with a couple of smart people building personal workflows, on how to build AI systems that survive platform risks like model availability, performance and cost](https://www.georgewalkley.com/building-AI-workflows-that-survive-platform-risk/).
+​
+It has been quite a week for authenticity in publishing. [A winner of the Commonwealth short story prize was alleged to have used AI to write it](https://www.theguardian.com/books/2026/may/19/commonwealth-short-story-prize-winner-doubts-ai-artificial-intelligence). [A hyped book on AI, media and the truth was shown to contain hallucinated quotes](https://www.nytimes.com/2026/05/19/business/media/future-of-truth-ai-quotes.html). [And Nobel laureate Olga Tokarczuk was accused of admitting to using AI in her writing](https://lithub.com/nobel-laureate-olga-tokarczuk-apparently-used-ai-to-write-her-latest-novel/)&#8212;though [a subsequent statement from the author suggests to me that the controversy was lost in translation](https://lithub.com/olga-tokarczuk-has-responded-to-the-controversy-over-her-reputed-use-of-ai/).
+​
+It is tempting to see these as part of the same phenomenon, but they are actually three very different cases: a potentially deceptive use of AI, an apparently careless one, and a reasonable use of AI blown out of proportion online because for some people, any mention of the technology is enough to rush to judgement. The response needs to be calibrated to the problem, and [it's worth remembering that the main thing that much AI detection software offers is misplaced certainty](​https://jamescosullivan.substack.com/p/the-ai-detection-delusion).
+​
+Related to this, [OpenAI announced that it will support Google's SynthID watermarking for images, alongside increased support for C2PA metadata](https://www.theverge.com/ai-artificial-intelligence/933442/openai-synthid-content-credentials-c2pa-expansion). Useful to publishers looking to verify the provenance of images, but this doesn't apply to text.
+​
+The examples above are from trade publishing, [but in academic publishing the preprint platform arXiv has implemented a one-strike policy: anyone submitting a paper where there is evidence that the authors failed to check AI-generated material for inaccuracies will be banned for a year, after which they will need to have a paper accepted by a peer-reviewed journal before they will be welcomed back](https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/). This is a blunt but effective solution because academic writing is tied to the researcher's identity: a trade equivalent would fall at the first pseudonymous submission.
+​
+À propos of the Olga Tokarczuk controversy, [Naomi Alderman made an obvious but useful observation about AI: stupid people use it stupidly, and intelligent people use it intelligently](https://bsky.app/profile/naomialderman.bsky.social/post/3mma5wr3u2k2q). You can judge which you think applies in this case, but [I found this Bloomberg piece with a dozen leaders recommending the AI productivity hacks they rely on very useful](https://www.bloomberg.com/news/articles/2026-05-12/top-ai-productivity-hacks-from-12-ceos-and-business-leaders).
+
+Finally, [if you're using AI regularly but might be a little shaky on how it actually works, an engineer built this free interactive course to explain the subject to his 11-year-old son, and it's really excellent](https://learnai.robennals.org/introduction).
