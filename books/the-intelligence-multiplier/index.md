@@ -39,7 +39,6 @@ redirect_from:
 }
 .region-label {
   font-family: "Playfair Display", serif;
-  font-weight: bold;
   margin-right: 0.25em;
 }
 .preorder-region a {
