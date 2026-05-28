@@ -38,6 +38,7 @@ redirect_from:
   font-size: 15px;
 }
 .region-label {
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   margin-right: 0.25em;
 }
