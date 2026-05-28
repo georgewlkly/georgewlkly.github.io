@@ -62,7 +62,7 @@ redirect_from:
 
 <div class="preorder">
   <h3>Pre-order</h3>
-  <p class="preorder-direct"><a href="#">Order directly from the author</a></p>
+  <p class="preorder-direct"><a href="#">Order directly with exclusive bonus content, bulk pricing and speaking packages</a></p>
   <div class="preorder-regions">
     <div class="preorder-region">
       <span class="region-label">UK:</span> <a href="https://amzn.to/4uxINA5">Amazon</a> · <a href="https://www.waterstones.com/book/the-intelligence-multiplier/george-walkley/9781805760511">Waterstones</a>
