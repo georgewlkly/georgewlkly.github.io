@@ -25,27 +25,25 @@ redirect_from:
   margin-top: 0;
   font-size: 18px;
 }
+.preorder-direct {
+  margin: 0 0 0.75em;
+  font-size: 15px;
+}
 .preorder-regions {
   display: flex;
   gap: 2em;
 }
 .preorder-region {
   flex: 1;
-}
-.preorder-region h4 {
-  margin: 0 0 0.4em;
   font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+}
+.region-label {
+  font-weight: bold;
+  margin-right: 0.25em;
+}
+.preorder-region a + a::before {
+  content: " · ";
   color: #666;
-}
-.preorder-region ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.preorder-region ul li {
-  margin-bottom: 0.3em;
 }
 @media screen and (max-width: 640px) {
   .book-cover {
@@ -56,7 +54,7 @@ redirect_from:
   }
   .preorder-regions {
     flex-direction: column;
-    gap: 1em;
+    gap: 0.5em;
   }
 }
 </style>
@@ -65,25 +63,20 @@ redirect_from:
 
 <div class="preorder">
   <h3>Pre-order</h3>
+  <p class="preorder-direct"><a href="#">Order directly from the author</a></p>
   <div class="preorder-regions">
     <div class="preorder-region">
-      <h4>UK</h4>
-      <ul>
-        <li><a href="#">Amazon</a></li>
-        <li><a href="#">Waterstones</a></li>
-        <li><a href="#">Bookshop.org</a></li>
-      </ul>
+      <span class="region-label">UK:</span><a href="#">Amazon</a><a href="#">Waterstones</a><a href="#">Bookshop.org</a>
     </div>
     <div class="preorder-region">
-      <h4>US</h4>
-      <ul>
-        <li><a href="#">Amazon</a></li>
-        <li><a href="#">Barnes &amp; Noble</a></li>
-        <li><a href="#">Bookshop.org</a></li>
-      </ul>
+      <span class="region-label">US:</span><a href="#">Amazon</a><a href="#">Barnes &amp; Noble</a><a href="#">Bookshop.org</a>
     </div>
   </div>
 </div>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<div style="clear: both;"></div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
