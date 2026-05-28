@@ -68,17 +68,15 @@ redirect_from:
     <div class="preorder-region">
       <h4>UK</h4>
       <ul>
-        <li><a href="#">Amazon</a></li>
-        <li><a href="#">Waterstones</a></li>
-        <li><a href="#">Bookshop.org</a></li>
+        <li><a href="https://amzn.to/4uxINA5">Amazon</a></li>
+        <li><a href="https://www.waterstones.com/book/the-intelligence-multiplier/george-walkley/9781805760511">Waterstones</a></li>
       </ul>
     </div>
     <div class="preorder-region">
       <h4>US</h4>
       <ul>
-        <li><a href="#">Amazon</a></li>
-        <li><a href="#">Barnes &amp; Noble</a></li>
-        <li><a href="#">Bookshop.org</a></li>
+        <li><a href="https://www.amazon.com/Intelligence-Multiplier-leaders-decisions-strategy/dp/1805760513/">Amazon.com</a></li>
+        <li><a href="https://www.barnesandnoble.com/w/the-intelligence-multiplier-george-walkley/1149781044?ean=9781805760511">Barnes &amp; Noble</a></li>
       </ul>
     </div>
   </div>
