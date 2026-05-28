@@ -25,24 +25,27 @@ redirect_from:
   margin-top: 0;
   font-size: 18px;
 }
-.preorder-direct {
-  margin: 0 0 0.75em;
-  font-size: 15px;
-}
 .preorder-regions {
   display: flex;
   gap: 2em;
 }
 .preorder-region {
   flex: 1;
+}
+.preorder-region h4 {
+  margin: 0 0 0.4em;
   font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #666;
 }
-.region-label {
-  font-family: "Playfair Display", serif;
-  margin-right: 0.25em;
+.preorder-region ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.preorder-region a {
-  display: inline;
+.preorder-region ul li {
+  margin-bottom: 0.3em;
 }
 @media screen and (max-width: 640px) {
   .book-cover {
@@ -53,7 +56,7 @@ redirect_from:
   }
   .preorder-regions {
     flex-direction: column;
-    gap: 0.5em;
+    gap: 1em;
   }
 }
 </style>
@@ -62,7 +65,7 @@ redirect_from:
 
 <div class="preorder">
   <h3>Pre-order</h3>
-  <p class="preorder-direct"><a href="#">Order directly with exclusive bonus content, bulk pricing and speaking packages</a></p>
+  <p class="preorder-direct"></p>
   <div class="preorder-regions">
     <div class="preorder-region">
       <span class="region-label">UK:</span> <a href="https://amzn.to/4uxINA5">Amazon</a> · <a href="https://www.waterstones.com/book/the-intelligence-multiplier/george-walkley/9781805760511">Waterstones</a>
