@@ -8,3 +8,4 @@ redirect_from:
   - /books/
   - /books/the-intelligence-multiplier
 ---
+![Book cover for The Intelligence Multiplier, by George Walkley](/images/intelligence-multiplier.jpg)
