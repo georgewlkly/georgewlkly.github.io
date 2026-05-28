@@ -67,15 +67,23 @@ redirect_from:
   <p class="preorder-direct"><a href="#">Order directly from the author</a></p>
   <div class="preorder-regions">
     <div class="preorder-region">
-      <span class="region-label">UK:</span><a href="#">Amazon</a><a href="#">Waterstones</a><a href="#">Bookshop.org</a>
+      <h4>UK</h4>
+      <ul>
+        <li><a href="https://amzn.to/4uxINA5">Amazon</a></li>
+        <li><a href="https://www.waterstones.com/book/the-intelligence-multiplier/george-walkley/9781805760511">Waterstones</a></li>
+      </ul>
     </div>
     <div class="preorder-region">
-      <span class="region-label">US:</span><a href="#">Amazon</a><a href="#">Barnes &amp; Noble</a><a href="#">Bookshop.org</a>
+      <h4>US</h4>
+      <ul>
+        <li><a href="https://www.amazon.com/Intelligence-Multiplier-leaders-decisions-strategy/dp/1805760513/">Amazon.com</a></li>
+        <li><a href="https://www.barnesandnoble.com/w/the-intelligence-multiplier-george-walkley/1149781044?ean=9781805760511">Barnes &amp; Noble</a></li>
+      </ul>
     </div>
   </div>
 </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Strategy has never mattered more&#8212;and never felt harder to get right. If you're responsible for the direction of your organisation, you already know the feeling: more data than ever, faster-moving markets than ever, and a planning process that was designed for a world that no longer exists. You're not failing at strategy. You're using the wrong tools for the conditions you're actually in. The Intelligence Multiplier cuts through the noise to give leaders a practical, grounded framework for using AI where it genuinely helps&#8212;in research, analysis, and option generation&#8212;while keeping human judgment where it belongs: in the decisions that matter. Readers who apply this framework don't just work more efficiently. They develop the strategic instincts, habits, and confidence to lead in conditions that would have overwhelmed the planning methods of a decade ago. This is how leaders stop managing complexity and start outthinking it.
 
 <div style="clear: both;"></div>
 
