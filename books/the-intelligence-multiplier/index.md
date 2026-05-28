@@ -19,6 +19,7 @@ redirect_from:
   border-radius: 4px;
   padding: 1em 1.25em;
   margin-bottom: 1.5em;
+  overflow: hidden;
 }
 .preorder h3 {
   margin-top: 0;
