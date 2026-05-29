@@ -3,7 +3,8 @@ layout: post
 title: Context Window 67
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
-I'm catching up after three intense days at London Book Fair. That intensity has been mirrored in the AI world, with a slew of copyright and licensing developments, some new practical tools for publishers, and catastrophically misjudged AI developments at Grammarly, Amazon and McKinsey.* 
+I'm catching up after three intense days at London Book Fair. That intensity has been mirrored in the AI world, with a slew of copyright and licensing developments, some new practical tools for publishers, and catastrophically misjudged AI developments at Grammarly, Amazon and McKinsey.
+
 [I wrote up my reflections from LBF here, including some thoughts on AI at the Fair: more businesslike, but unevenly distributed][1]. What struck me most was the gap between the publishers talking about it abstractly and the people using it fluently.
 
 It was a big week for copyright and AI, building towards the UK government's next update on the topic, due by 18 March—[though apparently well-informed reporting suggests that the government intends to kick the problem down the road][2]. A delay buys time politically, but it prolongs uncertainty for rights holders and AI companies alike.

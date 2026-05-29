@@ -3,7 +3,8 @@ layout: post
 title: Context Window 68
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
-It's been a busy week, with significant developments in copyright policy and a steady drumbeat of new research and product launches. The key question posed by new research linked to below has stayed with me: for the right task, AI brings real benefits, but how do we determine what the right task is?* 
+It's been a busy week, with significant developments in copyright policy and a steady drumbeat of new research and product launches. The key question posed by new research linked to below has stayed with me: for the right task, AI brings real benefits, but how do we determine what the right task is?
+
 [I gave the morning keynote at the ALPSP University Press Redux conference in Liverpool on Wednesday, talking about the impact of AI on scholarly publishing][1]. It was one of the best conferences I've attended in a long time, with particularly good follow-up discussions in the breaks afterwards. [My slides are available here][2].
 
 For UK readers, [the big news this week was the publication of the government's update and economic impact assessment on AI and copyright][3]. Last year, [only 3% of respondents][4] to the consultation on the issue backed the government's preferred position of a broad copyright exception for AI training with rights holder opt-outs, following a significant lobbying campaign by authors and the wider creative industries. As a result, the government no longer has a preferred option and will consult further.

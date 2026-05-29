@@ -3,7 +3,8 @@ layout: post
 title: Context Window 70
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
-I'm sending this week's newsletter a day early, as Friday and Monday are public holidays here in the UK—judging by the out-of-office messages I've seen this morning, it looks as though a lot of publishing has already checked out for the long weekend. But if you're still at your desk, some reading matter to take you into the Easter holiday: there's a lot going on, and a surprising number of strategy signals in this week's news.* 
+I'm sending this week's newsletter a day early, as Friday and Monday are public holidays here in the UK—judging by the out-of-office messages I've seen this morning, it looks as though a lot of publishing has already checked out for the long weekend. But if you're still at your desk, some reading matter to take you into the Easter holiday: there's a lot going on, and a surprising number of strategy signals in this week's news.
+
 [The latest copyright lawsuit to be filed is a fascinating one: Penguin Random House is suing OpenAI in a German court for copyright infringement][1]. The biggest trade publisher in the world taking that step is notable in its own right, but [the interesting aspect is that PRH is, via parent Bertelsmann's strategic partnership, an OpenAI user as well][2].
 
 This points to one of two things: either another OpenAI media partnership unwinding, or a publisher taking a pragmatic enough view to use the product set while simultaneously litigating against its developer. Maybe *Coopfrontation* should be the title of my airport business book.

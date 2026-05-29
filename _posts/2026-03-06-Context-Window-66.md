@@ -3,7 +3,8 @@ layout: post
 title: Context Window 66
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
-It has been a week in which AI moved decisively out of product demos and into politics, newsrooms, courts, and war. Across very different domains, the same underlying tensions keep surfacing: control, accountability, and whether speed is crowding out judgement.* 
+It has been a week in which AI moved decisively out of product demos and into politics, newsrooms, courts, and war. Across very different domains, the same underlying tensions keep surfacing: control, accountability, and whether speed is crowding out judgement.
+
 The outbreak of war in the Middle East is uncomfortable territory but impossible to ignore. The relevance to this newsletter is that arguments about the role of AI in those military operations led to a very public break-up between Anthropic and the Pentagon, OpenAI stepping into the gap, a consumer backlash with 1.5 million users leaving ChatGPT (importantly, it isn't clear what proportion of that number is paying users) and [Claude hitting number one on Apple's App Store chart][1].
 
 Sitting behind this is a quiet but consequential move by Anthropic: [building an import function to bring memory, preferences and context into Claude from other AI models][2]. All of the major models have decent export options, but I think this is the first explicit import option I've seen. Data portability underpins consumer choice and experimentation.

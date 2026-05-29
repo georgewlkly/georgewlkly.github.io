@@ -3,7 +3,8 @@ layout: post
 title: Context Window 64
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
-In recent months there has been a discernible shift in AI*—*and the pieces I feature*—*away from simple chatbots to agentic tools like OpenAI's Codex and Claude Code. My smartest friends have moved from using AI for five or ten-minute microefficiencies to delegating complex coding or research tasks measured in hours. Chatbots will still have their place, but the rise of AI agents and big themes around trust dominate my thinking this week.* 
+In recent months there has been a discernible shift in AI*—*and the pieces I feature*—*away from simple chatbots to agentic tools like OpenAI's Codex and Claude Code. My smartest friends have moved from using AI for five or ten-minute microefficiencies to delegating complex coding or research tasks measured in hours. Chatbots will still have their place, but the rise of AI agents and big themes around trust dominate my thinking this week.
+
 I've been in Madrid this week for [Parix Audio Day][1], where I gave a keynote address on the impact of AI on audiobook publishing, including content creation, narration and the competitive dynamics that arise when audiobook production and distribution are bound up in the same big tech platforms. [My slides from the day are available on my website][2].
 
 [Andrew Savikas (who OG digital publishers will remember from O'Reilly's Tools of Change for Publishing conferences) wrote a great piece on determining the future of knowledge work by watching how developers use AI agents][3]. It resonated with a lot of my recent experience and thinking.

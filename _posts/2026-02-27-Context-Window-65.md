@@ -3,7 +3,8 @@ layout: post
 title: Context Window 65
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
-A slightly shorter—and later—newsletter than normal, as I've been on the road this week (six webinars and courses in four days—welcome to new subscribers from those events). I started the week needing a productivity boost, and Google provided one...* 
+A slightly shorter—and later—newsletter than normal, as I've been on the road this week (six webinars and courses in four days—welcome to new subscribers from those events). I started the week needing a productivity boost, and Google provided one...
+
 [Google is rolling out its Workspace Studio agent builder to business customers][1]. It allows users to create AI agents that work with Google Mail, Calendar and Documents by describing a desired output to Gemini, or by tweaking one of the existing templates. For example, I built a reporting workflow to send out regular emails when a new file is saved to a folder in Google Drive—a couple of hours of monthly time-saving for a twenty-minute investment of time 
 
 If you use Google services, [experimenting with this is a must-do][2]. (There is [also a Copilot equivalent if you are a Microsoft shop][3]).

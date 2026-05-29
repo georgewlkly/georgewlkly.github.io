@@ -3,7 +3,8 @@ layout: post
 title: Context Window 69
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
-For authors, publishers and technology companies, it's been a week that challenges the old axiom that there's no such thing as bad publicity. The practical uses highlighted in the rest of this week's newsletter need to be balanced against good strategy and judgement.* 
+For authors, publishers and technology companies, it's been a week that challenges the old axiom that there's no such thing as bad publicity. The practical uses highlighted in the rest of this week's newsletter need to be balanced against good strategy and judgement.
+
 [The news this week has been dominated by Hachette's withdrawal of a hyped book after a New York Times piece questioned whether AI had been used in the writing process][1]. This is a minefield for authors and publishers, and the more I read about it, the less comfortable I am.
 
 There is a key point missing from the Times coverage which appeared elsewhere this week: [evidence that particular types of prose, and writing from neurodiverse authors or those working in a second language, are more likely to be flagged or challenged by AI models][2]. I'm not suggesting that was a factor in the Mia Ballard case. But I would be interested to know how AI detection companies respond to that concern. (I've asked that question of one of the leading companies, and I'll update if and when they reply). However, *if* this is a possible factor, then anyone levelling accusations or taking action based on detection software needs to be alert to the potential for uneven or discriminatory harm.
