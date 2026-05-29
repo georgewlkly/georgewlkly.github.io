@@ -26,7 +26,7 @@ redirect_from:
 
 <img src="/images/intelligence-multiplier.jpg" alt="Book cover for The Intelligence Multiplier, by George Walkley" class="book-cover">
 
-<h2>Preorder now&#8212;published December 2026</h3>
+<h2>Preorder now&#8212;published December 2026</h2>
 
 <ul>
     <li><a href="https://amzn.to/4x4buGD">Amazon.co.uk</a></li>
