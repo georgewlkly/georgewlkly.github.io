@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EBITDAC
+title: AI and Hollywood Accounting
 tags: ["Artificial Intelligence", Publishing Strategy]
 description: "How companies began using EBITDAC—earnings adjusted for coronavirus—as a vanity metric, and why creative accounting measures should be treated with scepticism."
 ---
