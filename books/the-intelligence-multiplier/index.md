@@ -40,7 +40,13 @@ Michael Bhaskar, Microsoft AI Futures and co-author of the New York Times bestse
 
 Strategy has never mattered more&#8212;and never felt harder to get right. If you're responsible for the direction of your organisation, you already know the feeling: more data than ever, faster-moving markets than ever, and a planning process that was designed for a world that no longer exists. You're not failing at strategy. You're using the wrong tools for the conditions you're actually in. *The Intelligence Multiplier* cuts through the noise to give leaders a practical, grounded framework for using AI where it genuinely helps&#8212;in research, analysis, and option generation&#8212;while keeping human judgment where it belongs: in the decisions that matter. Readers who apply this framework don't just work more efficiently. They develop the strategic instincts, habits, and confidence to lead in conditions that would have overwhelmed the planning methods of a decade ago. This is how leaders stop managing complexity and start outthinking it.
 
-*“Wise, practical and refreshingly free of hype. This is the AI book to recommend to colleagues, because it respects their judgement rather than promising to replace it.”*
+*"Wise, practical and refreshingly free of hype. This is the AI book to recommend to colleagues, because it respects their judgement rather than promising to replace it."*
 John Bond, Executive Chair, Whitefox
+
+*“Reading The Intelligence Multiplier was a powerful reminder that strategy is fundamentally about difficult trade-offs, and such decisions, despite promises of AI making life easier for executives, remain essentially human. The book shows how AI can accelerate work across the strategy stack, but implementation still requires leaders to inspire change. Strategy and strategic thinking are becoming harder in a world filled with noise and hype, but Walkley has created an excellent and practical guide for how to blend the best of human and machine capabilities to make wiser long-term choices."*
+Athena Peppes, Director at Beacon Thought Leadership, Head of AI Research at BossUp.AI and author of *AI-Q: The new leadership imperative for the Human+AI era*
+
+*"Any leader responsible for strategy should read this book. Walkley shows how to bring AI in as an indispensable member of your strategy team. Capable, fast, and fallible while keeping the decisions that matter firmly in human hands. The result is a practical guide to making strategy the continuous, dynamic discipline today's world demands."*
+James Lascelles, Author and Cofounder of Brilliant Working
 
 <div style="clear: both;"></div>
