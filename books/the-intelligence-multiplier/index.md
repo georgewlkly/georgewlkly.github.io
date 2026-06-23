@@ -35,6 +35,12 @@ redirect_from:
     <li><a href="https://www.waterstones.com/book/the-intelligence-multiplier/george-walkley/9781805760511">Waterstones</a></li>
 </ul>
 
+*"The modern business landscape is defined by extraordinary volatility and uncertainty. AI is at the heart of this turbulence and it's upending all the traditional, linear assumptions of strategic planning. It's time for a new approach. George Walkley argues that by treating AI as a collaborative thinking partner&#8212;not a replacement for thinking&#8212;we can make better decisions, navigate this new world and make the most of AI at the same time. This is a brilliant framework for strategy in the age of AI."*
+Michael Bhaskar, Microsoft AI Futures and co-author of the New York Times bestselling *The Coming Wave*
+
 Strategy has never mattered more&#8212;and never felt harder to get right. If you're responsible for the direction of your organisation, you already know the feeling: more data than ever, faster-moving markets than ever, and a planning process that was designed for a world that no longer exists. You're not failing at strategy. You're using the wrong tools for the conditions you're actually in. *The Intelligence Multiplier* cuts through the noise to give leaders a practical, grounded framework for using AI where it genuinely helps&#8212;in research, analysis, and option generation&#8212;while keeping human judgment where it belongs: in the decisions that matter. Readers who apply this framework don't just work more efficiently. They develop the strategic instincts, habits, and confidence to lead in conditions that would have overwhelmed the planning methods of a decade ago. This is how leaders stop managing complexity and start outthinking it.
+
+*“Wise, practical and refreshingly free of hype. This is the AI book to recommend to colleagues, because it respects their judgement rather than promising to replace it.”*
+John Bond, Executive Chair, Whitefox
 
 <div style="clear: both;"></div>
