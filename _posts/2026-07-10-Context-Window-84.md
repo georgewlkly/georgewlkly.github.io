@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Context Window 84
-tags: ["Artificial Intelligence", Newsletter, Publishing]()
+tags: "Artificial Intelligence", Newsletter, Publishing
 ---
 It's been a long, hot week on the road, seeing publishers in Dublin, Cambridge and London. Lots of the conversations were about choosing platforms: a timely question as models get better, but also become more complex to configure, integrate and use well. This week's stories pick up that theme: agents are improving, switching costs are rising, and companies need to measure the impact...
 
