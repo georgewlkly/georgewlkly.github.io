@@ -77,7 +77,7 @@ signup:
 category_labels:
   newsletter:
     singular: Newsletter
-    plural: Newsletter
+    plural: Newsletters
   post:
     singular: Post
     plural: Posts
@@ -86,16 +86,15 @@ home:
   # Spec §10 lists final hero copy as George's to confirm. These are the spec's
   # own draft strings. Inline HTML is allowed here (index.html is not markdown).
   hero_statement: >-
-    Helping publishers and media businesses put AI to work — strategically,
-    practically, and on their own terms.
+    Helping publishers and media businesses make strategy and put AI to work, on their own terms.
   hero_support: >-
-    Consultant, trainer and speaker. Author of <em>The Intelligence
+    Non-executive director, consultant, trainer and speaker. Author of <em>The Intelligence
     Multiplier</em>. Writer of <em>Context Window</em>, a weekly briefing on AI
     in media and publishing.
   # Leave empty to render a neutral placeholder at the wireframe's 3:3.6 ratio.
   # Set to e.g. /images/portrait.jpg once the graded photograph exists.
-  portrait: ""
-  portrait_alt: "George Walkley speaking at a conference"
+  portrait: "/images/portrait.jpg"
+  portrait_alt: "George Walkley"
   writing_head: Recent writing
   writing_more: All writing →
   # PROPOSED heading — spec §6.1 specifies the three cards but names no heading.
@@ -114,8 +113,8 @@ book:
   # PROPOSED pitch, condensed from the book page's own copy to the one-to-two
   # lines spec §6.1 asks for.
   pitch: >-
-    A practical, grounded framework for using AI where it genuinely helps — in
-    research, analysis and option generation — while keeping human judgement
+    A practical, grounded framework for using AI where it genuinely helps strategy&#8212;in
+    research, analysis and option generation&#8212;while keeping human judgement
     where it belongs.
   cta: Pre-order →
 
