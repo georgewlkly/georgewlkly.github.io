@@ -1,0 +1,48 @@
+# Book endorsements — design-spec.md §6.3.
+# One entry may set `lead: true` (exactly one) to render full-width above the
+# grid. The book page handles 2-8 entries without template change.
+# Quotes and attributions carried over verbatim from the previous book page.
+
+- lead: true
+  quote: >-
+    The modern business landscape is defined by extraordinary volatility and
+    uncertainty. AI is at the heart of this turbulence and it's upending all the
+    traditional, linear assumptions of strategic planning. It's time for a new
+    approach. George Walkley argues that by treating AI as a collaborative
+    thinking partner — not a replacement for thinking — we can make better
+    decisions, navigate this new world and make the most of AI at the same time.
+    This is a brilliant framework for strategy in the age of AI.
+  name: Michael Bhaskar
+  role: Microsoft AI Futures
+  org: co-author of the New York Times bestselling The Coming Wave
+
+- quote: >-
+    Wise, practical and refreshingly free of hype. This is the AI book to
+    recommend to colleagues, because it respects their judgement rather than
+    promising to replace it.
+  name: John Bond
+  role: Executive Chair
+  org: Whitefox
+
+- quote: >-
+    Reading The Intelligence Multiplier was a powerful reminder that strategy is
+    fundamentally about difficult trade-offs, and such decisions, despite
+    promises of AI making life easier for executives, remain essentially human.
+    The book shows how AI can accelerate work across the strategy stack, but
+    implementation still requires leaders to inspire change. Strategy and
+    strategic thinking are becoming harder in a world filled with noise and hype,
+    but Walkley has created an excellent and practical guide for how to blend the
+    best of human and machine capabilities to make wiser long-term choices.
+  name: Athena Peppes
+  role: Director at Beacon Thought Leadership, Head of AI Research at BossUp.AI
+  org: "author of AI-Q: The new leadership imperative for the Human+AI era"
+
+- quote: >-
+    Any leader responsible for strategy should read this book. Walkley shows how
+    to bring AI in as an indispensable member of your strategy team. Capable,
+    fast, and fallible while keeping the decisions that matter firmly in human
+    hands. The result is a practical guide to making strategy the continuous,
+    dynamic discipline today's world demands.
+  name: James Lascelles
+  role: Author and Cofounder
+  org: Brilliant Working

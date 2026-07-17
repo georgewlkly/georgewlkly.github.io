@@ -2,11 +2,32 @@
 layout: default
 ---
 
-<article class="page">
+{% comment %}
+  Static landing template — design-spec.md §6.2.
 
-  <h1>{{ page.title }}</h1>
+  This applies the new typographic skeleton (Playfair page statement + prose
+  block at the reading measure) to About, Consulting, Speaking, Training and
+  Newsletter, preserving each page's existing copy.
 
-  <div class="entry">
-    {{ content }}
+  The fuller §6.2 structure — pulling a credibility strip out into its own tinted
+  band, and a dedicated contact/signup CTA per page — reshapes content and is
+  therefore a proposal for George's review (plan stage 6), not a silent rewrite.
+  A page can opt into the CTA below with `signup_cta: true` in its front matter;
+  the credibility strip is left for the content pass.
+{% endcomment %}
+
+<article class="gw-page">
+  <div class="gw-container gw-measure">
+    <h1 class="gw-page-title">{{ page.title }}</h1>
+
+    <div class="gw-prose">
+      {{ content }}
+    </div>
   </div>
+
+  {% if page.signup_cta %}
+    <div class="gw-container gw-measure gw-page__cta">
+      {% include signup-card.html placement="newsletter" %}
+    </div>
+  {% endif %}
 </article>

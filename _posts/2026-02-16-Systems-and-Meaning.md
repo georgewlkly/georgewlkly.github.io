@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Systems and Meaning
+category: post
 tags: ["Artificial Intelligence", Publishing]
 description: "Why publishing's instinctive caution about generative AI coexists with an unusual structural advantage: an industry built on language may be uniquely equipped to work with models that run on it."
 ---

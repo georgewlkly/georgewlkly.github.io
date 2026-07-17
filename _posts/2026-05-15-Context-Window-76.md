@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 76
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Greetings from Portland, where I'm writing this on the Thursday of IBPA Publishing University—or, as my body clock is telling me, about 04:30 London time on Friday... It's been a long day, but lots of good conversations with publishers have helped to sharpen my thoughts on this week's news.

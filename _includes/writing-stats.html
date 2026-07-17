@@ -1,4 +1,8 @@
-<h4>Writing Stats</h4>
+{% comment %}
+  Words are counted at build; the streak is computed on load, because a streak
+  is relative to today and Pages only rebuilds on push. Now rendered inside the
+  footer's Writing column (spec §5), which supplies the heading.
+{% endcomment %}
 {% assign total_words = 0 %}
 {% for post in site.posts %}
   {% assign post_words = post.content | number_of_words %}

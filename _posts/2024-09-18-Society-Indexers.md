@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Society of Indexers Conference and Content Quality
+category: post
 tags: ["Artificial Intelligence", Presentations]
 description: "Reflections from a Society of Indexers conference presentation on how publishers are using AI, and whether AI-generated content will lower—or diversify—creative standards."
 ---

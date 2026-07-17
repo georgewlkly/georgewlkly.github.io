@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Prompter's Intent
+category: post
 tags: ["Artificial Intelligence", Reflections]
 description: "Why GPT-5.5's prompting advice echoes 19th-century military doctrine: the shift from scripting tasks to creating conditions for delegated work to succeed."
 ---

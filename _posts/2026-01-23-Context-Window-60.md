@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 60
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This week's headline stories sit at the uncomfortable boundary between assistance and dependence. From lost intellectual scaffolding to new AI "coworkers", the question isn't just what AI tools can do—but how we should use them without dulling the human thinking they're meant to support.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Twenty Minute Prototyping
+category: post
 tags: ["Artificial Intelligence", Games, Strategy]
 description: "What happens when a non-developer builds a playable text adventure and a new blog layout using Claude Code? A reflection on AI as a prototyping tool for those who sit across strategy and execution."
 ---

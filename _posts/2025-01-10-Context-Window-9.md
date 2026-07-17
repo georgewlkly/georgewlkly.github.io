@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 9
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers Fable's offensive AI-generated reading summaries and the lessons for publishers, Scott Belsky's "Small Teams, Big Businesses" 2025 prediction, Google Cloud's roundup of 300+ generative AI use cases, fresh allegations about Meta's use of pirated books for training, an Oxford Internet Institute paper on AI's net positive impact on employment, and a hands-on test of Avataar's Velocity product-video tool.

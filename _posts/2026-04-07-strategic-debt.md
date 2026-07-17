@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Strategic Debt and the Hidden Cost of AI Adoption
+category: post
 tags: ["Artificial Intelligence", Publishing, Strategy]
 description: "AI initiatives aren't free gains: they're commitments. Strategic debt explains why more AI capability can mean less organisational clarity and control."
 image: /images/strategic_debt.png

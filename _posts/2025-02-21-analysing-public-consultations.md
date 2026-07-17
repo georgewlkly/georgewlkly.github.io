@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Analysing Public Consultations
+category: post
 tags: ["Artificial Intelligence", Publishing]
 ---
 ([Originally published on LinkedIn][1]): Like many people in publishing, I've been formulating a response to [the UK Government's Consultation on AI and Copyright][2]. With many leading industry and advocacy groups encouraging contributions, it seems likely there will be a big response. So I was interested to read last week that one of the projects developed by [the Government's Incubator for Artificial Intelligence][3] is a tool to use AI to analyse the results of large public consultations. 

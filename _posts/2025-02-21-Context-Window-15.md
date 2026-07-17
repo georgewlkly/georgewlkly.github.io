@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 15
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers The Guardian's licensing deal with OpenAI alongside the New York Times rolling out internal AI tools, reflections from a BookNet Canada Q&A on how publisher questions are shifting from theory to practice, the limits of OpenAI and Perplexity's Deep Research products, the ElevenLabs/Spotify audiobook partnership against Audible's stance on AI narration, Descript's new Custom GPT, and concerns about the UK Government using an AI tool to analyse its own AI and Copyright consultation responses.

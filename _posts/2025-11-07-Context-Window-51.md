@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 51
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 I sent the first of these newsletters a year ago this week, to twenty-seven friends and colleagues. Since then, it's grown to over 1,500 readers and has become one of the highlights of my work. The cadence of researching and publishing weekly keeps me up to date before I hit send, and I really value all of the comments and connections that have come from it. Thank you for your time and attention, and I hope you'll stay with me for another year.

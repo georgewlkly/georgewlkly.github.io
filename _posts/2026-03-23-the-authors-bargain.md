@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Author's Bargain
+category: post
 tags: ["Artificial Intelligence", Journalism, Publishing, Strategy]
 description: "How should authors respond to Generative AI? A clear-headed look at strategy, licensing, publisher policies, creative use, and why human authorship may become more valuable, not less."
 image: /images/authors-bargain.png

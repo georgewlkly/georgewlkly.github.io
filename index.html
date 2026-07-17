@@ -1,40 +1,121 @@
 ---
 layout: default
+body_class: gw
+full_width: true
 ---
 
-<div class="homepage-layout">
-  <div class="homepage-main">
-    <h4>Recent Posts</h4>
+{% comment %}
+  Curated homepage — design-spec.md §6.1.
+  Order: masthead -> hero -> book band -> recent writing -> services -> footer.
+  Masthead and footer come from the layout.
 
-    <div class="posts">
+  The blog roll that used to live here now serves from /posts/, and this page no
+  longer receives a paginator — see posts/index.html for why.
+{% endcomment %}
 
- {% for post in paginator.posts %}
-         <article class="post">
+{% comment %}
+  Recent writing population, spec §6.1: the three most recent posts by default;
+  `featured: true` pins a post into the set, newest featured first, backfilled by
+  recency. site.posts is already newest-first, so featured-then-others preserves
+  recency within each group.
+{% endcomment %}
+{% assign featured_posts = site.posts | where: "featured", true %}
+{% assign other_posts = site.posts | where_exp: "p", "p.featured != true" %}
+{% assign card_posts = featured_posts | concat: other_posts | slice: 0, 3 %}
 
-          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<!-- Hero — spec §6.1. No button here: deliberate. Conversion is carried by the
+     nav pointer, the footer band and the end-of-post cards. -->
+<section class="gw-hero">
+  <div class="gw-container gw-hero__inner">
+    <div class="gw-hero__text">
+      <h1 class="gw-hero__statement">{{ site.home.hero_statement }}</h1>
+      <p class="gw-hero__support">{{ site.home.hero_support }}</p>
+    </div>
 
-          <div class="entry">
-            {{ post.excerpt }}
-          </div>
-
-          {{ post.date | date_to_long_string }} | <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </article>
-  {% endfor %}
-      
-<nav>
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">Newer</a>
-  {% endif %}
-
-  <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Older</a>
-  {% endif %}
-</nav>
-      
+    <div class="gw-hero__portrait">
+      {% if site.home.portrait and site.home.portrait != "" %}
+        <img class="gw-portrait" src="{{ site.baseurl }}{{ site.home.portrait }}" alt="{{ site.home.portrait_alt }}">
+      {% else %}
+        <!-- No portrait supplied yet (spec §10). Neutral placeholder at the
+             wireframe's 3:3.6 ratio. -->
+        <div class="gw-portrait gw-portrait--placeholder" role="img"
+             aria-label="Portrait photograph to follow"></div>
+      {% endif %}
     </div>
   </div>
+</section>
 
-  {% include sidebar.html %}
-</div>
+<!-- Book band — spec §6.1. Full-width tint, 1px rules top and bottom. -->
+<section class="gw-band gw-band--tint">
+  <div class="gw-container gw-book-band">
+    {% comment %}
+      The cover repeats the link the CTA already provides, so it is taken out of
+      the tab order rather than given a duplicate stop.
+    {% endcomment %}
+    <a class="gw-book-band__cover" href="{{ site.baseurl }}{{ site.book.url }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ site.baseurl }}{{ site.book.cover }}" alt="{{ site.book.cover_alt }}">
+    </a>
+
+    <div class="gw-book-band__body">
+      <p class="gw-kicker">{{ site.book.kickers[site.book.kicker_state] }}</p>
+      <h2 class="gw-book-band__title">{{ site.book.title }}</h2>
+      <p class="gw-book-band__pitch">{{ site.book.pitch }}</p>
+      <a class="gw-book-band__cta" href="{{ site.baseurl }}{{ site.book.url }}">{{ site.book.cta }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- Recent writing — spec §6.1 -->
+<section class="gw-band">
+  <div class="gw-container">
+    <div class="gw-section-row">
+      <h2 class="gw-section-head">{{ site.home.writing_head }}</h2>
+      <a class="gw-section-more" href="{{ site.baseurl }}/posts/">{{ site.home.writing_more }}</a>
+    </div>
+
+    <div class="gw-cards">
+      {% for post in card_posts %}
+        {% comment %}
+          Spec §6.1: card labels use the coarse category, not tags. No post
+          carries one until the stage 7 pass, so the separator is conditional and
+          the line degrades to the date alone rather than a dangling middot.
+        {% endcomment %}
+        {% assign label = "" %}
+        {% if post.category %}
+          {% assign label = site.category_labels[post.category].singular %}
+        {% endif %}
+
+        <a class="gw-card-writing" href="{{ site.baseurl }}{{ post.url }}">
+          <p class="gw-meta">
+            {{- post.date | date: "%-d %B %Y" -}}
+            {%- if label and label != "" %} · {{ label }}{% endif -%}
+          </p>
+          <p class="gw-card-writing__title">{{ post.title }}</p>
+          <p class="gw-card-writing__summary">
+            {%- if post.description -%}
+              {{ post.description }}
+            {%- else -%}
+              {{ post.excerpt | strip_html | normalize_whitespace | truncate: 120 }}
+            {%- endif -%}
+          </p>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Services — spec §6.1 -->
+<section class="gw-band gw-band--last">
+  <div class="gw-container">
+    <h2 class="gw-section-head">{{ site.home.services_head }}</h2>
+
+    <div class="gw-services">
+      {% for service in site.services %}
+        <a class="gw-card-service" href="{{ site.baseurl }}{{ service.url }}">
+          <p class="gw-card-service__title">{{ service.title }}</p>
+          <p class="gw-card-service__desc">{{ service.desc }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

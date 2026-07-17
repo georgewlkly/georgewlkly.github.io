@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 34
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Happy Friday—though I'm writing this the day before on the way back from a great day at the Publishers Licensing Services Conference in London. The agenda and other speakers were superb, offering plenty of food for thought. It was also great to meet Helen King, whose [PubTech Radar newsletter][1] I've really enjoyed recently (do sign up for it!) Connecting with Helen via Bluesky commentary on the conference felt nostalgically like the Twitter backchannel at publishing events in the early 2010s. Thanks to PLS and the IPG for the invitation to speak.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: EDItEUR International Supply Chain Seminar
+category: post
 tags: ["Artificial Intelligence", Presentations]
 description: "An AI-in-publishing update presented at the EDItEUR International Supply Chain Seminar in Frankfurt, comparing developments since 2023 and revisiting which principles still hold."
 ---

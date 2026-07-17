@@ -1,0 +1,63 @@
+<!-- Masthead — design-spec.md §5. Nav content comes from site.nav in _config.yml. -->
+
+{% comment %}
+  Active state. Spec §5: "current page (or section)" in accent.
+
+  Posts live at /:title/ with no shared prefix, so a section cannot be matched on
+  URL alone — hence the layout check. Everything under the writing umbrella
+  (blog roll, posts, tag pages, year pages) lights up "Writing".
+{% endcomment %}
+{% assign active_key = "" %}
+{% if page.layout == "post" %}
+  {% assign active_key = "writing" %}
+{% elsif page.url == "/" %}
+  {% assign active_key = "writing" %}
+{% elsif page.url contains "/tags/" or page.url contains "/years/" or page.url contains "/posts/" %}
+  {% assign active_key = "writing" %}
+{% elsif page.url contains "/books/" or page.url == "/book/" %}
+  {% assign active_key = "book" %}
+{% else %}
+  {% for item in site.nav %}
+    {% if page.url == item.url %}{% assign active_key = item.key %}{% endif %}
+  {% endfor %}
+{% endif %}
+
+<a class="gw-skip" href="#main">Skip to content</a>
+
+<header class="gw-masthead">
+  <div class="gw-container gw-masthead__inner">
+    <a class="gw-masthead__wordmark" href="{{ site.baseurl }}/">{{ site.wordmark }}</a>
+
+    <button class="gw-masthead__toggle" type="button"
+            aria-expanded="false" aria-controls="gw-masthead-nav">Menu</button>
+
+    <nav class="gw-masthead__nav" id="gw-masthead-nav" aria-label="Main">
+      {% for item in site.nav %}
+        {% assign classes = "gw-masthead__link" %}
+        {% if item.key == active_key %}
+          {% assign classes = classes | append: " gw-masthead__link--active" %}
+        {% elsif item.standing %}
+          {% assign classes = classes | append: " gw-masthead__link--standing" %}
+        {% endif %}
+        <a class="{{ classes }}"
+           href="{{ site.baseurl }}{{ item.url }}"
+           {% if item.key == active_key %}aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+<script>
+  // Disclosure menu, spec §5. Progressive enhancement: with JS off the nav is
+  // hidden below 800px, so the toggle is only revealed once it can work.
+  (function () {
+    var btn = document.querySelector('.gw-masthead__toggle');
+    var nav = document.getElementById('gw-masthead-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      nav.setAttribute('data-open', String(!open));
+    });
+  })();
+</script>

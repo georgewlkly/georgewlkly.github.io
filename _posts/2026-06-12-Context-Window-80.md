@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 80
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 A shorter update this week: seven presentations and workshops in ten days have left me genuinely tired, but they've also been the best kind of primary research about how people are encountering AI day-to-day. One theme came up again and again: how to use AI in content and marketing without losing your audience's trust. That throughline runs through a lot of what follows.

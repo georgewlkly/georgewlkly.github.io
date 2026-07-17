@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 14
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers the fractious end to the Paris AI Action Summit and Mistral's new Le Chat, OpenAI's plan to unify its product line into GPT-5, Adobe's commercially-safe Firefly Video Model, a Thomson Reuters fair-use ruling against an AI competitor and the Authors Alliance critique of it, the rise of AI-enabled "personal software", Matt Webb on agentic AI and Model Context Protocol, and a practical tip for getting ChatGPT and Claude to write in British English.

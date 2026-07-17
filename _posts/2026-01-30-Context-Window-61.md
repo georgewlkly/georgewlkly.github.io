@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 61
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
 There are two big themes in this week’s newsletter: utility and accountability, and they don't sit easily together. The productivity gains many of us are seeing from AI are increasingly in tension with unanswered questions about training and transparency.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Swedish Publishers Association Webinar
+category: post
 tags: ["Artificial Intelligence", Presentations]
 description: "A short overview of a webinar delivered for the Swedish Publishers Association on recent AI trends, how publishers are approaching them, and practical examples of AI tools in use."
 ---

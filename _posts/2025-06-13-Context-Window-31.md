@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 31
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 It's Friday 13th. Unlucky for AI image platform Midjourney, which is about to find out why "don't mess with The Mouse" (or an earthier paraphrase) is a popular aphorism in media law. Luckier for publishers, with some powerful new tools this week: in particular, Google's Deep Research could be a game changer for production of ancillary content.

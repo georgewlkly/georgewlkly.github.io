@@ -1,0 +1,1090 @@
+//
+// COMPONENTS — design-spec.md §5
+//
+// Deliberately NOT scoped to .gw. Every selector here is namespaced .gw-*, so
+// none of it can match anything the old design renders — which lets stage 2 put
+// the new masthead and footer on every page without .gw on <body>, i.e. without
+// restyling page content that stages 3-5 have not reached yet.
+//
+// The one rule: no bare element selectors in this file. If a component needs to
+// style raw elements, it does so under its own .gw-* root (see .gw-footer).
+//
+
+//
+// Layout helpers
+//
+
+.gw-container {
+  margin: 0 auto;
+  max-width: var(--container);
+  padding: 0 20px;
+  width: 100%;
+}
+
+// Long-form prose sits at the spec's 65-70ch measure. Spec §6.5.
+.gw-measure {
+  max-width: var(--measure);
+}
+
+// Spec §8: skip-to-content link, visible only on focus.
+.gw-skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 10px 18px;
+  font-size: var(--t-nav);
+  z-index: 100;
+}
+
+.gw-skip:focus {
+  left: 0;
+}
+
+//
+// Masthead — spec §5
+//
+
+.gw-masthead {
+  background: var(--paper);
+  border-bottom: var(--rule-w) solid var(--rule);
+  font-family: var(--font-body);
+}
+
+.gw-masthead__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  // Vertical only: this element also carries .gw-container, and a padding
+  // shorthand here would reset that class's horizontal padding, pinning the
+  // masthead to the viewport edge on narrow screens.
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.gw-masthead__wordmark {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.gw-masthead__nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.gw-masthead__link {
+  font-size: var(--t-nav);
+  letter-spacing: var(--track-nav);
+  color: var(--muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.gw-masthead__link:hover {
+  color: var(--ink);
+}
+
+// Spec §5: current page (or section) in accent.
+.gw-masthead__link--active {
+  color: var(--accent);
+}
+
+// Spec §5: Newsletter is accent-coloured at rest, as a standing pointer.
+.gw-masthead__link--standing {
+  color: var(--accent);
+}
+
+// Spec §5: a text "Menu" button is acceptable; no hamburger icon library.
+.gw-masthead__toggle {
+  display: none;
+  font-family: var(--font-body);
+  font-size: var(--t-nav);
+  letter-spacing: var(--track-nav);
+  color: var(--ink);
+  background: transparent;
+  border: var(--rule-w) solid var(--border-mid);
+  border-radius: var(--radius-btn);
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .gw-masthead__toggle {
+    display: block;
+  }
+
+  .gw-masthead__nav {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    width: 100%;
+    padding-bottom: 0.75rem;
+  }
+
+  .gw-masthead__nav[data-open="true"] {
+    display: flex;
+  }
+
+  .gw-masthead__inner {
+    flex-wrap: wrap;
+  }
+
+  .gw-masthead__link {
+    padding: 0.6rem 0;
+    width: 100%;
+    border-top: var(--rule-w) solid var(--rule);
+  }
+}
+
+//
+// Buttons — spec §5
+//
+
+.gw-btn {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: var(--t-nav);
+  line-height: 1;
+  padding: 10px 18px;
+  border-radius: var(--radius-btn);
+  border: var(--rule-w) solid transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.gw-btn--primary {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+.gw-btn--primary:hover {
+  background: var(--accent-hover);
+}
+
+.gw-btn--secondary {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--border-mid);
+}
+
+.gw-btn--secondary:hover {
+  border-color: var(--ink);
+}
+
+//
+// Kicker and metadata — spec §5
+//
+
+.gw-kicker {
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  text-transform: uppercase;
+  letter-spacing: var(--track-kicker);
+  color: var(--accent);
+  margin: 0 0 0.75em;
+}
+
+.gw-meta {
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  color: var(--muted);
+  margin: 0 0 0.5em;
+}
+
+//
+// Writing card — spec §5. The 2px ink top rule is a signature element.
+//
+
+.gw-card-writing {
+  border-top: var(--rule-card-top) solid var(--ink);
+  padding-top: 1rem;
+}
+
+.gw-card-writing__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-card-title);
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 0 0 0.5rem;
+}
+
+.gw-card-writing__summary {
+  font-family: var(--font-body);
+  font-size: var(--t-card-summary);
+  line-height: var(--lh-support);
+  color: var(--text-2);
+  margin: 0;
+}
+
+// Spec §5: the whole card is the link target.
+a.gw-card-writing {
+  display: block;
+  text-decoration: none;
+}
+
+//
+// Service card — spec §5
+//
+
+.gw-card-service {
+  display: block;
+  background: var(--card);
+  border: var(--rule-w) solid var(--rule);
+  border-radius: var(--radius-card);
+  padding: var(--space-card);
+  text-decoration: none;
+}
+
+.gw-card-service__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-card-title);
+  color: var(--ink);
+  margin: 0 0 0.4rem;
+}
+
+.gw-card-service__desc {
+  font-family: var(--font-body);
+  font-size: var(--t-card-summary);
+  line-height: var(--lh-support);
+  color: var(--text-2);
+  margin: 0;
+}
+
+//
+// Signup card — spec §6.5
+//
+
+.gw-card-signup {
+  background: var(--card);
+  border: var(--rule-w) solid var(--rule);
+  border-radius: var(--radius-card);
+  padding: var(--space-card);
+}
+
+.gw-card-signup__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-card-title);
+  color: var(--ink);
+  margin: 0 0 0.4rem;
+}
+
+.gw-card-signup__desc {
+  font-family: var(--font-body);
+  font-size: var(--t-card-summary);
+  line-height: var(--lh-support);
+  color: var(--text-2);
+  margin: 0 0 1rem;
+}
+
+//
+// Filter pill — spec §5
+//
+
+.gw-pill {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  line-height: 1;
+  padding: 7px 14px;
+  border-radius: var(--radius-pill);
+  border: var(--rule-w) solid var(--border-mid);
+  color: var(--ink);
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.gw-pill--active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+//
+// Endorsements — spec §6.3
+//
+
+.gw-endorse-lead {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: var(--t-endorse-lead);
+  line-height: 1.4;
+  color: var(--ink);
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.gw-endorse {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: var(--t-endorse);
+  line-height: 1.5;
+  color: var(--ink);
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.gw-endorse-attrib {
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: var(--t-meta);
+  line-height: var(--lh-support);
+  color: var(--muted);
+  margin: 0.75rem 0 0;
+}
+
+//
+// Signup form — spec §5. Kit's markup styled to tokens; Kit's hosted CSS and
+// its ck.5.js are deliberately not loaded, so this posts as a plain form.
+//
+
+.gw-form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+}
+
+.gw-field {
+  font-family: var(--font-body);
+  font-size: var(--t-support);
+  line-height: 1;
+  padding: 10px 12px;
+  border: var(--rule-w) solid var(--border-mid);
+  border-radius: var(--radius-btn);
+  background: var(--card);
+  color: var(--body);
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+.gw-field::placeholder {
+  color: var(--muted);
+}
+
+// Visually hidden, still read by screen readers. Spec §8.
+.gw-vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+//
+// Bands and rules — spec §6.1, §6.3
+//
+
+.gw-band {
+  padding: var(--space-section) 0;
+}
+
+.gw-band--tint {
+  background: var(--paper-tint);
+  border-top: var(--rule-w) solid var(--rule);
+  border-bottom: var(--rule-w) solid var(--rule);
+}
+
+.gw-band--tint .gw-rule {
+  border-top-color: var(--rule-tint);
+}
+
+.gw-rule {
+  border: 0;
+  border-top: var(--rule-w) solid var(--rule);
+  margin: 0;
+}
+
+.gw-section-head {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-section);
+  color: var(--ink);
+  margin: 0 0 1.25rem;
+}
+
+// "Recent writing" + "All writing →" on one line. Spec §6.1.
+.gw-section-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.gw-section-row .gw-section-head {
+  margin-bottom: 0;
+}
+
+.gw-section-more {
+  font-family: var(--font-body);
+  font-size: var(--t-support);
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+//
+// Static landing page — spec §6.2
+//
+
+.gw-page {
+  padding: var(--space-section) 0;
+}
+
+.gw-page .gw-page-title {
+  margin-bottom: 1.5rem;
+}
+
+.gw-page__cta {
+  margin-top: var(--space-section);
+}
+
+//
+// Book page — spec §6.3
+//
+
+.gw-book-hero__inner {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.gw-book-hero__cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-cover);
+  border: var(--rule-w) solid var(--border-mid);
+}
+
+.gw-book-hero__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-headline);
+  line-height: var(--lh-headline);
+  color: var(--ink);
+  margin: 0 0 1rem;
+}
+
+.gw-book-hero__pitch {
+  font-size: var(--t-support);
+  line-height: var(--lh-support);
+  color: var(--text-2);
+  margin: 0 0 1.5rem;
+  max-width: 60ch;
+}
+
+// Spec §6.3: featured retailer primary, others secondary; wraps on mobile.
+.gw-retailers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+// Endorsements — spec §6.3
+.gw-endorse-lead-block {
+  margin: 0;
+  max-width: 52ch;
+}
+
+.gw-endorsements__rule {
+  margin: 2.5rem 0;
+  border-top-color: var(--rule-tint);
+}
+
+// Spec §6.3: responsive 2-column grid; must handle 2-8 entries unchanged.
+.gw-endorse-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.gw-endorse-block {
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .gw-book-hero__inner {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .gw-book-hero__cover {
+    max-width: 200px;
+  }
+
+  .gw-endorse-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+//
+// Post — spec §6.5. Single column, no sidebar, centred at the measure.
+//
+
+.gw-post {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--space-section) 0;
+}
+
+.gw-post__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-headline);
+  line-height: var(--lh-headline);
+  color: var(--ink);
+  margin: 0 0 1.5rem;
+}
+
+.gw-post__tags {
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  color: var(--muted);
+  margin: 2rem 0 1.25rem;
+}
+
+.gw-post__tags a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.gw-post__tags a:hover {
+  color: var(--accent);
+}
+
+// Spec §6.5: optional small caption under an image, in --muted. Kramdown wraps
+// a lone image in its own <p>, so a following emphasised line reads as the
+// caption when authored that way.
+.gw-prose figcaption,
+.gw-prose .caption {
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  font-style: normal;
+  color: var(--muted);
+  margin-top: 0.5rem;
+}
+
+.gw-postnav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem 0 var(--space-section);
+}
+
+.gw-postnav__link {
+  text-decoration: none;
+  display: block;
+}
+
+.gw-postnav__link--older {
+  text-align: right;
+}
+
+.gw-postnav__dir {
+  display: block;
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  color: var(--accent);
+  margin-bottom: 0.3rem;
+}
+
+.gw-postnav__title {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-support);
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.gw-postnav__link:hover .gw-postnav__title {
+  color: var(--accent);
+}
+
+.gw-postnav__link:focus-visible,
+.gw-post__tags a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media screen and (max-width: 800px) {
+  .gw-postnav {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .gw-postnav__link--older {
+    text-align: left;
+  }
+}
+
+//
+// Writing archive — spec §6.4
+//
+
+.gw-archive {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 3rem;
+  padding: var(--space-section) 0;
+  align-items: start;
+}
+
+.gw-page-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-page-title);
+  line-height: 1.2;
+  color: var(--ink);
+  margin: 0 0 1.25rem;
+}
+
+// Hidden until the JS that drives them confirms it is running.
+.gw-pills {
+  display: none;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+}
+
+.gw-pills[data-js="true"] {
+  display: flex;
+}
+
+// Spec §6.4: entries separated by 1px rules. The rule goes on top of each entry
+// so a filtered list never leaves a trailing rule under the last visible row.
+.gw-entry {
+  border-top: var(--rule-w) solid var(--rule);
+  padding: 1.25rem 0;
+}
+
+.gw-entry:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.gw-entry__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-card-title);
+  line-height: 1.3;
+  margin: 0 0 0.4rem;
+}
+
+.gw-entry__title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.gw-entry__title a:hover {
+  color: var(--accent);
+}
+
+.gw-entry__summary {
+  font-family: var(--font-body);
+  font-size: var(--t-card-summary);
+  line-height: var(--lh-support);
+  color: var(--text-2);
+  margin: 0;
+  max-width: 68ch;
+}
+
+.gw-entries__empty {
+  font-family: var(--font-body);
+  font-size: var(--t-card-summary);
+  color: var(--muted);
+  padding: 1.25rem 0;
+  margin: 0;
+}
+
+.gw-pager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-top: var(--rule-w) solid var(--rule);
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+}
+
+.gw-pager__link {
+  font-family: var(--font-body);
+  font-size: var(--t-support);
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.gw-pager__count {
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  color: var(--muted);
+}
+
+//
+// Archive sidebar — spec §6.4. 13px with tightened leading so the full,
+// untruncated topic and year lists sit comfortably beside a short page.
+//
+
+.gw-archive__side {
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  line-height: 1.45;
+}
+
+.gw-side__head {
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: var(--track-kicker);
+  color: var(--muted);
+  border-bottom: var(--rule-w) solid var(--rule);
+  padding-bottom: 0.4rem;
+  margin: 0 0 0.6rem;
+}
+
+.gw-side__list {
+  list-style: none;
+  margin: 0 0 2rem;
+  padding: 0;
+}
+
+.gw-side__list li {
+  margin: 0;
+}
+
+.gw-side__link {
+  display: block;
+  padding: 0.2rem 0;
+  color: var(--text-2);
+  text-decoration: none;
+}
+
+.gw-side__link:hover {
+  color: var(--accent);
+}
+
+.gw-side__link--active {
+  color: var(--accent);
+}
+
+.gw-side__count {
+  color: var(--muted);
+}
+
+.gw-side__link:focus-visible,
+.gw-entry__title a:focus-visible,
+.gw-pager__link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media screen and (max-width: 800px) {
+  // Spec §6.4: sidebar below the list on mobile.
+  .gw-archive {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+//
+// Homepage hero — spec §6.1
+//
+
+.gw-hero {
+  padding: var(--space-section) 0;
+}
+
+.gw-hero__inner {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.gw-hero__statement {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-hero);
+  line-height: var(--lh-hero);
+  color: var(--ink);
+  margin: 0 0 1.25rem;
+}
+
+.gw-hero__support {
+  font-size: var(--t-support);
+  line-height: var(--lh-support);
+  color: var(--text-2);
+  margin: 0;
+  max-width: 46ch;
+}
+
+// Spec §6.1: ~3:3.6 portrait, 4px radius.
+.gw-portrait {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 3.6;
+  object-fit: cover;
+  border-radius: var(--radius-card);
+}
+
+// Spec §4.1 assigns --rule-tint to image placeholders.
+.gw-portrait--placeholder {
+  background: var(--rule-tint);
+  border: var(--rule-w) solid var(--border-mid);
+}
+
+//
+// Homepage book band — spec §6.1
+//
+
+.gw-book-band {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.gw-book-band__cover {
+  display: block;
+}
+
+.gw-book-band__cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-cover);
+  border: var(--rule-w) solid var(--border-mid);
+}
+
+.gw-book-band__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-book-title);
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 0 0 0.6rem;
+}
+
+.gw-book-band__pitch {
+  font-size: var(--t-support);
+  line-height: var(--lh-support);
+  color: var(--text-2);
+  margin: 0 0 1rem;
+  max-width: 60ch;
+}
+
+// Spec §6.1: a text link, not a button — the hero and band stay button-free.
+.gw-book-band__cta {
+  font-family: var(--font-body);
+  font-size: var(--t-support);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.gw-book-band__cta:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-underline);
+  text-underline-offset: 2px;
+}
+
+//
+// Homepage card grids — spec §6.1
+//
+
+.gw-cards,
+.gw-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.gw-band--last {
+  padding-bottom: calc(var(--space-section) * 1.25);
+}
+
+@media screen and (max-width: 800px) {
+  .gw-hero__inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  // Spec §6.1: the portrait stacks ABOVE the statement on mobile. Reading order
+  // keeps the statement first in the DOM; the portrait is not focusable, so
+  // reordering it visually costs nothing in tab order.
+  .gw-hero__portrait {
+    order: -1;
+    max-width: 260px;
+  }
+
+  .gw-book-band {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    justify-items: start;
+  }
+
+  .gw-book-band__cover {
+    max-width: 160px;
+  }
+
+  .gw-cards,
+  .gw-services {
+    grid-template-columns: 1fr;
+  }
+
+  .gw-section-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+}
+
+//
+// Footer — spec §5. Dark band; a design element, not a dark mode (spec §2).
+//
+
+.gw-footer {
+  background: var(--ink);
+  color: var(--footer-muted);
+  font-family: var(--font-body);
+  font-size: var(--t-footer);
+  line-height: var(--lh-footer);
+  padding: var(--space-section) 0;
+}
+
+.gw-footer__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: var(--t-section);
+  color: var(--footer-text);
+  margin: 0 0 0.4rem;
+}
+
+.gw-footer__desc {
+  margin: 0 0 1rem;
+  max-width: 60ch;
+}
+
+.gw-footer__cols {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.gw-footer__col-head {
+  font-family: var(--font-body);
+  font-size: var(--t-meta);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: var(--track-kicker);
+  color: var(--footer-text);
+  margin: 0 0 0.5rem;
+}
+
+.gw-footer p {
+  margin: 0;
+}
+
+.gw-footer a {
+  color: var(--footer-text);
+  text-decoration: none;
+}
+
+.gw-footer a:hover {
+  text-decoration: underline;
+}
+
+.gw-footer hr {
+  border: 0;
+  border-top: var(--rule-w) solid var(--footer-rule);
+  margin: var(--space-card) 0;
+}
+
+.gw-footer .gw-field {
+  background: var(--footer-field);
+  border-color: var(--footer-field-border);
+  color: var(--paper);
+}
+
+.gw-footer .gw-field::placeholder {
+  color: var(--footer-muted);
+}
+
+@media screen and (max-width: 800px) {
+  .gw-footer__cols {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+}
+
+//
+// Focus — spec §8: 2px accent outline, offset 2px, on everything interactive.
+//
+
+.gw-btn:focus-visible,
+.gw-pill:focus-visible,
+.gw-field:focus-visible,
+.gw-skip:focus-visible,
+.gw-masthead a:focus-visible,
+.gw-masthead button:focus-visible,
+.gw-card-writing:focus-visible,
+.gw-card-service:focus-visible,
+.gw-section-more:focus-visible,
+.gw-book-band__cta:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+// Accent on ink is far too low-contrast to read as a focus ring, so the dark
+// footer switches to paper. Spec §8 allows "or equivalent".
+.gw-footer a:focus-visible,
+.gw-footer button:focus-visible,
+.gw-footer input:focus-visible,
+.gw-footer .gw-btn:focus-visible,
+.gw-footer .gw-field:focus-visible {
+  outline: 2px solid var(--paper);
+  outline-offset: 2px;
+}
+
+//
+// Spec §8: no motion is required by this design; anything added later must
+// respect this guard.
+//
+
+@media (prefers-reduced-motion: reduce) {
+  .gw,
+  .gw *,
+  .gw-masthead *,
+  .gw-footer * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 29
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Maybe there will be a quiet week for AI and publishing. If so, we haven't seen it yet. Across a range of stories this week, the clear theme is that while AI might automate the output, the value lies in the inputs: good content, sound metadata, thoughtful contracts and sound human judgement.

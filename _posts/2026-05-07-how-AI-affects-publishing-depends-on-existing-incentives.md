@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How AI Affects Publishing Depends on Existing Incentives
+category: post
 tags: ["Artificial Intelligence", Publishing, Reflections]
 description: "New Australian research frames AI training on creative work as a market failure. But economic analysis needs segmentation: AI may cause underproduction in literary publishing while driving overproduction in academic sectors where volume is rewarded."
 ---

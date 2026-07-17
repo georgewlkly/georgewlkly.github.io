@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 69
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
 For authors, publishers and technology companies, it's been a week that challenges the old axiom that there's no such thing as bad publicity. The practical uses highlighted in the rest of this week's newsletter need to be balanced against good strategy and judgement.

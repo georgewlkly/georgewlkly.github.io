@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 33
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 It's been a really significant week for legal developments: while the newsletter has more of a copyright focus than usual, the courtroom updates are balanced with some really interesting technical developments from Creative Commons, Anthropic and others (skip down if you're less interested in the legalities). It points to the fact that, however long a road to a settled legal and licensing position, there are immediate practical uses for AI in publishing.

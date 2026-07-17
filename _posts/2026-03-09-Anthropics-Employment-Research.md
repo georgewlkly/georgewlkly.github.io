@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Anthropic's Employment Research
+category: post
 tags: ["Artificial Intelligence"]
 description: "A close reading of Anthropic's labour market research: why high task exposure does not mean job replacement, and why the more interesting story may be how work reconfigures rather than disappears."
 ---

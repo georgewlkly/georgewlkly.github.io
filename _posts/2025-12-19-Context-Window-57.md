@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 57
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Publishing seems to have been slowing down for the holidays for the last couple of weeks, and while AI isn't on quite the same trajectory, there are fewer notable developments this week. I hope that you have a good festive break if you're taking one—I will be, so there will be no newsletter next week. Normal service resumes in January.

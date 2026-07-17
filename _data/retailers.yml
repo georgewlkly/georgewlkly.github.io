@@ -1,0 +1,21 @@
+# Book retailers — design-spec.md §6.3.
+# The entry with `featured: true` renders as the primary button ("Pre-order —
+# <label>"); the rest render as secondary buttons and wrap on mobile.
+#
+# NOTE (snag for George): the spec's preferred featured channel is the publisher
+# (Practical Inspiration), but no publisher pre-order URL was in the old page.
+# Amazon.co.uk is featured as a placeholder until that URL exists; the previous
+# page also listed Barnes & Noble rather than Bookshop.org.
+
+- label: Amazon.co.uk
+  url: https://amzn.to/4x4buGD
+  featured: true
+
+- label: Amazon.com
+  url: https://www.amazon.com/Intelligence-Multiplier-leaders-decisions-strategy/dp/1805760513/
+
+- label: Barnes & Noble
+  url: https://www.barnesandnoble.com/w/the-intelligence-multiplier-george-walkley/1149781044?ean=9781805760511
+
+- label: Waterstones
+  url: https://www.waterstones.com/book/the-intelligence-multiplier/george-walkley/9781805760511

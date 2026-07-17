@@ -1,29 +1,22 @@
 ---
 layout: default
 title: Data
+body_class: gw
 ---
 
-<div class="homepage-layout">
-  <div class="homepage-main">
-    <h1>Data</h1>
+{% comment %}
+  Tag page — design-spec.md §6.4: reuses the archive template with the
+  heading swapped, at its existing URL. `title` stays the bare tag name so
+  the page's <title> and SEO output are unchanged; only the h1 is swapped.
 
-    <div class="posts">
+  The assign is required, not stylistic. Jekyll's include tag only accepts a
+  quoted string or a bare [\w.-]+ token as a param value, so passing
+  site.tags["Data"] directly raises "Invalid syntax for include tag" and
+  fails the build. Binding it to a variable first sidesteps that.
+{% endcomment %}
 
-  {% for post in site.tags["Data"] %}
-         <article class="post">
+{% assign tag_posts = site.tags["Data"] %}
 
-          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-          <div class="entry">
-            {{ post.excerpt }}
-          </div>
-
-          {{ post.date | date_to_long_string }} | <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </article>
-  {% endfor %}
-
-    </div>
-  </div>
-
-  {% include sidebar.html %}
-</div>
+{% include archive.html
+   posts=tag_posts
+   heading="Writing: Data" %}

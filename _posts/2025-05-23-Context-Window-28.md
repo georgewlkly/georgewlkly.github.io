@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 28
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers the US House passing a tax bill with a ten-year moratorium on state-level AI regulation, OpenAI's continued lobbying for Fair Use, Anthropic's new Claude 4 hybrid models, the announcements from Google I/O including SynthID Detector, Shopify's AI enhancements and MCP integration, Anil Dash on Model Context Protocol as a Web 2.0 moment, a new paper on AI in higher education, the Chicago Sun Times's hallucinated book list, and Steven Bartlett's fully AI-written-and-voiced podcast.

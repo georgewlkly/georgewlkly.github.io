@@ -1,7 +1,8 @@
 ---
 layout: post
 title: AI and Hollywood Accounting
-tags: ["Artificial Intelligence", Publishing Strategy]
+category: post
+tags: ["Artificial Intelligence", Publishing, Strategy]
 description: "How companies began using EBITDAC—earnings adjusted for coronavirus—as a vanity metric, and why creative accounting measures should be treated with scepticism."
 ---
 This week Harvard Business Review published an article by [E. Glen Weyl](https://glenweyl.com) and [Raul Castro Fernandez](https://raulcastrofernandez.com), [How AI Companies Can Pay Fair Rates for the Content They Need](https://hbr.org/2026/06/how-ai-companies-can-pay-fair-rates-for-the-content-they-need). As a publisher and author, it's a subject that's close to my heart, and I was glad to see HBR addressing it. I agree completely with the authors that both AI companies and authors will benefit from the creation of a sustainable market for content for training purposes&#8212;in fact, I'd go further and suggest that society as a whole benefits from that. I also concur with their view that collective management organisations (CMOs) have an important role to play in distributing money to publishers and individual authors. But to me there is a fundamental, fatal flaw in their argument that needs to be called out.

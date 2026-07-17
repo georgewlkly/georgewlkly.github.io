@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 73
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 It's been a big couple of weeks for AI image generation and design tools: with major updates from Canva, Google and Anthropic, users are spoiled for choice. The new tools speak to a trend I'm increasingly seeing—and write about below: the baseline for AI use is shifting from competent prompting to confidently delegating to agents. The exam question for publishers is getting used to managing systems of agents rather than using individual tools.

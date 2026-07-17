@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AI and the Novel
+category: post
 tags: ["Artificial Intelligence", Publishing]
 description: "A critical look at the Minderoo Centre's report on AI and the novel: why the research captures important attitudes but the headlines overstate what a convenience sample can tell us."
 ---

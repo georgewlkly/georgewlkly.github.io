@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The UK Publishing Industry in 2025
+category: post
 tags: [Data, Research, Publishing]
 description: "Original research using Companies House data to map over 11,000 UK publishing businesses—their size distribution, geographic spread, and ten-fold growth since 2000."
 ---

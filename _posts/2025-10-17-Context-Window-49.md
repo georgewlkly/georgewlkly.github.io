@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 49
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 For the first time in a while, I didn't go to Frankfurt Book Fair and experienced it vicariously through Slack, WhatsApp and press updates. My impression was a lot of conversation about AI, and a lot of publishers talking more than doing. Many years ago I was introduced to Seth Godin. After our mutual friend had explained my role at a major publisher, [Godin smiled and replied with one of his catchphrases: "Great, but what have you shipped?"](https://seths.blog/2010/05/but-what-have-you-shipped/) I thought of that moment while reading some of the CEO platitudes from the Fair. So what did I miss? If you shipped something new this week, hit reply and let me know.

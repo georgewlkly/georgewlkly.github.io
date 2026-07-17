@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 64
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
 In recent months there has been a discernible shift in AI*—*and the pieces I feature*—*away from simple chatbots to agentic tools like OpenAI's Codex and Claude Code. My smartest friends have moved from using AI for five or ten-minute microefficiencies to delegating complex coding or research tasks measured in hours. Chatbots will still have their place, but the rise of AI agents and big themes around trust dominate my thinking this week.

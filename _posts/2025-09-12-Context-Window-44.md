@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 44
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This week's stories point to deeper layers of the AI stack: standards, infrastructure and how organisations are evolving. From licensing to litigation to content production, there are clear signs of where publishing may be heading.

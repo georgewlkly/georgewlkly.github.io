@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Heatwaves and Strategy
+category: post
 tags: [Reflections, "Scenario Planning", Strategy]
 ---
 It’s hot here. For anyone reading outside the UK, the country broke its June temperature record yesterday, and today may go higher again. I should have been running a workshop in London today for the [Independent Publishers Guild](https://www.independentpublishersguild.com), but after discussions with the client, and with official advice to avoid anything except urgent rail travel, we rescheduled it. A logistics company blamed heat disruption for failing to deliver something to my office yesterday. And my daughter's school has been closed. 

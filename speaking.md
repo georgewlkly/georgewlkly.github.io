@@ -3,6 +3,7 @@ layout: page
 title: Keynote Speaking
 permalink: /speaking/
 description: "George Walkley is a keynote speaker on AI, publishing strategy and digital transformation. Available for conferences, corporate events, book fairs and universities worldwide."
+body_class: gw
 ---
 I'm a regular keynote speaker, panellist and event chair at conferences, book fairs, corporate events and universities around the world. I've spoken in more than a dozen countries, and I'm as comfortable opening a major industry conference as I am facilitating an intimate boardroom discussion.
 

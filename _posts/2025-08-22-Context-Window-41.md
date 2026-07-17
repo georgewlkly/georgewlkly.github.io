@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 41
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 AI is changing how people produce, discover and evaluate content. This week's stories show how fast those shifts are happening. From Amazon's AI shopping assistant to Grammarly's reimagining of student writer, publishers face questions about visibility, value and voice.

@@ -10,6 +10,9 @@ tagline: AI and Publishing Strategy Expert
 # Short bio or description (displayed in the header)
 description: AI and Publishing Strategy Expert
 
+# Read by jekyll-seo-tag to emit og:locale; without it the tag defaults to en_US
+locale: en_GB
+
 author:
   name: George Walkley
   url: https://www.georgewalkley.com
@@ -19,6 +22,130 @@ social:
   links:
     - https://www.linkedin.com/in/georgewalkley
     - https://bsky.app/profile/georgewlkly.bsky.social
+
+#
+# Redesign config — design-spec.md §7 ("Config strings")
+#
+
+# Masthead wordmark and nav. Order is fixed by spec §5.
+wordmark: George Walkley
+nav:
+  - title: About
+    url: /about/
+    key: about
+  - title: Book
+    url: /books/the-intelligence-multiplier/
+    key: book
+  # Stage 3 moves this to /posts/ once that page exists. Until then the blog
+  # roll still lives at / , so "/" is the correct target for "Writing" today.
+  - title: Writing
+    url: /
+    key: writing
+  - title: Speaking
+    url: /speaking/
+    key: speaking
+  - title: Training
+    url: /training/
+    key: training
+  - title: Consulting
+    url: /consulting/
+    key: consulting
+  # Spec §5: accent-coloured at rest as a standing pointer.
+  - title: Newsletter
+    url: /newsletter/
+    key: newsletter
+    standing: true
+
+kit:
+  # Spec §5 recommends one form (or tag) per placement so conversion by
+  # placement is measurable. Only one form exists today — 6458526, the one
+  # embedded on /newsletter/ — so every placement points at it for now.
+  # Replace individually as George creates them; nothing else needs to change.
+  forms:
+    footer: 6458526
+    post: 6458526
+    book: 6458526
+    newsletter: 6458526
+
+signup:
+  # Count is a config constant so it can be updated without touching markup.
+  subscriber_count: "1,900+"
+  name: Context Window
+  description: A weekly briefing on AI in media and publishing, in five minutes.
+  # Spec §6.5: the provenance line must never appear on non-newsletter posts.
+  newsletter_title: Enjoyed this? It started life in Context Window.
+  default_title: I write about AI in media and publishing every week.
+  button: Subscribe
+
+# Spec §7: display labels for the category field. "Articles/Article" was flagged
+# as an alternative pair and can be swapped here at any time.
+category_labels:
+  newsletter:
+    singular: Newsletter
+    plural: Newsletter
+  post:
+    singular: Post
+    plural: Posts
+
+home:
+  # Spec §10 lists final hero copy as George's to confirm. These are the spec's
+  # own draft strings. Inline HTML is allowed here (index.html is not markdown).
+  hero_statement: >-
+    Helping publishers and media businesses put AI to work — strategically,
+    practically, and on their own terms.
+  hero_support: >-
+    Consultant, trainer and speaker. Author of <em>The Intelligence
+    Multiplier</em>. Writer of <em>Context Window</em>, a weekly briefing on AI
+    in media and publishing.
+  # Leave empty to render a neutral placeholder at the wireframe's 3:3.6 ratio.
+  # Set to e.g. /images/portrait.jpg once the graded photograph exists.
+  portrait: ""
+  portrait_alt: "George Walkley speaking at a conference"
+  writing_head: Recent writing
+  writing_more: All writing →
+  # PROPOSED heading — spec §6.1 specifies the three cards but names no heading.
+  services_head: Work with me
+
+book:
+  title: The Intelligence Multiplier
+  url: /books/the-intelligence-multiplier/
+  cover: /images/intelligence-multiplier.jpg
+  cover_alt: "Book cover for The Intelligence Multiplier, by George Walkley"
+  # Spec §6.1: flip to out-now in December 2026 and the kicker changes with it.
+  kicker_state: new-book
+  kickers:
+    new-book: New book · December 2026 · Practical Inspiration
+    out-now: Out now · Practical Inspiration
+  # PROPOSED pitch, condensed from the book page's own copy to the one-to-two
+  # lines spec §6.1 asks for.
+  pitch: >-
+    A practical, grounded framework for using AI where it genuinely helps — in
+    research, analysis and option generation — while keeping human judgement
+    where it belongs.
+  cta: Pre-order →
+
+# PROPOSED one-liners, drawn from each landing page's existing copy (spec §6.1
+# asks for one line each but does not supply them).
+services:
+  - title: Speaking
+    url: /speaking/
+    desc: Keynotes, panels and event chairing at conferences and boardrooms in more than a dozen countries.
+  - title: Training
+    url: /training/
+    desc: The first independent, CPD-accredited AI course built for publishing professionals.
+  - title: Consulting
+    url: /consulting/
+    desc: Strategy work for media and publishing businesses putting AI to work on their own terms.
+
+contact:
+  email: hello@outsidecontext.co.uk
+  phone: +44 01722 435610
+
+impressum: >-
+  © Copyright 2026 Outside Context Ltd. Outside Context Ltd is registered in
+  England and Wales with company registration number 12584087 and VAT number
+  351665690. Registered office address: 22 The Portway Centre, Old Sarum,
+  Salisbury, Wiltshire, SP4 6EB.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 # avatar: https://avatars.githubusercontent.com/u/167031937?v=4
@@ -88,3 +215,16 @@ defaults:
       path: ""
     values:
       image: /images/og-default.png
+  # Every post opts into the new design's base typography. This has to be a
+  # default rather than front matter on _layouts/post.html: a layout's own front
+  # matter is exposed as `layout.*`, not `page.*`, so it could never reach the
+  # {{ page.body_class }} on <body> in the default layout.
+  - scope:
+      path: ""
+      type: posts
+    values:
+      body_class: gw
+
+# Reading time, spec §6.5 — computed at build. 200wpm is the conventional
+# figure for general prose; change here rather than in the template.
+reading_wpm: 200

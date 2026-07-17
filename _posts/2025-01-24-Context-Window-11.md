@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 11
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers the $500 billion Stargate AI infrastructure consortium, impending litigation between the News Media Alliance and an unnamed AI company, OpenAI's new Operator browser agent in the US, Google's bundling of Gemini into Workspace and the resulting privacy questions, Goldman Sachs research on small business attitudes to AI, a Nature piece on LLM hallucination rates, an AI book-recommendation app surfaced by Storythings, and personal news on an Arvon masterclass for authors and a non-executive director role at Burleigh Dodds.

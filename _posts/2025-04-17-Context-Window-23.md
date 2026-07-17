@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 23
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers the headline findings of Stanford HAI's 2025 AI Index Report, fresh data on the rapidly growing length of tasks LLMs can perform, OpenAI's o3 model release, the importance of human leadership in AI initiatives, a Bloomberg investigation into Inkitt's AI-powered romance factory, and an embarrassing case of an AI-generated passage slipping through Springer Nature's editorial process.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 18
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers OpenAI's "freedom-focused" pitch to the Trump administration on AI policy, an FOI revealing Peter Kyle's use of ChatGPT for policy advice, Wiley's gold-standard author AI guidelines, Adam Hyde's open-source EasyJournal and the wider rise of AI-assisted "vibe coding", time spent with Ukrainian publishers and the threat of AI training on Russian propaganda, an HBR piece on responsible AI, Sakana's AI-generated paper passing peer review, OpenAI's new Responses API for building agents, and AI's growing role in commissioning decisions across creative industries.

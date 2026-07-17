@@ -1,0 +1,23 @@
+---
+layout: default
+title: Writing
+body_class: gw
+---
+
+{% comment %}
+  The writing archive — design-spec.md §6.4. "All writing": the blog roll's job,
+  moved off / by stage 3 (spec §2).
+
+  This file's existence is what moves pagination. jekyll-paginate picks the
+  index.html with the LONGEST path as its template, so "posts/index.html" beats
+  "index.html": page 1 renders here at /posts/, pages 2-16 keep their existing
+  /posts/pageN/ URLs, and the root index.html stops being handed a paginator —
+  which is what the curated homepage wants. Deleting this file would silently
+  hand pagination back to / .
+{% endcomment %}
+
+{% include archive.html
+   posts=paginator.posts
+   heading="Writing"
+   paginated=true
+   pills=true %}

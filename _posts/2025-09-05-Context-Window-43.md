@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 43
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This week's practical insight focuses on two linked topics: onboarding and oversight of AI models. But there are also more philosophical questions from news publishing and Seth Godin, and details of the most open LLM to date. Have a great weekend.

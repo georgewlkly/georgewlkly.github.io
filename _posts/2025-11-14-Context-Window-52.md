@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 52
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Hello from Dublin, where I've been speaking at the Publishing Ireland conference. It's been a really excellent day and good to see many subscribers and friends here. The big theme this week is AI developments from Big Media: new features and guidelines from Spotify, Netflix and Time all have implications and lessons for publishers of all sizes.

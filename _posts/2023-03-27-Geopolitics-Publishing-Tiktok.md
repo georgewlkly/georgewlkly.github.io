@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Geopolitics, Publishing and TikTok
+category: post
 tags: ["Artificial Intelligence", Publishing, Strategy]
 description: "TikTok's geopolitical vulnerability is a prompt for publishers to ask a harder question: what proportion of your social audience are you migrating to channels you own?"
 ---

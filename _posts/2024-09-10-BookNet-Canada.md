@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AI Presentation for BookNet Canada
+category: post
 tags: ["Artificial Intelligence", Presentations]
 description: "A summary of a BookNet Canada Tech Forum presentation on building a balanced and ethical AI strategy in publishing, covering copyright, accuracy, environmental impact and practical use cases."
 ---

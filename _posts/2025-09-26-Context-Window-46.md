@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 46
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 The approval of the settlement in the Bartz v. Anthropic litigation overshadows most other developments for publishers this week. But elsewhere the week has seen new research, strong opinions on LLMs and web traffic, and a new creative AI tool that could get traction with creative teams in publishing. Have a good weekend.

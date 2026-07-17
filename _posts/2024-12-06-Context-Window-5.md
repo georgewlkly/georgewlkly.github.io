@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 5
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition examines the ALCS report on authors and AI training, Pleias's openly-licensed and energy-efficient LLMs, new content deals from OpenAI/Future Plc and Bertelsmann/ElevenLabs, the risks of AI-generated podcasts, and practical ideas for working creatively with AI.

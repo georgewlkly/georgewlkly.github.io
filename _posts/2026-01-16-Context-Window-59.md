@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 59
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This week's AI stories are less about capability and more about control: how models are trained, when licensing works, and where consent is quietly assumed rather than granted. For publishers, these mechanics are starting to matter more than the rhetoric.

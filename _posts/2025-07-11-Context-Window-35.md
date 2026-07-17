@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 35
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers Doug Shapiro's media-trends slide deck and the questions it poses for any creative business, fresh Cambridge University Press polling on public support for AI training payments, an EU antitrust complaint against Google's AI Overviews and grim data on news click-throughs, OpenAI and partners providing AI training to 400,000 US teachers, hidden prompts being inserted in academic papers to game AI reviewers, Bloomberg on the "tiny teams" era and Anthropic's Project Vend experiment as a counterpoint, and research showing managers using AI to make decisions about their direct reports.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Books of the Year 2024
+category: post
 tags: [Books, Publishing]
 ---
 ([Originally posted on LinkedIn](https://www.linkedin.com/posts/georgewalkley_booksoftheyear-activity-7401329532156297216-3_MA?)): Every December since 2020, I've posted my favourite books of the year here. It's the biggest month of the year for book sales, many of us will catch up with reading over the holidays, and with the space for book reviews in the media shrinking, authors need all the shares they can get. Caveat: there's no fiction here (I just haven't read enough this year) but if the list is a little wonky in both senses of the word, I can genuinely say I enjoyed every book. 

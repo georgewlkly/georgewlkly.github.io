@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 65
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
 A slightly shorter—and later—newsletter than normal, as I've been on the road this week (six webinars and courses in four days—welcome to new subscribers from those events). I started the week needing a productivity boost, and Google provided one...

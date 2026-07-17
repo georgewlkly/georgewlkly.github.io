@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 40
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers OpenAI's response to GPT-5 feedback with a partial model selector and a 140,000-word context window, Drew Breunig on how long contexts fail and how to fix them, John Willshire's seven key questions for working with AI, MIT Press's survey of 6,000 authors on LLM training, Reddit blocking the Internet Archive's Wayback Machine, Neil Perkin on using AI for scenario planning, and a personal case study on using AI to size and map the UK publishing industry.

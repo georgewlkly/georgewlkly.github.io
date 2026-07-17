@@ -3,6 +3,7 @@ layout: page
 title: AI and Strategy Consulting
 permalink: /consulting/
 description: "Independent AI and publishing strategy consulting. George Walkley works with publishers, media companies and professional services firms on strategy, AI transformation, scenario planning and governance."
+body_class: gw
 ---
 I set up my independent consulting practice, [Outside Context Ltd](https://www.georgewalkley.com/about/), in 2020, after nearly twenty-five years in the media and publishing industry, including fifteen years in senior executive roles at the Big Five trade publisher Hachette UK. Since then I have worked with more than forty clients around the world.
 

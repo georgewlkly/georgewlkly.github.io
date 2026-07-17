@@ -1,6 +1,7 @@
 ---
 layout: post
 title: BookNet Canada Update
+category: post
 tags: ["Artificial Intelligence", Presentations]
 description: "A follow-up to the September 2024 BookNet Canada presentation: how the industry's questions have shifted from broad AI concerns to practical implementation, copyright and employment."
 ---

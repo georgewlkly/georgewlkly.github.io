@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 45
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 A slightly shorter email than usual today, as it's been a very busy week of travel. I had conversations about AI in some interesting places: a publishing conference, an Oxford college and the House of Lords. The latter two particularly felt a long way from Silicon Valley, but the discussions underlined how much the technology is permeating every aspect of our lives.

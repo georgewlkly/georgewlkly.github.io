@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 36
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers ChatGPT's new Agent mode and what it could automate for publishers, Matt Webb on governance lessons from Anthropic's vending-machine experiment, a WeTransfer terms-of-service flap, NotebookLM's new pre-curated notebooks of licensed and public-domain content, Dave Morris on AI in his writing practice, Anthropic's Claude for Education partnerships, Condé Nast and Hearst signing Amazon Rufus licensing deals, the launch of Latam-GPT, and research on how AI is shaping the words we use.

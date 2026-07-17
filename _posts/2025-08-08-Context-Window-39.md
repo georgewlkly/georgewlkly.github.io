@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 39
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 As AI capabilities expand, so does the gap between what's technically possible and what's useful and meaningful. Many of the links this week address the same question: where does human perspective add value?

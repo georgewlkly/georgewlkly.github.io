@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 68
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
 It's been a busy week, with significant developments in copyright policy and a steady drumbeat of new research and product launches. The key question posed by new research linked to below has stayed with me: for the right task, AI brings real benefits, but how do we determine what the right task is?

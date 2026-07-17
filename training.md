@@ -3,6 +3,7 @@ layout: page
 title: AI Training for Publishers and Knowledge Workers
 permalink: /training/
 description: "The publishing industry's first independent, CPD-accredited AI training course. Delivered to delegates from nearly 300 organisations worldwide. In-person and remote options available."
+body_class: gw
 ---
 
 In 2023, I was commissioned by the [Independent Publishers Guild](https://www.independentpublishersguild.com) to develop a training course on generative AI for the publishing industry. I spent several months intensively researching the subject&#8212;talking to technology companies, investors, researchers, publishing organisations and early adopters in other sectors&#8212;and launched the training in September 2023. It was the first independent, CPD-accredited AI course designed specifically for publishing professionals. It won Best Learning/Professional Development programme at the 2024 Association Excellence Awards. Since then I have delivered it to delegates from nearly three hundred organisations in fifteen countries.

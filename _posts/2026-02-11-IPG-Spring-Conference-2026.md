@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IPG Spring Conference 2026
+category: post
 tags: [Conferences, Publishing, Reflections, Strategy]
 description: "Sixteen observations from the IPG Spring Conference 2026: on leisure time, platform risk, AI in workflows, procedural debt, and what it means to think generationally in a structural market shift."
 ---

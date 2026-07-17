@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Four Ages of Strategy
+category: post
 tags: [Strategy]
 description: "Applying Rumsfeld's four epistemic states—including the often-overlooked 'unknown known'—to map the four ages of business strategy and what they demand of leaders today."
 ---

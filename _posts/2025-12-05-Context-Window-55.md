@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 55
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This was a week in which AI refused to behave according to anyone's preferred narrative: strong environmental claims unravelled, legal cases tightened, policies were challenged, and AI models themselves showed new points of fragility. I was particularly interested in new research that challenges a common false dichotomy between AI use and creativity.

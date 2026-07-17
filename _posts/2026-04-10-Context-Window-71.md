@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 71
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 I don't set out with a particular theme in mind for each week's newsletter: sometimes the things I've found in my research cluster serendipitously around a particular area, and more often there's a range of themes. As it happens, this has turned out to be Use Case Week: practical ideas from Anthropic, the BMJ, consultants Fathm, and Paul Ford. If you can't find something practical to try as a result of this week's newsletter, you can have your money back.\*

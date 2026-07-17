@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 24
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers a correction to last week's link on LLM task length, the new native AI text-analysis formulas in Google Sheets, the latest Adobe Firefly upgrades, eye-catching data on AI-generated music on Deezer and rising submissions to publishers, Wikipedia's training-optimised Kaggle dataset, an Anthropic paper on how Claude expresses values, Ethan Mollick on "Jagged AGI", Tom Goodwin's AI-flavoured update to the Eisenhower Matrix, Trump's executive order on AI in schools, the new CLA/PLS/ALCS Generative AI Licence, Ahrefs research on AI overviews suppressing click-through, and a contrasting Washington Post deal and Ziff Davis lawsuit involving OpenAI.

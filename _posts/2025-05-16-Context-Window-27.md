@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 27
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 I'm writing this from a very sunny Edinburgh, where I presented to the lovely Canongate team at their away day. It was great to get off camera and out of the office and have conversations with a group of brilliantly creative people on their event theme, ingenuity, and how AI can support it. If you're looking for a speaker for your conference or event, do let me know.

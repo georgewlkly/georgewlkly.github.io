@@ -2,6 +2,7 @@
 layout: page
 title: Privacy and Cookie Policy
 permalink: /privacy/
+body_class: gw
 ---
 ### Effective Date: 
 28 January 2026

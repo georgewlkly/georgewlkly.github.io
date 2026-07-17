@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Books of the Year 2023
+category: post
 tags: [Books, Publishing]
 ---
 ([Originally posted on LinkedIn](https://www.linkedin.com/posts/georgewalkley_its-become-a-habit-each-december-for-me-activity-7137837675826302976-qnOn?)): It's become a habit each December for me to post about the best books that I read this year. For the fourth year, a selection of non-fiction books that I hope you might find interesting. 

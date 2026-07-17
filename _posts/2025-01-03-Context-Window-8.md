@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 8
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 For anyone taking stock of AI developments as the year turns, [Simon Willison’s end-of-year roundup is phenomenally good](https://simonwillison.net/2024/Dec/31/llms-in-2024/). I recommend reading it in full as it gives a really comprehensive view of what happened and why it matters, but there are several points highlighted below which are particularly relevant to publishers.

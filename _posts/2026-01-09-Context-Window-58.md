@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 58
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Happy New Year. The first AI stories of 2026 aren't about speed or scale, but about authenticity—who is speaking, what can be trusted, and where responsibility sits when things go wrong. That's uncomfortable territory for publishers, but increasingly unavoidable.

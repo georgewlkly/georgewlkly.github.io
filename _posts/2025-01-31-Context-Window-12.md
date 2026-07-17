@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 12
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers the arrival of DeepSeek and what it means strategically and economically, Apple's iOS 18.3 changes pausing news summaries and switching Apple Intelligence to opt-out, the wider shift among big tech firms to make AI the default rather than the upgrade, the US Copyright Office's second report on AI and copyrightability, the UK Government's AI and Copyright consultation alongside a Government tool that uses LLMs to analyse consultation responses, a mini-literature review on generative AI in pedagogy, and details of the AI-heavy IPG Spring Conference.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: London Book Fair 2026 Reflections
+category: post
 tags: ["Artificial Intelligence", Publishing, Strategy]
 image: /images/lbf-reflections.png
 description: "Eighteen observations from three days at London Book Fair 2026, including procedural debt, AI adoption maturity, audio publishing, discoverability, and the value of unscheduled conversations."

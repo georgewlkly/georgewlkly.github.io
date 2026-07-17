@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 74
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Happy Friday. I'm catching up after a week on the road and there is a lot to process. This week my reading and thinking clustered around two themes: what happens when the cost of producing content falls, and whether that cost will be stable over time.

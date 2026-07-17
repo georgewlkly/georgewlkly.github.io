@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Parix Audio Day 2026 Slides
+category: post
 tags: ["Artificial Intelligence", Conferences, Presentations, Publishing, Strategy]
 description: "Slides and a brief summary from a keynote at Parix Audio Day 2026 in Madrid on the impact of AI across the audiobook value chain: authors, publishers, narrators and the competitive landscape."
 ---

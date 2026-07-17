@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 83
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 It's been another busy week: attending British IP Day at Parliament and the Publishers' Licensing Service conference, and getting ready for three workshops in Dublin, Cambridge and London next week. As a result, I almost missed a milestone: Wednesday marked six full years of my consulting business. I'm very grateful to clients, newsletter subscribers and everyone else who has made those years so interesting.

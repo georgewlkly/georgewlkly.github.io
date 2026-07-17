@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 37
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 It's been a significant week of contrasting AI developments on both sides of the Atlantic. In the US, the administration moved swiftly toward a more deregulated environment, signalling its preference for Silicon Valley-friendly policies on AI training and licensing. Europe, meanwhile, saw new releases emphasising transparency, environmental responsibility and public benefit, underlining a growing divergence in approaches and creating important challenges and opportunities for global publishers.

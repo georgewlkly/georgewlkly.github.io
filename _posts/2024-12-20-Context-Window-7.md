@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 7
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers the UK government's consultation on copyright and AI, an Amazon job listing that hints at deeper AI use inside the Kindle reading experience, NotebookLM's enterprise update, Apple Intelligence's BBC misattribution, a US AI litigation tracker, and what the Betty Crocker Effect can teach us about generative AI.

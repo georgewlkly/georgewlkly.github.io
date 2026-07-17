@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 4
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition looks at Steven Johnson's Long Context project, the Activate 2025 outlook on AI search and disintermediation risks for publishers, the rise of AI shopping assistants like Amazon Rufus, and tech news including Amazon's expanded Anthropic investment and the new Model Context Protocol standard.

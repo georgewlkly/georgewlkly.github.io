@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 2
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers Google's new AI video tool for Workspace customers, a US federal ruling dismissing a copyright suit against OpenAI, fresh data on AI adoption in publishing jobs, AI's role in research integrity and creative writing, and award news for the IPG AI training programme.

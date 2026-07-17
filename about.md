@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+body_class: gw
 ---
 
 I am an [independent strategy consultant](/consulting/), an [expert in publishing and AI](/training/), and an [experienced keynote speaker and panellist](/speaking/). 

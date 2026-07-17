@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 32
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers Amazon CEO Andy Jassy's bullish AI update and what billions of agents mean for supplier teams, Turing Institute/LEGO research on how children and teachers are using generative AI, a PLS consultation on licensing for AI training, new image-generation tools from Midjourney and Adobe Firefly, ChatGPT's new Record mode on Mac, Reddit's Community Intelligence product, a New Yorker piece on what AI is doing to reading, and the resignation of UK PM AI Adviser Matt Clifford.

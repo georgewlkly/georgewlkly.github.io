@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 66
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
 It has been a week in which AI moved decisively out of product demos and into politics, newsrooms, courts, and war. Across very different domains, the same underlying tensions keep surfacing: control, accountability, and whether speed is crowding out judgement.

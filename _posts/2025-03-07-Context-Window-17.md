@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 17
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers Google's new AI Mode Search and what it means for publisher referral traffic, Mistral OCR as a low-cost tool for digitising older documents, Canva's State of Marketing and AI benchmarks, Lisa Nandy's reassurances on creative-industries support at the Creative UK summit, the Authors Alliance submission to the UK AI and copyright consultation, an argument that fears of AI replacing human writing are overstated, and a note ahead of London Book Fair.

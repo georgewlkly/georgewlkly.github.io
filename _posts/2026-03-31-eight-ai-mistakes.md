@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Eight Mistakes Organisations Make When Adopting AI
+category: post
 tags: ["Artificial Intelligence", Publishing]
 description: "Most organisations adopting AI make the same avoidable mistakes, from defaulting to bundled tools to skipping measurement. Here are eight common failure modes and why they matter."
 image: /images/eight-AI-mistakes.png

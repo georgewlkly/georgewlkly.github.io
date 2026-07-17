@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 56
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 A slightly shorter newsletter than normal this week, as I have been balancing four days on the road for a conference and board meetings, and trying to close off various projects before the holidays. I'm planning to do one final newsletter for the year next Friday, 19 December, then take a week and resume publication in the New Year.

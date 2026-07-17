@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 30
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Thirty weeks of doing this&#8212;thanks for sticking with me. Someone asked this week if this newsletter will be going paid, and to be really clear: NO. I enjoy researching and writing it, and it's a wonderful way to start conversations. However, if it's something that you find useful, please do share it with your colleagues. Personal referrals make a huge difference to me, and every one is genuinely appreciated.

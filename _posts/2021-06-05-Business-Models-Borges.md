@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Business Models and Borges
+category: post
 tags: [Strategy]
 description: "On building useful business models: why a Borges short story about a 1:1 scale map is the perfect reminder that abstraction, not precision, is the goal."
 ---

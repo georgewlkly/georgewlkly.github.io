@@ -2,27 +2,101 @@
 layout: default
 ---
 
-<div class="homepage-layout">
-  <div class="homepage-main">
-    <article class="post">
-      <h1>{{ page.title }}</h1>
+{% comment %}
+  Post template — design-spec.md §6.5. Single column, no sidebar, centred at the
+  65-70ch measure.
 
-      <div class="entry">
-        {{ content }}
-      </div>
+  Order: metadata (date · category · reading time) -> headline -> body -> tag
+  links -> prev/next -> signup card -> footer.
+{% endcomment %}
 
-      <div class="date">
-        Written on {{ page.date | date: "%B %e, %Y" }}
-      </div>
+{% comment %} Reading time, computed at build. Float division then round, so 900 words reads as 5 min rather than 4. {% endcomment %}
+{% assign wpm = site.reading_wpm | default: 200 %}
+{% assign read_min = page.content | number_of_words | divided_by: wpm | round %}
+{% if read_min < 1 %}{% assign read_min = 1 %}{% endif %}
 
-      {% if page.tags.size > 0 %}
-      <div class="tags">
-        Tags: {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
-      </div>
-      {% endif %}
+{% assign label = "" %}
+{% if page.category %}
+  {% assign label = site.category_labels[page.category].singular %}
+{% endif %}
 
-    </article>
+{% comment %}
+  Prev/next — spec §6.5: navigate within the post's own category, so newsletter
+  readers page through issues and posts through posts, falling back to global
+  order where the category has no neighbour.
+
+  site.posts is newest-first, so walking it: everything before this post is NEWER
+  and everything after is OLDER. `newer_post` is overwritten each time, so it
+  ends up holding the nearest newer match; `older_post` is only ever set once, so
+  it holds the nearest older one.
+
+  Before the stage 7 pass no post has a category, so nav_cat is empty, the
+  category test is skipped, and this degrades to plain global order.
+{% endcomment %}
+{% assign nav_cat = page.category %}
+{% assign seen = false %}
+{% assign newer_post = nil %}
+{% assign older_post = nil %}
+{% for p in site.posts %}
+  {% if p.url == page.url %}
+    {% assign seen = true %}
+    {% continue %}
+  {% endif %}
+  {% if nav_cat and nav_cat != "" and p.category != nav_cat %}{% continue %}{% endif %}
+  {% if seen %}
+    {% unless older_post %}{% assign older_post = p %}{% endunless %}
+  {% else %}
+    {% assign newer_post = p %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} Global fallback. page.next is newer, page.previous is older. {% endcomment %}
+{% unless newer_post %}{% assign newer_post = page.next %}{% endunless %}
+{% unless older_post %}{% assign older_post = page.previous %}{% endunless %}
+
+<article class="gw-post">
+
+  {% comment %} Captured rather than inlined so whitespace control cannot eat the separators. {% endcomment %}
+  {% capture meta_line %}{{ page.date | date: "%-d %B %Y" }}{% if label != "" %} · {{ label }}{% endif %} · {{ read_min }} min read{% endcapture %}
+  <p class="gw-meta">{{ meta_line | strip }}</p>
+
+  <h1 class="gw-post__title">{{ page.title }}</h1>
+
+  <div class="gw-prose">
+    {{ content }}
   </div>
 
-  {% include sidebar.html %}
-</div>
+  {% if page.tags.size > 0 %}
+    <p class="gw-post__tags">
+      Tagged:
+      {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+  {% endif %}
+
+  <hr class="gw-rule">
+
+  {% if newer_post or older_post %}
+    <nav class="gw-postnav" aria-label="More writing">
+      {% if newer_post %}
+        <a class="gw-postnav__link" href="{{ site.baseurl }}{{ newer_post.url }}">
+          <span class="gw-postnav__dir">← Newer</span>
+          <span class="gw-postnav__title">{{ newer_post.title }}</span>
+        </a>
+      {% else %}
+        <span></span>
+      {% endif %}
+
+      {% if older_post %}
+        <a class="gw-postnav__link gw-postnav__link--older" href="{{ site.baseurl }}{{ older_post.url }}">
+          <span class="gw-postnav__dir">Older →</span>
+          <span class="gw-postnav__title">{{ older_post.title }}</span>
+        </a>
+      {% else %}
+        <span></span>
+      {% endif %}
+    </nav>
+  {% endif %}
+
+  {% include signup-card.html category=page.category placement="post" %}
+
+</article>

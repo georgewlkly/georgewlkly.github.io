@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 79
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 There are two big themes this week: what new AI agents are making possible, and the need for a more nuanced discussion of AI's impact on authors and publishers. In particular, Matt Webb's first-person reflection on agents will resonate with any publisher shipping products internationally in 2026.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 78
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This week's newsletter focuses on the economics of AI becoming more visible. Sometimes that's positive for publishers: a new tool for estimating the value of licensing your content. Other perspectives are more challenging, particularly on the real cost of AI usage. For publishers, the lesson is that AI strategy must now include cost, value and platform-risk assumptions.

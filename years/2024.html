@@ -1,32 +1,17 @@
 ---
 layout: default
 title: "2024"
+body_class: gw
 ---
 
-<div class="homepage-layout">
-  <div class="homepage-main">
-    <h1>2024</h1>
+{% comment %}
+  Year page — design-spec.md §6.4: reuses the archive template with the
+  heading swapped, at its existing URL. The whole collection is passed and
+  filtered by `year` inside the include, because Liquid has no push filter
+  to build a filtered array with.
+{% endcomment %}
 
-    <div class="posts">
-
-  {% for post in site.posts %}
-    {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% if post_year == "2024" %}
-         <article class="post">
-
-          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-          <div class="entry">
-            {{ post.excerpt }}
-          </div>
-
-          {{ post.date | date_to_long_string }} | <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </article>
-    {% endif %}
-  {% endfor %}
-
-    </div>
-  </div>
-
-  {% include sidebar.html %}
-</div>
+{% include archive.html
+   posts=site.posts
+   year="2024"
+   heading="Writing: 2024" %}

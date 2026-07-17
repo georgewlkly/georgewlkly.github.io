@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 77
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 It's been a week of jet lag, catch-up and presentations, with a workshop, a webinar for PW and my friends at Westchester Publishing Services, and the IPG Summer Summit. Before I shut down for the bank holiday weekend in the UK, some updates on what happened in AI and publishing this week:

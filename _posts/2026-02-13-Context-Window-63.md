@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 63
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
 Only two out of nearly three dozen publishing job ads I reviewed this week mentioned AI skills. Meanwhile, the marketing world has moved on entirely. This issue explores that disconnect, alongside ElevenLabs becoming the UK's first AI and media decacorn, Amazon's new publisher data marketplace, and what agentic search tools could mean for editorial archives.

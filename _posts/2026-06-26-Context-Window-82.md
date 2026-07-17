@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 82
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 There are twin themes this week: administrative convenience in tools you are already using like Slack and Excel, and more ways for creators to control their output—written, spoken or performed. And for publishers, two important new research projects. If you do one thing this week, please take ten minutes to respond to whichever is relevant to you—it's how we move the industry from anecdotes to data.

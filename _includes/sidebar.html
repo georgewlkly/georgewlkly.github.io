@@ -1,27 +1,53 @@
-<aside class="homepage-sidebar">
-  <h4>Content by Topic</h4>
-  {% assign defined_tags = "Artificial Intelligence,Books,Conferences,Data,Games,Journalism,Newsletter,Presentations,Publishing,Reflections,Research,Scenario Planning,Strategy,Writing" | split: "," %}
-  {% for tag_name in defined_tags %}
-    {% assign tag_posts = site.tags[tag_name] %}
-    {% if tag_posts %}
-      <a href="{{ site.baseurl }}/tags/{{ tag_name | slugify }}/">{{ tag_name }} ({{ tag_posts.size }})</a><br/>
-    {% else %}
-      <a href="{{ site.baseurl }}/tags/{{ tag_name | slugify }}/">{{ tag_name }} (0)</a><br/>
-    {% endif %}
-  {% endfor %}
+{% comment %}
+  Archive sidebar — design-spec.md §6.4.
 
-  <h4>Content by Year</h4>
-  {% assign defined_years = "2026,2025,2024,2023,2022,2021,2020" | split: "," %}
-  {% for year in defined_years %}
-    {% assign year_count = 0 %}
-    {% for post in site.posts %}
-      {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-      {% if post_year == year %}
-        {% assign year_count = year_count | plus: 1 %}
-      {% endif %}
+  Topics and years are both listed in full, untruncated, with counts, at 13px
+  with tightened leading so they sit comfortably beside a short list.
+
+  The tag vocabulary stays hardcoded rather than read from site.tags on purpose:
+  site.tags only contains tags that have posts, and the "Writing" tag is retained
+  deliberately at zero pending content (see design-spec.md §6.4). A dynamic list
+  would silently drop it.
+{% endcomment %}
+
+<aside class="gw-archive__side">
+
+  <h2 class="gw-side__head">Topics</h2>
+  <ul class="gw-side__list">
+    {% assign defined_tags = "Artificial Intelligence,Books,Conferences,Data,Games,Journalism,Newsletter,Presentations,Publishing,Reflections,Research,Scenario Planning,Strategy,Writing" | split: "," %}
+    {% for tag_name in defined_tags %}
+      {% assign tag_posts = site.tags[tag_name] %}
+      {% assign tag_url = tag_name | slugify | prepend: "/tags/" | append: "/" %}
+      <li>
+        <a href="{{ site.baseurl }}{{ tag_url }}"
+           class="gw-side__link{% if page.url == tag_url %} gw-side__link--active{% endif %}"
+           {% if page.url == tag_url %}aria-current="page"{% endif %}>
+          {{ tag_name }} <span class="gw-side__count">({{ tag_posts.size | default: 0 }})</span>
+        </a>
+      </li>
     {% endfor %}
-    <a href="{{ site.baseurl }}/years/{{ year }}/">{{ year }} ({{ year_count }})</a><br/>
-  {% endfor %}
+  </ul>
 
-  {% include writing-stats.html %}
+  <h2 class="gw-side__head">Years</h2>
+  <ul class="gw-side__list">
+    {% assign defined_years = "2026,2025,2024,2023,2022,2021,2020" | split: "," %}
+    {% for year in defined_years %}
+      {% assign year_count = 0 %}
+      {% for post in site.posts %}
+        {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% if post_year == year %}
+          {% assign year_count = year_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {% assign year_url = year | prepend: "/years/" | append: "/" %}
+      <li>
+        <a href="{{ site.baseurl }}{{ year_url }}"
+           class="gw-side__link{% if page.url == year_url %} gw-side__link--active{% endif %}"
+           {% if page.url == year_url %}aria-current="page"{% endif %}>
+          {{ year }} <span class="gw-side__count">({{ year_count }})</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
 </aside>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 54
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Happy Black Friday. This Sunday marks three years since ChatGPT first appeared: a toddler in human years, already learning to run, leaving a mess in its wake, and showing signs of what it might grow into. It has even added a new word to our vocabularies—slop—and several of this week's links explore whether AI-generated content has any value or is just that.

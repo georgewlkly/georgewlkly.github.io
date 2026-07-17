@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 75
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 It was a quieter week for product releases, but there were significant legal, policy and research developments. I am in Portland, Oregon next week for IBPA Publishing University: I look forward to seeing some of you there. In the meantime, have a good weekend.

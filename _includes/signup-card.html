@@ -1,0 +1,28 @@
+{% comment %}
+  Signup card — design-spec.md §6.5.
+
+  Copy is conditional on the post's category. The provenance line ("It started
+  life in Context Window") is only true of newsletter issues, and the spec is
+  explicit that it must never appear on a non-newsletter post — so the default
+  is the neutral string, and only an explicit category: newsletter opts in.
+  Posts with no category yet (before the stage 7 pass) therefore get the safe
+  copy rather than a false claim.
+
+  Params:
+    category   - the post's category; omit on non-post pages.
+    placement  - key into site.kit.forms. Defaults to "post".
+{% endcomment %}
+
+{% assign placement = include.placement | default: "post" %}
+
+{% if include.category == "newsletter" %}
+  {% assign signup_title = site.signup.newsletter_title %}
+{% else %}
+  {% assign signup_title = site.signup.default_title %}
+{% endif %}
+
+<aside class="gw-card-signup">
+  <p class="gw-card-signup__title">{{ signup_title }}</p>
+  <p class="gw-card-signup__desc">{{ site.signup.description }} Read by {{ site.signup.subscriber_count }} subscribers.</p>
+  {% include signup-form.html placement=placement %}
+</aside>

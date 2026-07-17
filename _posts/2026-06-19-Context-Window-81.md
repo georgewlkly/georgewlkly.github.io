@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 81
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This week there is a tight cluster of stories around how AI companies access content, what that is doing to publishers, and the economic model for compensating creators. But it's not just a theoretical set of discussions, with at least one practical step publishers need to take in the next couple of weeks.

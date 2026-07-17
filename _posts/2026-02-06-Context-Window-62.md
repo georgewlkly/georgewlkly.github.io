@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 62
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
 This week's stories play out at a distance—in financial markets, academia and big tech—but they point clearly toward future directions for publishers. At the other end of the scale, I've written about my hands-on experience with Claude Code and agentic AI, which you could start using today.

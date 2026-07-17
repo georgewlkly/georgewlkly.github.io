@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 25
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 There's a lot to unpack this week, including a couple of quite contrarian views on the environmental impact of AI and on the use of copyrighted material as training data. But I'm starting with something that's both exciting and very practical...

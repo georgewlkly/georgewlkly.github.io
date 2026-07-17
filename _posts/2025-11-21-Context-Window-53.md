@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 53
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This week has been full of stories that show how fast the conversation around AI, authorship, and creative integrity is moving. From new research on writers' concerns to real-world disputes over AI-generated artwork, it's clear that evidence and transparency matter more than ever.

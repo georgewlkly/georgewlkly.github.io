@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 48
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 It's been a heavy week with travel, an IPG Lunch and Learn update and interesting discussions at the BISG AI Working Group. But before publishing breaks for the weekend and packs for Frankfurt, some interesting AI developments across audio, author apps and retail...

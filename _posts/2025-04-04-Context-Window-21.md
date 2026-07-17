@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 21
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers Amazon's new Nova Act browser-agent model, Google's Gemini 2.5 reasoning model, Rachel Coldicutt's responsible-AI dos and don'ts, fresh CLA research showing 82% of UK professionals upload third-party content into AI prompts, FT analysis on the limited employment impact of AI so far, Tyler Cowen on AI in his writing workflow, a Nature piece on AI and academic peer review, and new data points on AI scraping bots overwhelming publisher infrastructure.

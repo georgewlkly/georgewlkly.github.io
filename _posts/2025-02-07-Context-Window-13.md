@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 13
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers Adam Hyde's hands-on demonstration of OpenAI's Operator agent for research publishing workflows, the unredacted Meta court documents alleging the torrenting of more than 80TB of pirated ebooks, Amazon's bet on automated reasoning to suppress AI hallucinations, the proliferation of Gemini 2.0 model variants and what model fragmentation means for non-expert users, and a write-up from Jellyfish on building AI agents inside creative agencies.

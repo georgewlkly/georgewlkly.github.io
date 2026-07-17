@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 42
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 The AI and content ecosystem is maturing fast. The big news this week is a settlement in Bartz v. Anthropic with implications for other litigation. But besides the big picture, the newsletter highlights new tools and practical things you can try. Have a good weekend.

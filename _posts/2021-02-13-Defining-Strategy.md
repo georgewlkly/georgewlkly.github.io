@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Defining Strategy
+category: post
 tags: [Strategy]
 description: "A working definition of strategy—and the assumptions behind it—developed while designing an online strategy workshop for a client."
 ---

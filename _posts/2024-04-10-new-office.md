@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Office
+category: post
 tags: [Reflections]
 ---
 ([Originally posted on LinkedIn](https://www.linkedin.com/posts/georgewalkley_im-coming-up-on-four-years-of-working-as-activity-7183847938253553664-1HHx?)): I'm coming up on four years of working as an independent consultant, and I've hit the limit on working from home: too many distractions, from parcel deliveries to dogs (I blame the owners... 😉). So I am really pleased to have settled into my own office a short walk from home in Salisbury, to have a dedicated space for webinars/online training, and somewhere that I can meet colleagues and clients without cluttering up the kitchen table. If you're in the neighbourhood, come in for a coffee or a walk over to [Dark Revolution](https://www.darkrevolution.co.uk).

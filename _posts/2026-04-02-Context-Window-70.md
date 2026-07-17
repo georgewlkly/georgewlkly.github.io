@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 70
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
 I'm sending this week's newsletter a day early, as Friday and Monday are public holidays here in the UK—judging by the out-of-office messages I've seen this morning, it looks as though a lot of publishing has already checked out for the long weekend. But if you're still at your desk, some reading matter to take you into the Easter holiday: there's a lot going on, and a surprising number of strategy signals in this week's news.

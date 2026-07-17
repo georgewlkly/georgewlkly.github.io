@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 50
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Greetings from New York City, where I've been on a working vacation for the last week. It's my first time back since Covid, and besides the inevitable changes to the city (I could date the last fifteen years of photos by the maturity of the foliage on the High Line) the thing that's struck me is the ubiquity of technology. Every billboard in Midtown is for an enterprise AI tool, and while this was primarily family time, I had some good conversations with publishers about their use of AI.

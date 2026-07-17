@@ -1,0 +1,29 @@
+{% comment %}
+  Kit signup form — design-spec.md §5.
+
+  Kit's own markup, styled to our tokens. Neither Kit's hosted CSS nor its
+  ck.5.js is loaded, so this is a plain POST: the browser navigates to Kit's
+  confirmation page rather than showing an inline success message. That is the
+  trade for not inheriting Kit's styling.
+
+  Params:
+    placement  - key into site.kit.forms (footer | post | book | newsletter).
+                 Also namespaces the input id, since more than one form can
+                 appear on a page (e.g. post signup card + footer).
+{% endcomment %}
+
+{% assign form_id = site.kit.forms[include.placement] %}
+
+<form class="gw-form"
+      action="https://app.convertkit.com/forms/{{ form_id }}/subscriptions"
+      method="post">
+  <label class="gw-vh" for="gw-email-{{ include.placement }}">Email address</label>
+  <input class="gw-field"
+         id="gw-email-{{ include.placement }}"
+         type="email"
+         name="email_address"
+         placeholder="Email address"
+         autocomplete="email"
+         required>
+  <button class="gw-btn gw-btn--primary" type="submit">{{ site.signup.button }}</button>
+</form>

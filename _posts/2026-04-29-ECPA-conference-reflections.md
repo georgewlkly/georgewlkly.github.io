@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ECPA Conference Reflections
+category: post
 tags: ["Artificial Intelligence", Conferences, Presentations, Publishing, Reflections, Strategy]
 description: "Reflections from the ECPA Leadership Summit on AI's impact on publishing. Bob Hutchins' proxy failure framework - how AI undermines trust in writing as a signal of thought and effort - connects to George Akerlof's market for lemons: when quality signals break down, adverse selection can collapse markets. The strategic question for publishers is whether they can credibly signal editorial judgement in ways that are costly for low-quality producers to fake."
 ---

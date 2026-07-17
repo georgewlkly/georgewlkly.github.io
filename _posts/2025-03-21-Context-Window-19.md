@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 19
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers Meta's attempt to block Sarah Wynn Williams's memoir Careless People and The Atlantic's forensic exposé of Meta's training data, the billion-download milestone for Llama, attitudes to AI among Ibero-American publishers from a trip to Madrid's Parix IA conference, the Thaler v. Perlmutter appellate ruling reaffirming that copyright requires human authorship, Y Combinator's report on AI-generated startup code, Baidu's aggressively priced Ernie models, Anthropic adding web search to Claude, OpenAI's updated voice models, Zoom's new AI agents, and details of a forthcoming Publishing Scotland webinar.

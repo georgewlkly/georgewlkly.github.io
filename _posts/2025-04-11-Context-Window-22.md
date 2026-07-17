@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 22
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers Shopify CEO Tobias Lütke's AI-first hiring memo, a behavioural study suggesting reader preferences for human authorship are weaker than stated, an argument that AI may improve content quality by writing for the model as well as the reader, Anthropic's launch of Claude for Education with Socratic prompting, a salutary LSE blog on "efficient inefficiency", OpenAI's persistent-memory upgrade to ChatGPT and the Temporary Chat workaround, Meta's Llama 4 multimodal models, and a court ruling allowing the New York Times's copyright case against OpenAI to proceed.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 10
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition features stories on the UK’s national AI strategy, a study of LLMs in education, ​Bloomberg editor-in-chief John Micklethwait on AI in journalism, and new features from ChatGPT and Copilot.

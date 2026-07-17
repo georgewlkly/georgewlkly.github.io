@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 3
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition unpacks the HarperCollins–Microsoft AI licensing deal and its wider implications for trade publishing, OpenAI's o1 models reaching the API, Gemini's new memory feature, Ben Affleck on AI and craft, research on AI writing in Substack newsletters, and US dates for the IPG AI training course.

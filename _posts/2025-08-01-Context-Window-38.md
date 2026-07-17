@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 38
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers fresh data on student AI use and ChatGPT's new Socratic Study Mode, NotebookLM's new multilingual audio and video overviews, Adobe's Firefly-powered Photoshop upgrades, content licensing deals from Gannett/Perplexity and Johns Hopkins University Press with benchmark pricing for academic books, Neil Perkin on where AI still falls short, fresh research on the scale of "Shadow AI" use in workplaces, and Ethan Mollick on the "Bitter Lesson" and outcome-trained AI in messy organisations.

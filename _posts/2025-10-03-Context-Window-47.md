@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 47
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 Another week, another flood of AI product announcements from Microsoft, Amazon, OpenAI and Anthropic. But some of this week's news feels particularly consequential: if you publish books to Kindle or have a direct-to-consumer sales strategy, read on...

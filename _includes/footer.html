@@ -1,0 +1,44 @@
+<!-- Footer — design-spec.md §5. On every page. -->
+
+<footer class="gw-footer">
+  <div class="gw-container">
+
+    <p class="gw-footer__title">{{ site.signup.name }}</p>
+    <p class="gw-footer__desc">{{ site.signup.description }} Read by {{ site.signup.subscriber_count }} subscribers.</p>
+    {% include signup-form.html placement="footer" %}
+
+    <hr>
+
+    <div class="gw-footer__cols">
+      <div>
+        <h2 class="gw-footer__col-head">Impressum</h2>
+        <p>{{ site.impressum }}</p>
+      </div>
+
+      <div>
+        <h2 class="gw-footer__col-head">Contact</h2>
+        <p>
+          <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a><br>
+          {{ site.contact.phone }}
+        </p>
+      </div>
+
+      <div>
+        <h2 class="gw-footer__col-head">Links</h2>
+        <p>
+          <a href="https://www.linkedin.com/in/georgewalkley">LinkedIn</a><br>
+          <a href="https://bsky.app/profile/georgewalkley.com">Bluesky</a><br>
+          <a href="{{ site.baseurl }}/feed.xml">RSS</a><br>
+          <a href="{{ site.baseurl }}/privacy/">Privacy</a><br>
+          <a href="{{ site.baseurl }}/sitemap.xml">Sitemap</a>
+        </p>
+      </div>
+
+      <div>
+        <h2 class="gw-footer__col-head">Writing</h2>
+        {% include writing-stats.html %}
+      </div>
+    </div>
+
+  </div>
+</footer>

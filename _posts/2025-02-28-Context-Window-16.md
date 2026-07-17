@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 16
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers a busy week at the IPG Conference and a striking Ethan Mollick chart on AI's collapsing cost and rising performance, Amazon's Alexa+ upgrade and what agentic shopping means for book discoverability, an HBR piece on AI agents reshaping consumer behaviour, ElevenLabs' new ElevenReader Publishing offer for synthetic-voice audiobooks, Claude 3.7 Sonnet's switchable reasoning mode, the arrival of GPT 4.5, and the UK launch of OpenAI's Sora video generator.

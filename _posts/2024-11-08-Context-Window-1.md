@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 1
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers the dispute over an AI-generated cover for Jodi Picoult's new book, Anthropic's new CSV analysis feature in Claude, the launch of ChatGPT Search, and how AI-driven search could reshape publishers' relationships with the open web.

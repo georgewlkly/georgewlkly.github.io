@@ -1,0 +1,99 @@
+//
+// DESIGN TOKENS — design-spec.md §4
+//
+// The single source of colour, type and spacing for the redesign.
+// Custom properties only: this file paints nothing on its own, so
+// importing it cannot change how any existing page renders.
+//
+// Per spec §4: no raw hex belongs anywhere outside this file.
+//
+
+:root {
+
+  //
+  // Colour — spec §4.1
+  //
+
+  --paper: #FBF9F4;
+  --paper-tint: #F1EDE2;
+  --card: #FFFFFF;
+  --ink: #1C1B18;
+  --body: #2A2822;
+  --text-2: #4A473F;
+  --muted: #6B675F;
+  --rule: #E4E0D6;
+  --rule-tint: #DDD7C8;
+  --border-mid: #C9C4B6;
+  --accent: #8C3226;
+  --accent-underline: #D8B3AC;
+
+  --footer-text: #B8B3A6;
+  // Spec §4.1 fixes this at #7C786D, but that is 3.91:1 on --ink and footer body
+  // is 13px, so it fails the AA floor spec §8 also demands. Lightness raised
+  // 46% -> 50% (hue and saturation untouched) for 4.55:1. Approved 17 July 2026.
+  --footer-muted: #878377;
+  --footer-rule: #33322D;
+  --footer-field: #2A2925;
+  --footer-field-border: #45443E;
+
+  // Spec §5 asks for "darken ~8%" on primary-button hover but does not fix a
+  // value. --accent is HSL(7, 57%, 35%); eight points off lightness gives this.
+  --accent-hover: #6C271D;
+
+  //
+  // Type — spec §4.2
+  //
+
+  --font-display: "Playfair Display", serif;
+  --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  // Sizes are the spec's desktop reference, floored for 360px.
+  //
+  // The clamp()s deliberately live in custom property values. Ruby Sass — which
+  // is what GitHub Pages builds with — parses ordinary declarations as
+  // SassScript and dies on `1.35rem + 2.6vw` ("Incompatible units"), but leaves
+  // custom property values as plain CSS. The inner calc() is belt and braces so
+  // these stay safe if they are ever moved out of :root. Dart Sass accepts both
+  // forms, so it will not catch a regression here.
+  --t-hero: clamp(2rem, calc(1.35rem + 2.6vw), 2.75rem);          // 32 -> 44px
+  --t-page-title: clamp(1.75rem, calc(1.45rem + 1.3vw), 2.125rem); // 28 -> 34px
+  --t-headline: clamp(1.75rem, calc(1.3rem + 2vw), 2.375rem);      // 28 -> 38px
+  --t-section: clamp(1.25rem, calc(1.1rem + 0.7vw), 1.5rem);       // 20 -> 24px
+  --t-book-title: clamp(1.5rem, calc(1.25rem + 1.1vw), 1.875rem);  // 24 -> 30px
+  --t-endorse-lead: clamp(1.375rem, calc(1.2rem + 0.8vw), 1.625rem); // 22 -> 26px
+  --t-card-title: 1.25rem;      // 20px
+  --t-endorse: 1.125rem;        // 18px
+  --t-body: 1.125rem;           // 18px
+  --t-support: 1rem;            // 16px
+  --t-card-summary: 0.9375rem;  // 15px
+  --t-nav: 0.875rem;            // 14px
+  --t-meta: 0.8125rem;          // 13px
+  --t-footer: 0.8125rem;        // 13px
+
+  --lh-hero: 1.25;
+  --lh-headline: 1.2;
+  --lh-body: 1.75;
+  --lh-support: 1.65;
+  --lh-footer: 1.7;
+
+  --track-kicker: 0.08em;
+  --track-nav: 0.02em;
+
+  //
+  // Spacing, radii, rules — spec §4.3
+  //
+
+  --space-section: clamp(2rem, calc(1.2rem + 2.4vw), 3.5rem); // 2rem mobile -> 3.5rem desktop
+  --space-card: 1.5rem;
+  --container: 1080px;
+  --measure: 68ch;
+
+  // Nothing larger than these. Spec §4.3.
+  --radius-btn: 3px;   // buttons, form fields
+  --radius-card: 4px;  // cards, portrait
+  --radius-cover: 2px; // book cover
+  --radius-pill: 12px; // filter pills
+
+  --rule-w: 1px;
+  --rule-card-top: 2px; // writing-card top rule; signature element, spec §4.3
+}

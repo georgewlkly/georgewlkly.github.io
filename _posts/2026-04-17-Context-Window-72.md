@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 72
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 A slightly shorter newsletter than last time as it's been a particularly busy week: several days of travel, and submitting the manuscript of my book to my publisher. More on that soon, but first, some perspectives on AI impact.

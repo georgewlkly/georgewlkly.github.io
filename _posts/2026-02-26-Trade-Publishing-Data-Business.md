@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Trade Publishing as a Data Business
+category: post
 tags: [Publishing, Strategy]
 description: "Trade publishers generate valuable forward signals—submission patterns, acquisition trends, category momentum—that they have not yet treated as products. Could they follow the Washington Post's playbook?"
 ---

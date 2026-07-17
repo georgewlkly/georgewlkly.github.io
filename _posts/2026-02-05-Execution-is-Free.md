@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Execution is Free
+category: post
 tags: ["Artificial Intelligence", Strategy]
 description: "As AI lowers the cost of execution toward zero, professional value shifts up the stack—from code to judgement, from delivery to deciding what is worth delivering at all."
 ---

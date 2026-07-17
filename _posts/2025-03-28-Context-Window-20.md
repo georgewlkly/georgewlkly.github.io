@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 20
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition covers OpenAI's inline image generation in 4o and the Studio Ghibli controversy that followed, a US court's refusal to halt Anthropic's training on song lyrics and what that means for publisher litigation strategy, a new world map of AI copyright lawsuits, MIT Tech Review on the dangers of total autonomy for AI agents, OUP's AI Discovery Assistant with Silverchair, the worsening impact of AI crawlers on open access infrastructure and Cloudflare's response, and a BookBrunch op-ed on AI in bookselling.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building AI Workflows That Survive Platform Risk
+category: post
 tags: ["Artificial Intelligence", Publishing, Strategy]
 description: "AI platform volatility, pricing changes, usage limits, makes it risky to build workflows inside specific models. The smartest users are using AI as a harness, keeping data and value in their own stack. Optionality matters as much as optimisation."
 ---

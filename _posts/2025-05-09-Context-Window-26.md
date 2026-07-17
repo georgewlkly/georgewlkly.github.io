@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 26
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This week's newsletter starts with a question that's been quietly nagging at many of us working with generative AI: are we saving time, or just skipping the thinking? A brilliant post introduces the idea of "cognitive debt"—the mental version of technical debt—where shortcuts today can cost us clarity tomorrow. It's a useful lens for publishers figuring out how to scale AI responsibly, especially as new tools promise more speed, but not always more understanding.

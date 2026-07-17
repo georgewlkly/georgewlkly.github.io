@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 67
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 --- 
 I'm catching up after three intense days at London Book Fair. That intensity has been mirrored in the AI world, with a slew of copyright and licensing developments, some new practical tools for publishers, and catastrophically misjudged AI developments at Grammarly, Amazon and McKinsey.

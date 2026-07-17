@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    {% include fonts.html %}
+  </head>
+
+  <!-- Deliberately minimal: no masthead, footer or analytics. This page exists
+       to QA the tokens and components in isolation, so the old design's CSS is
+       kept out of the way and the private QA traffic stays out of GA. -->
+  <body class="gw">
+    {{ content }}
+  </body>
+</html>

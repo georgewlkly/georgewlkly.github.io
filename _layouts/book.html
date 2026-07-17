@@ -1,0 +1,105 @@
+---
+layout: default
+---
+
+{% comment %}
+  Book page — design-spec.md §6.3.
+  Order: masthead -> book hero -> endorsements -> launch-updates card -> footer.
+  Masthead and footer come from the default layout; body_class/full_width are set
+  in the page's front matter.
+
+  The "inside the book" prose is deliberately demoted below endorsements in
+  prominence (spec §6.3), so {{ content }} is rendered after the endorsement band.
+{% endcomment %}
+
+{% assign lead = site.data.endorsements | where: "lead", true | first %}
+{% assign rest = site.data.endorsements | where_exp: "e", "e.lead != true" %}
+
+<!-- Book hero — spec §6.3. Cover larger than the homepage band. -->
+<section class="gw-book-hero gw-band">
+  <div class="gw-container gw-book-hero__inner">
+    <div class="gw-book-hero__cover">
+      <img src="{{ site.baseurl }}{{ site.book.cover }}" alt="{{ site.book.cover_alt }}">
+    </div>
+
+    <div class="gw-book-hero__body">
+      <p class="gw-kicker">{{ site.book.kickers[site.book.kicker_state] }}</p>
+      <h1 class="gw-book-hero__title">{{ site.book.title }}</h1>
+
+      {% comment %} Spec §6.3: the longest pitch on the site — two to three sentences. {% endcomment %}
+      <p class="gw-book-hero__pitch">
+        A practical, grounded framework for using AI where it genuinely helps — in
+        research, analysis and option generation — while keeping human judgement
+        where it belongs: in the decisions that matter. This is how leaders stop
+        managing complexity and start outthinking it.
+      </p>
+
+      <div class="gw-retailers">
+        {% for r in site.data.retailers %}
+          {% if r.featured %}
+            <a class="gw-btn gw-btn--primary" href="{{ r.url }}">Pre-order — {{ r.label }}</a>
+          {% endif %}
+        {% endfor %}
+        {% for r in site.data.retailers %}
+          {% unless r.featured %}
+            <a class="gw-btn gw-btn--secondary" href="{{ r.url }}">{{ r.label }}</a>
+          {% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Endorsements — spec §6.3. Tinted band: one lead full-width, then a 2-col grid. -->
+{% if site.data.endorsements and site.data.endorsements.size > 0 %}
+<section class="gw-band gw-band--tint gw-endorsements">
+  <div class="gw-container">
+
+    {% if lead %}
+      <figure class="gw-endorse-lead-block">
+        <blockquote class="gw-endorse-lead">{{ lead.quote }}</blockquote>
+        <figcaption class="gw-endorse-attrib">
+          {{ lead.name }}{% if lead.role %} · {{ lead.role }}{% endif %}{% if lead.org %} · {{ lead.org }}{% endif %}
+        </figcaption>
+      </figure>
+
+      {% if rest.size > 0 %}<hr class="gw-rule gw-endorsements__rule">{% endif %}
+    {% endif %}
+
+    {% if rest.size > 0 %}
+      <div class="gw-endorse-grid">
+        {% for e in rest %}
+          <figure class="gw-endorse-block">
+            <blockquote class="gw-endorse">{{ e.quote }}</blockquote>
+            <figcaption class="gw-endorse-attrib">
+              {{ e.name }}{% if e.role %} · {{ e.role }}{% endif %}{% if e.org %} · {{ e.org }}{% endif %}
+            </figcaption>
+          </figure>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+  </div>
+</section>
+{% endif %}
+
+<!-- Inside the book — spec §6.3: demoted below endorsements. -->
+<section class="gw-band">
+  <div class="gw-container gw-measure">
+    <h2 class="gw-section-head">Inside the book</h2>
+    <div class="gw-prose">
+      {{ content }}
+    </div>
+  </div>
+</section>
+
+<!-- Launch-updates card — spec §6.3. -->
+<section class="gw-band gw-band--last">
+  <div class="gw-container gw-measure">
+    <aside class="gw-card-signup">
+      <p class="gw-card-signup__title">Get launch updates</p>
+      <p class="gw-card-signup__desc">Publication news, events and a sample chapter, via Context Window.</p>
+      {% include signup-form.html placement="book" %}
+    </aside>
+  </div>
+</section>

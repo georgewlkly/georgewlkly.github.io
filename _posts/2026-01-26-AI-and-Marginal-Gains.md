@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AI and Marginal Gains
+category: post
 tags: ["Artificial Intelligence"]
 description: "Why AI productivity gains may be better framed as an aggregation of marginal improvements than a company-wide transformation—and a practical framework for finding your own 1% wins."
 ---

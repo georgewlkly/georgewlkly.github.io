@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Context Window 6
+category: newsletter
 tags: ["Artificial Intelligence", Newsletter, Publishing]
 ---
 This edition rounds up a packed week of tech news—OpenAI's Sora rollout, Google's Gemini 2 and Deep Research, and Reddit's new AI search tool—alongside new public-domain training datasets, AI deal trackers, the impact of AI clauses in publishing contracts, and a four-part model of how organisations use AI.
