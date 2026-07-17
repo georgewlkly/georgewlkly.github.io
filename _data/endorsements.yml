@@ -1,6 +1,4 @@
 # Book endorsements — design-spec.md §6.3.
-# One entry may set `lead: true` (exactly one) to render full-width above the
-# grid. The book page handles 2-8 entries without template change.
 # Quotes and attributions carried over verbatim from the previous book page.
 
 - lead: true
@@ -25,6 +23,22 @@
   org: Whitefox
 
 - quote: >-
+    Any leader responsible for strategy should read this book. Walkley shows how
+    to bring AI in as an indispensable member of your strategy team. Capable,
+    fast, and fallible while keeping the decisions that matter firmly in human
+    hands. The result is a practical guide to making strategy the continuous,
+    dynamic discipline today's world demands.
+  name: James Lascelles
+  role: Author and Cofounder
+  org: Brilliant Working
+
+- quote: >-
+    A smart, practical and timely book. George Walkley cuts through the noise around AI and shows what really matters. Not replacing human judgement but strengthening it. For any leader trying to think more clearly in a faster, more uncertain world, this is a very valuable read. 
+  name: Marc Maley
+  role: Founder
+  org: My Brand Academy 
+  
+- quote: >-
     Reading The Intelligence Multiplier was a powerful reminder that strategy is
     fundamentally about difficult trade-offs, and such decisions, despite
     promises of AI making life easier for executives, remain essentially human.
@@ -38,11 +52,7 @@
   org: "author of AI-Q: The new leadership imperative for the Human+AI era"
 
 - quote: >-
-    Any leader responsible for strategy should read this book. Walkley shows how
-    to bring AI in as an indispensable member of your strategy team. Capable,
-    fast, and fallible while keeping the decisions that matter firmly in human
-    hands. The result is a practical guide to making strategy the continuous,
-    dynamic discipline today's world demands.
-  name: James Lascelles
-  role: Author and Cofounder
-  org: Brilliant Working
+    In a world of AI noise, George offers a practical, well-thought out approach to the reality of integrating such a fast moving technology. I really enjoyed the book, and am confident it will be a game-changer for everyone from the solo founder to the CEO.
+  name: Amanda Perry
+  role: Author
+  org: Brain First Business
