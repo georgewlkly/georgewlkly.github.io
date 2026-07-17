@@ -36,11 +36,6 @@ nav:
   - title: Book
     url: /books/the-intelligence-multiplier/
     key: book
-  # Stage 3 moves this to /posts/ once that page exists. Until then the blog
-  # roll still lives at / , so "/" is the correct target for "Writing" today.
-  - title: Writing
-    url: /
-    key: writing
   - title: Speaking
     url: /speaking/
     key: speaking
