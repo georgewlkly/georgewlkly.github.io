@@ -69,7 +69,7 @@ signup:
   description: A weekly briefing on AI in media and publishing, in five minutes.
   # Spec §6.5: the provenance line must never appear on non-newsletter posts.
   newsletter_title: Subscribe for email updates.
-  default_title: I write about AI in media and publishing every week.
+  default_title: Subscribe for email updates.
   button: Subscribe
 
 # Spec §7: display labels for the category field. "Articles/Article" was flagged
@@ -86,7 +86,7 @@ home:
   # Spec §10 lists final hero copy as George's to confirm. These are the spec's
   # own draft strings. Inline HTML is allowed here (index.html is not markdown).
   hero_statement: >-
-    Helping publishers and media businesses make strategy and put AI to work, on their own terms.
+    Helping publishers and media businesses make strategy and put AI to work on their own terms.
   hero_support: >-
     Non-executive director, consultant, trainer and speaker. Author of <em>The Intelligence
     Multiplier</em>. Writer of <em>Context Window</em>, a weekly briefing on AI
