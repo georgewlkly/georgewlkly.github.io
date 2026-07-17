@@ -67,7 +67,8 @@
 .gw-masthead__wordmark {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 1.375rem;
+  // Spec §4.2 left this unsized; George asked for ~25% larger. 22px -> 27.5px.
+  font-size: 1.71875rem;
   line-height: 1;
   color: var(--ink);
   text-decoration: none;
@@ -81,7 +82,10 @@
 }
 
 .gw-masthead__link {
-  font-size: var(--t-nav);
+  // ~25% larger than the spec's 14px nav, per George. 14px -> 17.5px.
+  // Kept a masthead-local override rather than changing --t-nav, which also
+  // sizes buttons and the mobile Menu toggle.
+  font-size: 1.09375rem;
   letter-spacing: var(--track-nav);
   color: var(--muted);
   text-decoration: none;
@@ -978,6 +982,21 @@ a.gw-card-writing {
   padding: var(--space-section) 0;
 }
 
+// Signup band: copy left, form right (George's request — the full-width form
+// looked wrong). Vertically centred; stacks on mobile.
+.gw-footer__signup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 2.5rem;
+  align-items: center;
+}
+
+.gw-footer__signup-form {
+  justify-self: end;
+  width: 100%;
+  max-width: 420px;
+}
+
 .gw-footer__title {
   font-family: var(--font-display);
   font-weight: 500;
@@ -987,8 +1006,8 @@ a.gw-card-writing {
 }
 
 .gw-footer__desc {
-  margin: 0 0 1rem;
-  max-width: 60ch;
+  margin: 0;
+  max-width: 52ch;
 }
 
 .gw-footer__cols {
@@ -1040,6 +1059,16 @@ a.gw-card-writing {
   .gw-footer__cols {
     grid-template-columns: 1fr;
     gap: 1.75rem;
+  }
+
+  .gw-footer__signup {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .gw-footer__signup-form {
+    justify-self: stretch;
+    max-width: none;
   }
 }
 

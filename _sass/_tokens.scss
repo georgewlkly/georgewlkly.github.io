@@ -28,10 +28,11 @@
   --accent-underline: #D8B3AC;
 
   --footer-text: #B8B3A6;
-  // Spec §4.1 fixes this at #7C786D, but that is 3.91:1 on --ink and footer body
-  // is 13px, so it fails the AA floor spec §8 also demands. Lightness raised
-  // 46% -> 50% (hue and saturation untouched) for 4.55:1. Approved 17 July 2026.
-  --footer-muted: #878377;
+  // Spec §4.1 fixes this at #7C786D (3.91:1 on --ink) — below the AA floor spec
+  // §8 also demands. First raised to #878377 (4.55:1); George then asked for
+  // more contrast, so raised again to #9E9A8D (6.12:1). Still below the heading
+  // colour --footer-text (8.23:1), so headings stay visibly brighter than body.
+  --footer-muted: #9E9A8D;
   --footer-rule: #33322D;
   --footer-field: #2A2925;
   --footer-field-border: #45443E;

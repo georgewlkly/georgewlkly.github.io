@@ -3,9 +3,15 @@
 <footer class="gw-footer">
   <div class="gw-container">
 
-    <p class="gw-footer__title">{{ site.signup.name }}</p>
-    <p class="gw-footer__desc">{{ site.signup.description }} Read by {{ site.signup.subscriber_count }} subscribers.</p>
-    {% include signup-form.html placement="footer" %}
+    <div class="gw-footer__signup">
+      <div class="gw-footer__signup-copy">
+        <p class="gw-footer__title">{{ site.signup.name }}</p>
+        <p class="gw-footer__desc">{{ site.signup.description }} Read by {{ site.signup.subscriber_count }} subscribers.</p>
+      </div>
+      <div class="gw-footer__signup-form">
+        {% include signup-form.html placement="footer" %}
+      </div>
+    </div>
 
     <hr>
 
