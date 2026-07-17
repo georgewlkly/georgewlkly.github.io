@@ -4,15 +4,20 @@
   One template behind /posts/, every tag page and every year page: two columns,
   compact entries separated by 1px rules, sidebar right (below on mobile).
 
+  The spec's category filter pills were removed (George's call): on GitHub Pages
+  with jekyll-paginate they could only ever filter the current page of 8, not the
+  whole archive, which reads as broken. Category still shows on the homepage cards
+  and each entry's metadata line; cross-archive filtering is served by the
+  topic/year sidebar.
+
   Params:
     posts     - the post list to render. paginator.posts on /posts/, or
-                site.tags["X"] on a tag page, or site.posts with `year` set.
-    heading   - page title, e.g. "Writing", "Writing: Strategy", "Writing: 2025".
+                tag_posts on a tag page, or site.posts with `year` set.
+    heading   - page title, e.g. "Posts and Newsletters", "Strategy", "2025".
     year      - optional "YYYY". Filters `posts` to that year. Passing the whole
                 collection and filtering here avoids building an array in Liquid,
                 which has no push filter.
     paginated - render the pager. Only /posts/ has one.
-    pills     - render the category filter pills. Only /posts/.
 {% endcomment %}
 
 <div class="gw-archive">
@@ -20,37 +25,19 @@
   <div class="gw-archive__main">
     <h1 class="gw-page-title">{{ include.heading }}</h1>
 
-    {% if include.pills %}
-      {% comment %}
-        Spec §5/§6.4: All / Newsletter / Posts, driven by the category field.
-        Filtering is client-side over the entries on this page, so the pills are
-        hidden until JS confirms it can drive them rather than sitting inert.
-      {% endcomment %}
-      <div class="gw-pills" id="gw-pills" aria-label="Filter by category">
-        <button class="gw-pill gw-pill--active" type="button" data-filter="all" aria-pressed="true">All</button>
-        <button class="gw-pill" type="button" data-filter="newsletter" aria-pressed="false">{{ site.category_labels.newsletter.plural }}</button>
-        <button class="gw-pill" type="button" data-filter="post" aria-pressed="false">{{ site.category_labels.post.plural }}</button>
-      </div>
-    {% endif %}
-
-    <div class="gw-entries" id="gw-entries">
+    <div class="gw-entries">
       {% for post in include.posts %}
         {% if include.year %}
           {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
           {% unless post_year == include.year %}{% continue %}{% endunless %}
         {% endif %}
 
-        {% comment %}
-          Spec §7: category is the coarse display taxonomy. No post carries one
-          until the stage 7 pass, so the label and its separator are conditional
-          and the metadata line degrades to the date alone.
-        {% endcomment %}
         {% assign label = "" %}
         {% if post.category %}
           {% assign label = site.category_labels[post.category].singular %}
         {% endif %}
 
-        <article class="gw-entry" data-category="{{ post.category }}">
+        <article class="gw-entry">
           <p class="gw-meta">
             {{- post.date | date: "%-d %B %Y" -}}
             {%- if label and label != "" %} · {{ label }}{% endif -%}
@@ -69,9 +56,6 @@
         </article>
       {% endfor %}
     </div>
-
-    {% comment %} Shown by JS only when a filter empties the list. {% endcomment %}
-    <p class="gw-entries__empty" id="gw-entries-empty" hidden>No entries in this category yet.</p>
 
     {% if include.paginated %}
       <nav class="gw-pager" aria-label="Pagination">
@@ -95,40 +79,3 @@
   {% include sidebar.html %}
 
 </div>
-
-{% if include.pills %}
-<script>
-  // Category pills, spec §6.4. Filters the entries rendered on this page.
-  (function () {
-    var pills = document.getElementById('gw-pills');
-    var list = document.getElementById('gw-entries');
-    var empty = document.getElementById('gw-entries-empty');
-    if (!pills || !list) return;
-
-    pills.setAttribute('data-js', 'true');
-
-    pills.addEventListener('click', function (e) {
-      var btn = e.target.closest('button[data-filter]');
-      if (!btn) return;
-      var want = btn.getAttribute('data-filter');
-
-      Array.prototype.forEach.call(pills.querySelectorAll('button[data-filter]'), function (b) {
-        var on = b === btn;
-        b.classList.toggle('gw-pill--active', on);
-        b.setAttribute('aria-pressed', String(on));
-      });
-
-      var shown = 0;
-      Array.prototype.forEach.call(list.querySelectorAll('.gw-entry'), function (entry) {
-        // Uncategorised posts carry an empty data-category, so they match "all"
-        // and nothing else — which is what we want before the stage 7 pass.
-        var match = want === 'all' || entry.getAttribute('data-category') === want;
-        entry.hidden = !match;
-        if (match) shown++;
-      });
-
-      if (empty) empty.hidden = shown !== 0;
-    });
-  })();
-</script>
-{% endif %}

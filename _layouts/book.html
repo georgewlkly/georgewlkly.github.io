@@ -54,31 +54,29 @@ layout: default
 {% if site.data.endorsements and site.data.endorsements.size > 0 %}
 <section class="gw-band gw-band--tint gw-endorsements">
   <div class="gw-container">
+    <div class="gw-endorse-col">
 
-    {% if lead %}
-      <figure class="gw-endorse-lead-block">
-        <blockquote class="gw-endorse-lead">{{ lead.quote }}</blockquote>
-        <figcaption class="gw-endorse-attrib">
-          {{ lead.name }}{% if lead.role %} · {{ lead.role }}{% endif %}{% if lead.org %} · {{ lead.org }}{% endif %}
-        </figcaption>
-      </figure>
+      {% if lead %}
+        <figure class="gw-endorse-lead-block">
+          <blockquote class="gw-endorse-lead">{{ lead.quote }}</blockquote>
+          <figcaption class="gw-endorse-attrib">
+            {{ lead.name }}{% if lead.role %} · {{ lead.role }}{% endif %}{% if lead.org %} · {{ lead.org }}{% endif %}
+          </figcaption>
+        </figure>
 
-      {% if rest.size > 0 %}<hr class="gw-rule gw-endorsements__rule">{% endif %}
-    {% endif %}
+        {% if rest.size > 0 %}<hr class="gw-rule gw-endorsements__rule">{% endif %}
+      {% endif %}
 
-    {% if rest.size > 0 %}
-      <div class="gw-endorse-grid">
-        {% for e in rest %}
-          <figure class="gw-endorse-block">
-            <blockquote class="gw-endorse">{{ e.quote }}</blockquote>
-            <figcaption class="gw-endorse-attrib">
-              {{ e.name }}{% if e.role %} · {{ e.role }}{% endif %}{% if e.org %} · {{ e.org }}{% endif %}
-            </figcaption>
-          </figure>
-        {% endfor %}
-      </div>
-    {% endif %}
+      {% for e in rest %}
+        <figure class="gw-endorse-block">
+          <blockquote class="gw-endorse">{{ e.quote }}</blockquote>
+          <figcaption class="gw-endorse-attrib">
+            {{ e.name }}{% if e.role %} · {{ e.role }}{% endif %}{% if e.org %} · {{ e.org }}{% endif %}
+          </figcaption>
+        </figure>
+      {% endfor %}
 
+    </div>
   </div>
 </section>
 {% endif %}

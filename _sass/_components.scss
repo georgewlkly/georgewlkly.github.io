@@ -508,10 +508,17 @@ a.gw-card-writing {
   gap: 0.75rem;
 }
 
-// Endorsements — spec §6.3
+// Endorsements — spec §6.3, simplified to a single centred column (George's
+// call). The old two-column grid left ragged gaps between uneven-length quotes,
+// and the lead's ch-based max-width rendered far too narrow. Everything now
+// stacks in one measure-width column: lead (26px), divider, then the rest (18px).
+.gw-endorse-col {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
 .gw-endorse-lead-block {
   margin: 0;
-  max-width: 52ch;
 }
 
 .gw-endorsements__rule {
@@ -519,11 +526,8 @@ a.gw-card-writing {
   border-top-color: var(--rule-tint);
 }
 
-// Spec §6.3: responsive 2-column grid; must handle 2-8 entries unchanged.
-.gw-endorse-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem;
+.gw-endorse-block + .gw-endorse-block {
+  margin-top: 2.5rem;
 }
 
 .gw-endorse-block {
@@ -538,11 +542,6 @@ a.gw-card-writing {
 
   .gw-book-hero__cover {
     max-width: 200px;
-  }
-
-  .gw-endorse-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
   }
 }
 
@@ -685,6 +684,14 @@ a.gw-card-writing {
 .gw-entry {
   border-top: var(--rule-w) solid var(--rule);
   padding: 1.25rem 0;
+}
+
+// The pill filter hides entries with the [hidden] attribute. .gw-entry is an
+// <article>, and the Meyer reset's `article { display: block }` is an author
+// rule that outranks the UA stylesheet's `[hidden] { display: none }` — so
+// without this, hidden entries stay visible and the filter does nothing.
+.gw-entry[hidden] {
+  display: none;
 }
 
 .gw-entry:first-child {

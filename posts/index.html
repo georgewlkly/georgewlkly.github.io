@@ -16,8 +16,14 @@ body_class: gw
   hand pagination back to / .
 {% endcomment %}
 
+{% comment %}
+  Category pills were removed here (George's call): on this stack they could only
+  filter the current page of 8, never the whole archive (jekyll-paginate supports
+  one pagination path, no custom plugins on Pages). The category still earns its
+  keep on the homepage cards and post metadata; cross-archive filtering is served
+  by the topic/year sidebar. See archive.html — the pills machinery is gone.
+{% endcomment %}
 {% include archive.html
    posts=paginator.posts
    heading="Posts and Newsletters"
-   paginated=true
-   pills=true %}
+   paginated=true %}
