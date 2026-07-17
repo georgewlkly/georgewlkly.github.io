@@ -64,11 +64,11 @@ kit:
 
 signup:
   # Count is a config constant so it can be updated without touching markup.
-  subscriber_count: "1,900+"
+  subscriber_count: "2,000+"
   name: Context Window
   description: A weekly briefing on AI in media and publishing, in five minutes.
   # Spec §6.5: the provenance line must never appear on non-newsletter posts.
-  newsletter_title: Enjoyed this? It started life in Context Window.
+  newsletter_title: Subscribe for email updates.
   default_title: I write about AI in media and publishing every week.
   button: Subscribe
 
