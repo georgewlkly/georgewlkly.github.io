@@ -126,4 +126,99 @@
     margin: 1.75em 0;
     padding-left: 1.25em;
   }
+
+  //
+  // Footnotes — Kramdown's standard [^1] syntax. No plugin involved: footnotes
+  // are built into Kramdown and work under `input: GFM`, so this is purely a
+  // styling layer over markup GitHub Pages already produces:
+  //
+  //   marker  <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>
+  //   notes   <div class="footnotes"><ol><li id="fn:1"><p>… <a class="reversefootnote">↩</a></p>
+  //
+  // The footnote block is part of {{ content }}, so it lands inside .gw-prose.
+  //
+
+  // The Meyer reset flattens sup/sub (font-size:100%; vertical-align:baseline),
+  // so superscript must be restored explicitly or markers render as full-size
+  // inline digits. Raised with position/top rather than vertical-align:super so
+  // a marker can never stretch the body's 1.75 line box. em-relative, so the
+  // marker stays in the surrounding body font at a proportional size.
+  sup,
+  sub {
+    font-size: 0.72em;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+
+  sup { top: -0.45em; }
+  sub { bottom: -0.2em; }
+
+  // Marker keeps the accent colour that signals a link, but drops the underline
+  // — a rule under a raised digit reads as noise at this size. Restored on hover.
+  a.footnote {
+    text-decoration: none;
+    font-style: normal;
+  }
+
+  a.footnote:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-underline);
+  }
+
+  // The note list. Kramdown emits it with no separation from the body, so it
+  // gets the same 1px rule used elsewhere on paper. Sized down to the supporting
+  // scale and set italic.
+  .footnotes {
+    margin-top: var(--space-section);
+    padding-top: 1.25rem;
+    border-top: var(--rule-w) solid var(--rule);
+    font-size: var(--t-card-summary);
+    line-height: var(--lh-support);
+    color: var(--text-2);
+    font-style: italic;
+  }
+
+  .footnotes ol {
+    margin: 0;
+    padding-left: 1.5em;
+  }
+
+  .footnotes li {
+    margin-bottom: 0.65em;
+  }
+
+  .footnotes li:last-child {
+    margin-bottom: 0;
+  }
+
+  .footnotes p {
+    margin: 0 0 0.5em;
+  }
+
+  .footnotes p:last-child {
+    margin-bottom: 0;
+  }
+
+  // Emphasis inside an already-italic list would be invisible, so <em> flips
+  // upright — the conventional way to mark a title within an italic passage.
+  .footnotes em,
+  .footnotes cite {
+    font-style: normal;
+  }
+
+  // Kramdown's back-link (↩). Kept — it is genuine keyboard/screen-reader
+  // navigation back to the marker — but set upright so the arrow glyph is not
+  // skewed by the italic, and muted so it does not compete with the note text.
+  .footnotes a.reversefootnote {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--muted);
+    margin-left: 0.4em;
+  }
+
+  .footnotes a.reversefootnote:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
 }
