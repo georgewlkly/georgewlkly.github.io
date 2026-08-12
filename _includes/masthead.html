@@ -4,16 +4,16 @@
   Active state. Spec §5: "current page (or section)" in accent.
 
   Posts live at /:title/ with no shared prefix, so a section cannot be matched on
-  URL alone — hence the layout check. Everything under the writing umbrella
-  (blog roll, posts, tag pages, year pages) lights up "Writing".
+  URL alone — hence the layout check. Everything under the Blog umbrella (the
+  /posts/ archive and its pagination, individual posts, tag pages, year pages)
+  lights up "Blog". The homepage is the curated front page, not the blog, so it
+  matches no nav item and highlights nothing.
 {% endcomment %}
 {% assign active_key = "" %}
 {% if page.layout == "post" %}
-  {% assign active_key = "writing" %}
-{% elsif page.url == "/" %}
-  {% assign active_key = "writing" %}
+  {% assign active_key = "blog" %}
 {% elsif page.url contains "/tags/" or page.url contains "/years/" or page.url contains "/posts/" %}
-  {% assign active_key = "writing" %}
+  {% assign active_key = "blog" %}
 {% elsif page.url contains "/books/" or page.url == "/book/" %}
   {% assign active_key = "book" %}
 {% else %}

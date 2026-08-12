@@ -27,21 +27,21 @@ social:
 # Redesign config — design-spec.md §7 ("Config strings")
 #
 
-# Masthead wordmark and nav. Order is fixed by spec §5.
+# Masthead wordmark and nav. Order is alphabetical by title (George's choice,
+# superseding spec §5's fixed order). Keep it alphabetical when adding items.
 wordmark: George Walkley
 nav:
   - title: About
     url: /about/
     key: about
+  # The writing archive at /posts/. key "blog" is what the masthead lights up for
+  # /posts/, tag pages, year pages and individual posts (see masthead.html).
+  - title: Blog
+    url: /posts/
+    key: blog
   - title: Book
     url: /books/the-intelligence-multiplier/
     key: book
-  - title: Speaking
-    url: /speaking/
-    key: speaking
-  - title: Training
-    url: /training/
-    key: training
   - title: Consulting
     url: /consulting/
     key: consulting
@@ -50,6 +50,12 @@ nav:
     url: /newsletter/
     key: newsletter
     standing: true
+  - title: Speaking
+    url: /speaking/
+    key: speaking
+  - title: Training
+    url: /training/
+    key: training
 
 kit:
   # Spec §5 recommends one form (or tag) per placement so conversion by
