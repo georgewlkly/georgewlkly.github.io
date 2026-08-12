@@ -3,13 +3,8 @@ layout: post
 title: The UK Publishing Industry in 2026
 category: post
 tags: [Data, Research, Publishing]
-description: "A 2026 update to George Walkley's research using Companies House data to map over 12,000 UK publishing businesses—their size distribution, geographic spread, and growth."
 ---
-Last August, [I published a piece of research on the size and scope of the UK book and journal publishing industry](https://www.georgewalkley.com/UK-Publishing-Industry-2025/). This was [quite popular on LinkedIn](https://www.linkedin.com/posts/georgewalkley_how-many-publishers-are-there-in-the-uk-activity-7361028354034053120-uvZG) and continues to be one of the highest performing pages on this website. So, a year on, as one of my summer projects, I wanted to refresh the research using fresh data and tools. That refresh tells two parallel stories: an industry with more entrants competing for an essentially static pot, and the collapsing cost in time and money of the analysis sitting behind that conclusion. Both are critical lessons for publishers in 2026. 
-
-<br>
-<div style="min-height:738px" id="datawrapper-vis-0753I"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/0753I/embed.js" charset="utf-8" data-target="#datawrapper-vis-0753I"></script><noscript><img src="https://datawrapper.dwcdn.net/0753I/full.png" alt="Visualisation of UK publishing companies registered with SIC codes 58110, 58141" /></noscript></div>
-<br>
+Last August, [I published a piece of research on the size and scope of the UK book and journal publishing industry](https://www.georgewalkley.com/UK-Publishing-Industry-2025/). It was [quite popular on LinkedIn](https://www.linkedin.com/posts/georgewalkley_how-many-publishers-are-there-in-the-uk-activity-7361028354034053120-uvZG) and continues to be one of the highest performing pages on this website. So, a year on, as one of my summer projects, I wanted to refresh the research using fresh data and tools. That refresh tells two parallel stories: an industry with more entrants competing for an essentially static pot, and the collapsing cost in time and money of the analysis sitting behind that conclusion. Both are critical lessons for publishers in 2026. 
 
 ## Methodology
 
@@ -25,8 +20,13 @@ I’ll say more about the data below, but I was staggered at the speed and accur
 
 I’m not going to explain every figure or baseline from last year: the same structural notes apply, [and you can find that explanation and analysis here if you’re interested](https://www.georgewalkley.com/UK-Publishing-Industry-2025/). Instead, I’ll concentrate on changes and trends. However, one overarching caveat is that it’s hard to get an exact handle on the size and scope of the industry because any small publisher that operates using the sole trader legal structure rather than a limited company does not appear on the Companies House data,[^2] and in the other direction there are publishing-adjacent businesses (independent authors, for example) or even non-publishing businesses that are registered with erroneous SIC codes. So it’s best to regard the following as directional. 
 
+<br>
+<div style="min-height:738px" id="datawrapper-vis-0753I"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/0753I/embed.js" charset="utf-8" data-target="#datawrapper-vis-0753I"></script><noscript><img src="https://datawrapper.dwcdn.net/0753I/full.png" alt="Visualisation of UK publishing companies registered with SIC codes 58110, 58141" /></noscript></div>
+<br>
+
 The Companies House data identifies 12,435 publishing companies (+2.3% to 2025), of which 11,778 are active (+2.9%). The population of journals publishers is essentially flat, with the growth coming from books. The distribution of those publishers by size is unchanged in shape: a pyramid. Basically the entire net growth is in the thousands of micro-scale companies that make up the base of that pyramid, and the number of publishers filing anything larger than small-company accounts remains less than 150 in a population of more than 12,000. 
 
+<br>
 | Region | Previous snapshot | Current snapshot | Change (%) |
 |---|---:|---:|---:|
 | London | 4,777 | 4,940 | 3% |
@@ -41,6 +41,7 @@ The Companies House data identifies 12,435 publishing companies (+2.3% to 2025),
 | Wales | 277 | 311 | 12% |
 | North East | 184 | 196 | 7% |
 | Northern Ireland | 91 | 89 | −2% |
+<br>
 
 One of the findings from last year’s research was that there was not a single MP without a publishing business registered in their constituency: the 2026 update suggests that holds for 648 of 650 MPs&#8212;an important message at a time when the government’s slogan is [“good growth in every postcode”](https://www.gov.uk/government/news/prime-minister-pledges-growth-in-every-postcode-across-whole-of-uk-as-he-visits-scotland), cleverly interpreted by my colleagues at the Independent Publishers Guild for their autumn conference as [“publishing growth in every postcode”](https://independentpublishersguild.com/SharedContent/Event/Feature-Event-AC.aspx?EventKey=7d7bc682-1299-4f90-8f3d-95b4fc2fba98&iSearchResult=true&WebsiteKey=1eee8a50-3621-480d-90ab-3e2313f4e7c9). Publishing registrations *are* spread across the country, but there is still a clear metropolitan bias: overall 42% of publishers are based in London, up marginally on last year, and the picture is even starker among the assumed largest publishers (based on accounts filing type) where more than two thirds are headquartered in the capital&#8212;though as I noted last year, many also have satellite offices around the country. The strongest year-on-year growth was in Wales (12%) and the North East (7%), albeit off low bases. 
 
@@ -52,7 +53,7 @@ One of the findings from last year’s research was that there was not a single 
 
 So more publishers, but competing for a market that has not grown significantly in real terms. [According to the Publishers Association, the industry grew from £7.2 billion in 2024 to £7.4 billion in 2025](https://www.publishers.org.uk/wp-content/uploads/2026/07/jb-pa-pub25-v2a.pdf)&#8212;growth of just under 3% over a period where UK inflation was over 3%, so the real terms impact was a small contraction rather than growth. In the long run, these figures are even starker, but it highlights a nuance that I didn’t explore properly in last year’s analysis. In adjusting nominal to real terms growth, one has to pick a deflation measure and publishing is a complicated industry for that. CPI is convenient, but tells a story about UK consumer prices. It doesn’t as accurately address institutional versus consumer sales, or exports&#8212;huge for UK publishing&#8212;which should really be deflated using the appropriate measure for the country of sale. There’s no single deflator that adequately addresses a basket of products and services including a paperback sold in the UK, a digital collection licensed to universities and a significant rights sale in USD. So, like the business population issue above, we’re left with a directional conclusion: up a little in nominal terms, down a little in real terms.
 
-## Next Steps
+## Next Steps
 
 I started with the parallel stories of publishing growth and the changing shape of analysis. The common factor to both is that barriers to entry are dropping away. Anyone looking to replicate my work could do so with a Claude subscription and a lunch hour. As I’ve written previously, [the value challenge with AI is not so much in doing the work, but in defining the job to be done](https://www.georgewalkley.com/Execution-is-Free/). The next stage of this work, which I will write about in my next post on the subject, is taking commodity data and commonly available analytical tools and adding specifics: segmentation by size, professional membership, type of publishing and&#8212;one hopes most valuable of all&#8212;twenty-nine years of industry knowledge and judgement. If that richer dataset feels interesting but not something you could do in a lunch hour, [please do get in touch](mailto:hello@outsidecontext.co.uk). 
 
