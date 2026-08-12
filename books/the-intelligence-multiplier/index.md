@@ -8,7 +8,7 @@ full_width: true
 # Direct-sales checkout link. Swap this one value for the real Stripe payment
 # link when it exists — it feeds the "Pre-order the paperback" button in
 # _layouts/book.html. Nothing else needs to change.
-stripe_payment_link: "STRIPE_PAYMENT_LINK_URL"
+stripe_payment_link: "https://buy.stripe.com/fZu5kFbv0a96eBLcdjew800"
 redirect_from:
   - /books
   - /books/
