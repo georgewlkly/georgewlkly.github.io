@@ -128,6 +128,79 @@
   }
 
   //
+  // Tables — data tables in post bodies. Kramdown emits a plain
+  // <table><thead>/<tbody>; the Meyer reset zeros its borders and padding, so
+  // this restyles from nothing. Editorial treatment: no cell borders or fills,
+  // structure carried by a 2px ink rule under the header (the site's signature
+  // rule, as on writing cards) and hairlines between rows.
+  //
+  // Header in Playfair to match the site's headings; cell data in the Helvetica
+  // body stack, consistent with body text elsewhere. To set the whole table in
+  // Playfair instead (serif numerals, financial-report look), change the one
+  // font-family on `td` below to var(--font-display).
+  //
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+    font-size: var(--t-support);
+    line-height: var(--lh-support);
+  }
+
+  thead th {
+    font-family: var(--font-display);
+    font-weight: 500;
+    color: var(--ink);
+    text-align: left;
+    vertical-align: bottom;
+    border-bottom: var(--rule-card-top) solid var(--ink);
+    padding: 0 1rem 0.6rem;
+  }
+
+  tbody td {
+    font-family: var(--font-body);
+    color: var(--body);
+    text-align: left;
+    vertical-align: top;
+    border-bottom: var(--rule-w) solid var(--rule);
+    padding: 0.7rem 1rem;
+  }
+
+  // Flush outer edges; even inter-column gaps come from the 1rem on each side.
+  thead th:first-child,
+  tbody td:first-child {
+    padding-left: 0;
+  }
+
+  thead th:last-child,
+  tbody td:last-child {
+    padding-right: 0;
+  }
+
+  // Data-table default: first column holds labels (left), the rest hold figures
+  // (right), with tabular numerals so digits line up in columns. Kramdown emits
+  // an inline `style="text-align: …"` whenever the markdown delimiter row sets
+  // alignment (:---, ---:, :--:), and inline styles override this — so a text
+  // table, or any specific column, can opt out just by marking alignment in the
+  // markdown.
+  thead th:not(:first-child),
+  tbody td:not(:first-child) {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  // A wide table must never force the whole page to scroll sideways. Below the
+  // measure, the table itself becomes the scroll container.
+  @media screen and (max-width: 640px) {
+    table {
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+
+  //
   // Footnotes — Kramdown's standard [^1] syntax. No plugin involved: footnotes
   // are built into Kramdown and work under `input: GFM`, so this is purely a
   // styling layer over markup GitHub Pages already produces:
