@@ -26,8 +26,7 @@ I’m not going to explain every figure or baseline from last year: the same str
 
 The Companies House data identifies 12,435 publishing companies (+2.3% to 2025), of which 11,778 are active (+2.9%). The population of journals publishers is essentially flat, with the growth coming from books. The distribution of those publishers by size is unchanged in shape: a pyramid. Basically the entire net growth is in the thousands of micro-scale companies that make up the base of that pyramid, and the number of publishers filing anything larger than small-company accounts remains less than 150 in a population of more than 12,000. 
 
-<br>
-| Region | Previous snapshot | Current snapshot | Change (%) |
+| Region | 2025 snapshot | 2026 snapshot | Change (%) |
 |---|---:|---:|---:|
 | London | 4,777 | 4,940 | 3% |
 | South East | 1,593 | 1,596 | 0% |
@@ -41,7 +40,6 @@ The Companies House data identifies 12,435 publishing companies (+2.3% to 2025),
 | Wales | 277 | 311 | 12% |
 | North East | 184 | 196 | 7% |
 | Northern Ireland | 91 | 89 | −2% |
-<br>
 
 One of the findings from last year’s research was that there was not a single MP without a publishing business registered in their constituency: the 2026 update suggests that holds for 648 of 650 MPs&#8212;an important message at a time when the government’s slogan is [“good growth in every postcode”](https://www.gov.uk/government/news/prime-minister-pledges-growth-in-every-postcode-across-whole-of-uk-as-he-visits-scotland), cleverly interpreted by my colleagues at the Independent Publishers Guild for their autumn conference as [“publishing growth in every postcode”](https://independentpublishersguild.com/SharedContent/Event/Feature-Event-AC.aspx?EventKey=7d7bc682-1299-4f90-8f3d-95b4fc2fba98&iSearchResult=true&WebsiteKey=1eee8a50-3621-480d-90ab-3e2313f4e7c9). Publishing registrations *are* spread across the country, but there is still a clear metropolitan bias: overall 42% of publishers are based in London, up marginally on last year, and the picture is even starker among the assumed largest publishers (based on accounts filing type) where more than two thirds are headquartered in the capital&#8212;though as I noted last year, many also have satellite offices around the country. The strongest year-on-year growth was in Wales (12%) and the North East (7%), albeit off low bases. 
 
