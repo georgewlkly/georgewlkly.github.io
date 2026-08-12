@@ -5,6 +5,10 @@ permalink: /books/the-intelligence-multiplier/
 description: "Details of AI and publishing expert George Walkley's first book, The Intelligence Multiplier."
 body_class: gw
 full_width: true
+# Direct-sales checkout link. Swap this one value for the real Stripe payment
+# link when it exists — it feeds the "Pre-order the paperback" button in
+# _layouts/book.html. Nothing else needs to change.
+stripe_payment_link: "STRIPE_PAYMENT_LINK_URL"
 redirect_from:
   - /books
   - /books/

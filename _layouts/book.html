@@ -34,19 +34,63 @@ layout: default
         managing complexity and start outthinking it.
       </p>
 
-      <div class="gw-retailers">
-        {% for r in site.data.retailers %}
-          {% if r.featured %}
-            <a class="gw-btn gw-btn--primary" href="{{ r.url }}">Pre-order — {{ r.label }}</a>
-          {% endif %}
-        {% endfor %}
-        {% for r in site.data.retailers %}
-          {% unless r.featured %}
-            <a class="gw-btn gw-btn--secondary" href="{{ r.url }}">{{ r.label }}</a>
-          {% endunless %}
-        {% endfor %}
+      {% comment %}
+        Buying lives below, not in the hero: the "Pre-order direct" section is the
+        primary CTA and the "prefer a retailer?" section is secondary. Retailer
+        buttons were removed from here so retailers are listed once only.
+        _data/retailers.yml is now unused by this page (kept for its real URLs,
+        which can fill the retailer placeholders in the section below).
+      {% endcomment %}
+    </div>
+  </div>
+</section>
+
+<!--
+  Direct sales + retailers. Inserted between the hero and the endorsements
+  (George's brief). Reuses .gw-kicker / .gw-section-head / .gw-btn--primary; the
+  swappable Stripe link lives in this page's front matter
+  (books/the-intelligence-multiplier/index.md → stripe_payment_link).
+  Retailer hrefs below are deliberate placeholders — search "#amazon" etc.
+-->
+<section class="gw-band">
+  <div class="gw-container gw-measure">
+
+    <!-- SECTION 1 — Pre-order direct (UK) -->
+    <div class="gw-buy">
+      <p class="gw-kicker">Buy direct · UK only</p>
+      <h2 class="gw-section-head gw-buy__head">Pre-order from the author and get the workbook</h2>
+      <p class="gw-buy__price">£20 + £2.95 P&amp;P</p>
+      <p class="gw-buy__body">Order the paperback directly from me and you&rsquo;ll also receive <em>The Intelligence Multiplier Workbook</em> &mdash; an exclusive digital companion that turns the book&rsquo;s frameworks into practical first steps for you and your team. It isn&rsquo;t available anywhere else.</p>
+
+      <!--
+        PRE-ORDER -> BUY: on publication day, 7 December 2026, change the
+        "Pre-order" wording to "Buy" / "available now" in THREE places — this
+        button label, the Section 1 heading above, and the Section 2 body below
+        ("available to pre-order worldwide" -> "available worldwide"). The book
+        kicker also flips via _config.yml (book.kicker_state: new-book -> out-now).
+      -->
+      <p class="gw-buy__cta">
+        <a class="gw-btn gw-btn--primary" href="{{ page.stripe_payment_link }}">Pre-order the paperback &mdash; £20 + £2.95 P&amp;P</a>
+      </p>
+
+      <p class="gw-buy__smallprint">UK delivery addresses only. Orders are shipped tracked, on or just before publication on 7 December 2026. Secure payment by Stripe. Discount codes can be entered at checkout.</p>
+      <p class="gw-buy__smallprint">Ordering for a team? <a href="mailto:hello@outsidecontext.co.uk?subject=Bulk%20order%20%E2%80%94%20The%20Intelligence%20Multiplier">Contact me about bulk orders</a>, including a book-plus-Q&amp;A option for your organisation.</p>
+    </div>
+
+    <!-- SECTION 2 — Outside the UK, or prefer a retailer? -->
+    <div class="gw-buy">
+      <h2 class="gw-section-head gw-buy__head">Outside the UK, or prefer a retailer?</h2>
+      {% comment %}
+        Retailer URLs are from _data/retailers.yml (Amazon uses the featured
+        Amazon.co.uk link). Bookshop.org and Practical Inspiration were removed
+        for now — no URLs yet; re-add them to this list when links exist.
+      {% endcomment %}
+      <p class="gw-buy__body"><em>The Intelligence Multiplier</em> is available to pre-order worldwide from all good booksellers, including: <a href="https://amzn.to/4x4buGD">Amazon</a>, <a href="https://www.waterstones.com/book/the-intelligence-multiplier/george-walkley/9781805760511">Waterstones</a> and <a href="https://www.barnesandnoble.com/w/the-intelligence-multiplier-george-walkley/1149781044?ean=9781805760511">Barnes &amp; Noble</a>.</p>
+      <div class="gw-callout">
+        <p>Bought the book somewhere else? You can still have the workbook, wherever you are in the world. Forward your receipt or order confirmation to <a href="mailto:hello@outsidecontext.co.uk?subject=Workbook%20%E2%80%94%20The%20Intelligence%20Multiplier">hello@outsidecontext.co.uk</a> and I&rsquo;ll send it to you by email.</p>
       </div>
     </div>
+
   </div>
 </section>
 
