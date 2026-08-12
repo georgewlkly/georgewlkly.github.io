@@ -551,6 +551,12 @@ a.gw-card-writing {
 // added here.
 //
 
+// The buy blocks sit in the hero body column, under the blurb. This wrapper
+// gives them clear separation from the pitch above.
+.gw-book-buy {
+  margin-top: var(--space-section);
+}
+
 .gw-buy + .gw-buy {
   margin-top: var(--space-section);
 }
