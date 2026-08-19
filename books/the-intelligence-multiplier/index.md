@@ -12,7 +12,6 @@ stripe_payment_link: "https://buy.stripe.com/fZu5kFbv0a96eBLcdjew800"
 redirect_from:
   - /books
   - /books/
-  - /books/the-intelligence-multiplier
 ---
 
 {% comment %}
@@ -20,8 +19,11 @@ redirect_from:
   this file carries the long-form copy (the pitch and the "inside the book" prose)
   as markdown so it can be edited without touching the template.
 
-  redirect_from is retained exactly (the no-slash redirect on
-  /books/the-intelligence-multiplier is a separate, deferred snag).
+  redirect_from covers /books and /books/, which have no page of their own.
+  The no-slash /books/the-intelligence-multiplier is deliberately NOT listed:
+  a redirect_from entry there generates books/the-intelligence-multiplier.html
+  alongside the books/the-intelligence-multiplier/ directory, and GitHub Pages
+  prefers the exact file match, suppressing its own trailing-slash 301.
 {% endcomment %}
 
 Strategy has never mattered more&#8212;and never felt harder to get right. If you're
