@@ -551,20 +551,25 @@ a.gw-card-writing {
 // added here.
 //
 
-// The buy blocks sit in the hero body column, under the blurb. This wrapper
-// gives them clear separation from the pitch above.
+// Short pull-quote under the blurb, in the endorsement voice (.gw-endorse).
+.gw-book-hero__endorse {
+  margin: 0.5rem 0 0;
+}
+
+// The buy blocks sit in the hero body column, under the blurb and hero quote.
 .gw-book-buy {
   margin-top: var(--space-section);
 }
 
 .gw-buy + .gw-buy {
-  margin-top: var(--space-section);
+  margin-top: 2.5rem;
 }
 
-// The site's signature 2px ink rule, above each buy-section heading.
-.gw-buy__head {
+// A 2px ink rule under each section kicker — the site's signature rule.
+.gw-buy__rule {
+  border: 0;
   border-top: var(--rule-card-top) solid var(--ink);
-  padding-top: 1.25rem;
+  margin: 0 0 1.25rem;
 }
 
 .gw-buy__price {
@@ -574,10 +579,12 @@ a.gw-card-writing {
   margin: 0 0 1rem;
 }
 
+// Body paragraphs match the intro para (pitch): 16px, --text-2. Keeps the buy
+// copy visually consistent with the blurb above it.
 .gw-buy__body {
-  font-size: var(--t-body);
-  line-height: var(--lh-body);
-  color: var(--body);
+  font-size: var(--t-support);
+  line-height: var(--lh-support);
+  color: var(--text-2);
   margin: 0 0 1.5rem;
 }
 
@@ -585,8 +592,9 @@ a.gw-card-writing {
   margin: 0 0 1.25rem;
 }
 
+// Small print sits a notch below the intro/body size.
 .gw-buy__smallprint {
-  font-size: var(--t-card-summary);
+  font-size: var(--t-meta);
   line-height: var(--lh-support);
   color: var(--muted);
   margin: 0.75rem 0 0;

@@ -35,6 +35,16 @@ layout: default
       </p>
 
       {% comment %}
+        Short hero endorsement, in the endorsement voice (.gw-endorse). Excerpted;
+        swap the quote and attribution freely. The full set runs in the
+        endorsements band lower down.
+      {% endcomment %}
+      <figure class="gw-book-hero__endorse">
+        <blockquote class="gw-endorse">A brilliant framework for strategy in the age of AI.</blockquote>
+        <figcaption class="gw-endorse-attrib">Michael Bhaskar &middot; Microsoft AI Futures</figcaption>
+      </figure>
+
+      {% comment %}
         Buying sits here in the hero body column, directly under the blurb — not
         in a full-width band below, which let it drift under the cover. Direct
         sale is the primary CTA; retailers are secondary. The swappable Stripe
@@ -45,27 +55,34 @@ layout: default
         <!-- SECTION 1 — Pre-order direct (UK) -->
         <div class="gw-buy">
           <p class="gw-kicker">Buy direct · UK only</p>
-          <h2 class="gw-section-head gw-buy__head">Pre-order from the author and get the workbook</h2>
+          <hr class="gw-buy__rule">
           <p class="gw-buy__body">Order the paperback directly from me and you&rsquo;ll also receive <em>The Intelligence Multiplier Workbook</em>&#8212;an exclusive digital companion that turns the book&rsquo;s frameworks into practical first steps for you and your team. It isn&rsquo;t available anywhere else.</p>
 
           <!--
             PRE-ORDER -> BUY: on publication day, 7 December 2026, change the
-            "Pre-order" wording to "Buy" / "available now" in THREE places — this
-            button label, the Section 1 heading above, and the Section 2 body below
-            ("available to pre-order worldwide" -> "available worldwide"). The book
-            kicker also flips via _config.yml (book.kicker_state: new-book -> out-now).
+            "Pre-order" wording to "Buy" / "available now" in TWO places: this
+            button label, and the "available to pre-order worldwide" line in the
+            retailers block below. The book kicker also flips via _config.yml
+            (book.kicker_state: new-book -> out-now).
           -->
           <p class="gw-buy__cta">
             <a class="gw-btn gw-btn--primary" href="{{ page.stripe_payment_link }}">Pre-order the paperback &mdash; £20 + £2.95 P&amp;P</a>
           </p>
 
           <p class="gw-buy__smallprint">UK delivery addresses only. Orders are shipped tracked, on or just before publication on 7 December 2026. Secure payment by Stripe. Discount codes can be entered at checkout.</p>
-          <p class="gw-buy__smallprint">Ordering for a team? <a href="mailto:hello@outsidecontext.co.uk?subject=Bulk%20order%20%E2%80%94%20The%20Intelligence%20Multiplier">Contact me about bulk orders</a>, including a book-plus-Q&amp;A option for your organisation.</p>
         </div>
 
-        <!-- SECTION 2 — Outside the UK, or prefer a retailer? -->
+        <!-- Bulk sales -->
         <div class="gw-buy">
-          <h2 class="gw-section-head gw-buy__head">Outside the UK, or prefer a retailer?</h2>
+          <p class="gw-kicker">Bulk sales</p>
+          <hr class="gw-buy__rule">
+          <p class="gw-buy__body">Ordering for a team? <a href="mailto:hello@outsidecontext.co.uk?subject=Bulk%20order%20%E2%80%94%20The%20Intelligence%20Multiplier">Contact me about bulk orders</a>, including a book-plus-Q&amp;A option for your organisation.</p>
+        </div>
+
+        <!-- Outside the UK / retailers — secondary -->
+        <div class="gw-buy">
+          <p class="gw-kicker">Outside the UK, or prefer a retailer?</p>
+          <hr class="gw-buy__rule">
           {% comment %}
             Retailer URLs from _data/retailers.yml. Amazon.co.uk and Amazon.com are
             listed separately. Bookshop.org and Practical Inspiration omitted for
