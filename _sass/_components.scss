@@ -551,6 +551,33 @@ a.gw-card-writing {
 // added here.
 //
 
+// On-page jump links (Buy · Reviews · About), between the title and the blurb.
+.gw-book-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 0 0 1.25rem;
+}
+
+.gw-book-nav__link {
+  font-family: var(--font-body);
+  font-size: var(--t-nav);
+  letter-spacing: var(--track-nav);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.gw-book-nav__link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-underline);
+  text-underline-offset: 2px;
+}
+
+.gw-book-nav__link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 // Short pull-quote under the blurb, in the endorsement voice (.gw-endorse).
 .gw-book-hero__endorse {
   margin: 0.5rem 0 0;

@@ -26,6 +26,13 @@ layout: default
       <p class="gw-kicker">{{ site.book.kickers[site.book.kicker_state] }}</p>
       <h1 class="gw-book-hero__title">{{ site.book.title }}</h1>
 
+      {% comment %} On-page jump links to the sections below (ids: #buy, #reviews, #about). {% endcomment %}
+      <nav class="gw-book-nav" aria-label="On this page">
+        <a class="gw-book-nav__link" href="#buy">Buy</a>
+        <a class="gw-book-nav__link" href="#reviews">Reviews</a>
+        <a class="gw-book-nav__link" href="#about">About</a>
+      </nav>
+
       {% comment %} Spec §6.3: the longest pitch on the site — two to three sentences. {% endcomment %}
       <p class="gw-book-hero__pitch">
         A practical, grounded framework for using AI where it genuinely helps&#8212;in
@@ -50,7 +57,7 @@ layout: default
         sale is the primary CTA; retailers are secondary. The swappable Stripe
         link is in this page's front matter (index.md → stripe_payment_link).
       {% endcomment %}
-      <div class="gw-book-buy">
+      <div class="gw-book-buy" id="buy">
 
         <!-- SECTION 1 — Pre-order direct (UK) -->
         <div class="gw-buy">
@@ -101,7 +108,7 @@ layout: default
 
 <!-- Endorsements — spec §6.3. Tinted band: one lead full-width, then a 2-col grid. -->
 {% if site.data.endorsements and site.data.endorsements.size > 0 %}
-<section class="gw-band gw-band--tint gw-endorsements">
+<section class="gw-band gw-band--tint gw-endorsements" id="reviews">
   <div class="gw-container">
     <div class="gw-endorse-col">
 
@@ -130,10 +137,10 @@ layout: default
 </section>
 {% endif %}
 
-<!-- Inside the book — spec §6.3: demoted below endorsements. -->
-<section class="gw-band">
+<!-- About — the book description (was "Inside the book"), plus edition/pricing details. -->
+<section class="gw-band" id="about">
   <div class="gw-container gw-measure">
-    <h2 class="gw-section-head">Inside the book</h2>
+    <h2 class="gw-section-head">About</h2>
     <div class="gw-prose">
       {{ content }}
     </div>

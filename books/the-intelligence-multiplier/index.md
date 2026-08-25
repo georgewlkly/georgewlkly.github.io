@@ -39,3 +39,9 @@ decisions that matter. Readers who apply this framework don't just work more
 efficiently. They develop the strategic instincts, habits, and confidence to lead
 in conditions that would have overwhelmed the planning methods of a decade ago.
 This is how leaders stop managing complexity and start outthinking it.
+
+| Format | ISBN | Publication date | RRP |
+|:-------|:-----|:-----------------|----:|
+| Paperback | 9781805760511 | 8 December 2026 | £20.00 |
+| Hardback | 9781805760504 | 8 December 2026 | £30.00 |
+| Ebook | 9781805760528 | 7 December 2026 | £10.00 |
