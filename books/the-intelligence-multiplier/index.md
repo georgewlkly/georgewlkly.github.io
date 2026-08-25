@@ -26,20 +26,6 @@ redirect_from:
   prefers the exact file match, suppressing its own trailing-slash 301.
 {% endcomment %}
 
-Strategy has never mattered more&#8212;and never felt harder to get right. If you're
-responsible for the direction of your organisation, you already know the feeling:
-more data than ever, faster-moving markets than ever, and a planning process that
-was designed for a world that no longer exists. You're not failing at strategy.
-You're using the wrong tools for the conditions you're actually in.
-
-*The Intelligence Multiplier* cuts through the noise to give leaders a practical,
-grounded framework for using AI where it genuinely helps&#8212;in research, analysis,
-and option generation&#8212;while keeping human judgment where it belongs: in the
-decisions that matter. Readers who apply this framework don't just work more
-efficiently. They develop the strategic instincts, habits, and confidence to lead
-in conditions that would have overwhelmed the planning methods of a decade ago.
-This is how leaders stop managing complexity and start outthinking it.
-
 | Format | ISBN | Publication date | RRP |
 |:-------|:-----|:-----------------|----:|
 | Paperback | 9781805760511 | 8 December 2026 | £20.00 |
