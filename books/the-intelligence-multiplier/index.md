@@ -2,6 +2,7 @@
 layout: book
 title: The Intelligence Multiplier
 permalink: /books/the-intelligence-multiplier/
+image: /images/book-card.png
 description: "Details of AI and publishing expert George Walkley's first book, The Intelligence Multiplier."
 body_class: gw
 full_width: true
