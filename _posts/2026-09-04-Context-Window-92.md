@@ -30,7 +30,7 @@ An interesting piece of data from Benedict Evans to contextualise the sustainabi
 
 Finally, not really a publishing thing but thanks to [Tom Abba][14] for sharing a very cool use of AI: [Claude Fable solved a cipher in 44 minutes that had previously been unsolved for nearly 400 years][15]. The conclusion is very relevant to anyone using AI, even if you're not interested in cryptography:
 
-> ["Historically, many \[problems] were bottlenecked by human attention. Someone had to care enough to spend hours or days reading obscure material, testing unpromising ideas, tracing references, and trying things that might go nowhere. That bottleneck is seemingly disappearing. And the interesting thing about Claude solving this is that it didn't perform some extraordinary feat of cryptanalysis. It's actually the opposite. The answer was simple in hindsight. It just kept looking until it found it—and that persistence might show up in many other areas."][16]
+["Historically, many \[problems\] were bottlenecked by human attention. Someone had to care enough to spend hours or days reading obscure material, testing unpromising ideas, tracing references, and trying things that might go nowhere. That bottleneck is seemingly disappearing. And the interesting thing about Claude solving this is that it didn't perform some extraordinary feat of cryptanalysis. It's actually the opposite. The answer was simple in hindsight. It just kept looking until it found it—and that persistence might show up in many other areas."][16]
 
 [1]:	https://www.wsj.com/tech/ai/u-s-government-backs-openai-in-copyright-fight-with-publishers-64a0735b
 [2]:	https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude
