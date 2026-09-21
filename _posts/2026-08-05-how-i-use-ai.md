@@ -14,7 +14,7 @@ The newsletter goes out every Friday. A scheduled Claude workflow extracts the t
 
 ## My Book  
   
-My book follows a similar pattern, albeit on a different scale. The ideas, arguments and business examples come from my professional experience. The book was planned offline with Post-Its, my (non-AI) reMarkable tablet and a series of email exchanges with my literary agent. The resulting draft structure was fed into ChatGPT and Claude for early feedback. Once I had written a draft, I used the same models to provide feedback on spelling, grammar and content&#8212;alongside more substantive notes from early readers and editors. I also used Claude and Gemini Notebook to analyse the draft and suggest reflective questions, glossary entries and summary tables based on my original writing, all of which I reviewed and rewrote. The book has a transparency statement at the start in line with this page. 
+My book follows a similar pattern, albeit on a different scale. The ideas, arguments and business examples come from my professional experience. The book was planned offline with Post-Its, my (non-AI) reMarkable tablet and a series of email exchanges with my literary agent. The resulting draft structure was fed into ChatGPT and Claude for early feedback. Once I had written a draft, I used the same models to provide feedback on spelling, grammar and content&#8212;alongside more substantive notes from early readers and editors. In the past I've used Grammarly. I also used Claude and Gemini Notebook to analyse the draft and suggest reflective questions, glossary entries and summary tables based on my original writing, all of which I reviewed and rewrote. The book has a transparency statement at the start in line with this page. 
 
 ## My Website  
 
