@@ -114,7 +114,7 @@ book:
   # Spec §6.1: flip to out-now in December 2026 and the kicker changes with it.
   kicker_state: new-book
   kickers:
-    new-book: New book · December 2026 · Practical Inspiration Publishing
+    new-book: New book · December 2026 · Practical Inspiration Publishing / Penguin Random House Audio
     out-now: Out now · Practical Inspiration Publishing
   # PROPOSED pitch, condensed from the book page's own copy to the one-to-two
   # lines spec §6.1 asks for.
