@@ -32,3 +32,4 @@ redirect_from:
 | Paperback | 9781805760511 | 8 December 2026 | £20.00 |
 | Hardback | 9781805760504 | 8 December 2026 | £30.00 |
 | Ebook | 9781805760528 | 7 December 2026 | £10.00 |
+| Audiobook | 9798217569366 | 8 December 2026 | $15.00 |
